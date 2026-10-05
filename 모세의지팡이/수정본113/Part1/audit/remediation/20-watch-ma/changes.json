@@ -1,0 +1,27 @@
+[
+  {
+    "file": "program/THE STAFF OF MOSES.py",
+    "before_sha256": "80f431b6ac2012046c1c2c3642b4a8d5b3feae1146ae517b2e546a8f13a6f363",
+    "after_sha256": "3f5428ea8f22ce14c6ea1c39e4ffdadc6642b31567cd4edaec571adf8cf3b292"
+  },
+  {
+    "file": "program/manager_KIM.py",
+    "before_sha256": "7182059cbd8d64767733d124d130cfc7c3b76b7cff524965b79fcf9f522c1e74",
+    "after_sha256": "56bb5aca9ce45ae00c616252436d9ae4a11fcbde939f2df35edb93964e68bc07"
+  },
+  {
+    "file": "program/monitor_OZ.py",
+    "before_sha256": "a5a73a82db993bd1126dad86e950b0b338bbd8cb7057c51ee7057a0c5e700ee0",
+    "after_sha256": "60d4cc071dd52f85ac218387915638f32c22996090658204d17718558fd0f581"
+  },
+  {
+    "file": "program/watch_ma.py",
+    "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after_sha256": "f6c62c8e2e4ee61dad0b0277b5070a47693221062bb0bb2de1b4f50dc6d0f1f1"
+  },
+  {
+    "file": "program/watch_ma_features.py",
+    "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after_sha256": "afa0eedf0927d8d6a7161fda54b6bef0e441e18c3befb056dab01dff6a2b96db"
+  }
+]

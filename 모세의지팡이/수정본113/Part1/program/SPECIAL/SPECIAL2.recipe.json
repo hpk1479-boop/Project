@@ -1,0 +1,89 @@
+{
+  "id": "SPECIAL2",
+  "name": "외부유동성 스윕",
+  "symbol_source": "CONFIG",
+  "time_filters": [
+    "MAIN_ASIA",
+    "MAIN_LONDON",
+    "MAIN_NEWYORK"
+  ],
+  "final_time_filters": [
+    "MAIN_ASIA",
+    "MAIN_LONDON",
+    "MAIN_NEWYORK"
+  ],
+  "recipe": {
+    "schema_version": 2,
+    "base": "AI",
+    "name": "외부유동성 스윕",
+    "description": "외부유동성 터치 이후 같은 시간봉 브레이커 OZ",
+    "symbols": [],
+    "strategy_intent": {
+      "direction": "BOTH",
+      "symbols": [],
+      "steps": [],
+      "order_mode": "SIMULTANEOUS",
+      "persistent": true,
+      "final": {
+        "kind": "OZ",
+        "tfs": [
+          "SOURCE"
+        ],
+        "validation_mode": "NORMAL",
+        "trigger_mode": "BREAKER"
+      },
+      "branches": [
+        {
+          "direction": "LONG",
+          "steps": [
+            {
+              "kind": "EXTERNAL_LIQUIDITY_TOUCH",
+              "tfs": [
+                "1m",
+                "2m",
+                "3m",
+                "4m",
+                "5m",
+                "6m",
+                "10m",
+                "12m",
+                "15m",
+                "20m",
+                "30m",
+                "1h"
+              ],
+              "tf_combine": "INDEPENDENT",
+              "side": "LOW",
+              "level": "ALL"
+            }
+          ]
+        },
+        {
+          "direction": "SHORT",
+          "steps": [
+            {
+              "kind": "EXTERNAL_LIQUIDITY_TOUCH",
+              "tfs": [
+                "1m",
+                "2m",
+                "3m",
+                "4m",
+                "5m",
+                "6m",
+                "10m",
+                "12m",
+                "15m",
+                "20m",
+                "30m",
+                "1h"
+              ],
+              "tf_combine": "INDEPENDENT",
+              "side": "HIGH",
+              "level": "ALL"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

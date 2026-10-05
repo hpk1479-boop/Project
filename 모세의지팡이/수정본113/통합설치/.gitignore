@@ -1,0 +1,6 @@
+.buildenv/
+.keys/
+.buildtmp/
+.work/
+.buildenv312/
+__pycache__/

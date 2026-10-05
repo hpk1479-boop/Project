@@ -1,0 +1,51 @@
+{
+  "tests": 11,
+  "failed": 0,
+  "environment": "isolated Edge, actual HTML/CSS/JS, mocked APIs",
+  "results": [
+    {
+      "name": "virtual panel is present only for virtual replay",
+      "passed": true
+    },
+    {
+      "name": "all common confirmation conditions can be added and deleted",
+      "passed": true
+    },
+    {
+      "name": "plain candle confirmation has no compulsory MA rule",
+      "passed": true
+    },
+    {
+      "name": "candle ATR min max and MA distance are transmitted separately",
+      "passed": true
+    },
+    {
+      "name": "stop modes expose only their necessary fields and preserve edits",
+      "passed": true
+    },
+    {
+      "name": "navigation and options refresh keep the current policy draft",
+      "passed": true
+    },
+    {
+      "name": "saved policy is restored when a new settings screen initializes",
+      "passed": true
+    },
+    {
+      "name": "API policy validation errors remain visible and retryable",
+      "passed": true
+    },
+    {
+      "name": "virtual controls fit a narrow viewport without overflowing their panel",
+      "passed": true
+    },
+    {
+      "name": "RR summary shows one uncertainty column and an exclusion explanation",
+      "passed": true
+    },
+    {
+      "name": "analytics uncertainty count and trade labels fit the existing result screen",
+      "passed": true
+    }
+  ]
+}

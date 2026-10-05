@@ -1,0 +1,12 @@
+[
+  {
+    "file": "audit/test_baseline.py",
+    "before_sha256": "3a32f329ffb500bc57725d35ef074c0d4f92bb37d456b224de3046a29776d74b",
+    "after_sha256": "833b51b7737ee1f4d56d4efe13ab91ffa92dac5e5c706086c1626d09e4276dcd"
+  },
+  {
+    "file": "program/strategy_TREND.py",
+    "before_sha256": "0794097e95db12bf34fe1942158cd09cdc513c70457488caa1d0b16a312c9958",
+    "after_sha256": "a75ba69bd93a7a38be324754272f5f8617d4e2ad9926ef1fbd3a3adfd2826c54"
+  }
+]

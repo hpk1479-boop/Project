@@ -1,0 +1,41 @@
+{
+  "recipe": {
+    "schema_version": 2,
+    "base": "AI",
+    "name": "AI 자연어 전략",
+    "description": "15분 기본더블비 방향에 따른 3분 이하(1분, 2분, 3분) 올존 감시 전략을 생성했습니다.",
+    "symbols": [
+      "XAUUSD+"
+    ],
+    "strategy_intent": {
+      "direction": "BOTH",
+      "symbols": [
+        "XAUUSD+"
+      ],
+      "steps": [
+        {
+          "kind": "TREND",
+          "tfs": [
+            "15m"
+          ]
+        }
+      ],
+      "order_mode": "SIMULTANEOUS",
+      "final": {
+        "kind": "OZ",
+        "tfs": [
+          "1m",
+          "2m",
+          "3m"
+        ],
+        "direction": "SAME_AS_PREVIOUS_DIRECTION",
+        "validation_mode": "NORMAL",
+        "trigger_mode": "OZ"
+      }
+    }
+  },
+  "created_at": "2026-10-04T23:08:03+09:00",
+  "catalog_scope": "library",
+  "filename": "Test_SPECIAL001.py",
+  "sha256": "be98ded7a0c8d5525347c85be4a91b00002fa463f8912f665c540463c66a7329"
+}

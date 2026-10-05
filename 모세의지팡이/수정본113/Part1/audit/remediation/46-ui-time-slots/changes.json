@@ -1,0 +1,62 @@
+[
+  {
+    "file": "OZ_SYSTEM CONTROL.pyw",
+    "before_sha256": "e0704107fb490536374be99d67788504c04e6e8b814aef6362c3790afa368116",
+    "after_sha256": "81256d369b929eb6794d8a1ff22e73b7badb637e695ac0a28f4c1aa43673dd11"
+  },
+  {
+    "file": "program/SPECIAL/SPECIAL1.py",
+    "before_sha256": "e3e2496eeb2399459d5a15fcf80328f0ab4089899c6adfa59622f852ded234ee",
+    "after_sha256": "0a97e0472e140b50bbd1e7af3379d45d96cd47f8aae7caca20477db352bca717"
+  },
+  {
+    "file": "program/SPECIAL/SPECIAL2.py",
+    "before_sha256": "d5cf41e6c356194d86a268674e8cc6833d0795f8c386ba51f067a526dd1556ab",
+    "after_sha256": "b0a090ed9b7232b66e53a848f7dd58f9db61b98bc1dd5c18fe49f3f5cc6a3f93"
+  },
+  {
+    "file": "program/SPECIAL/SPECIAL3.py",
+    "before_sha256": "db1398b5ab8517c7371ecc9b496a0f11eadc033852446dfc3db895a810dcaf4a",
+    "after_sha256": "428112eb3b963b880edd91231950fbf47386b1c7e15608fc6eec0e82b59e11c5"
+  },
+  {
+    "file": "program/SPECIAL/SPECIAL4.py",
+    "before_sha256": "cae1e5fc8c5914dce4a08913fe7a462eb082e156dd1565c560861cd6b4142159",
+    "after_sha256": "c383a93fc0cf5fb7d1ac6a7a5c6b8295d05a9250b758ba7ae601682e67a4799f"
+  },
+  {
+    "file": "program/SPECIAL/SPECIAL5.py",
+    "before_sha256": "56a9a5a662de699ff1b5d4bd2cb6e5fc4b0231308e42d24500a2afc8e920d24d",
+    "after_sha256": "bbb3faf4cfecc39362f81f7e21d91e841376509db3f2bf8fe0b02b5d8bfc2e12"
+  },
+  {
+    "file": "program/SPECIAL/SPECIAL6.py",
+    "before_sha256": "c9920896e030a2029c7b8e6f170d1772018e016b6469ec277a3f15f638509295",
+    "after_sha256": "00810ba65935bd478b24cacf4efe40e0b40d50a0269717fe9f2e24de0f2e3036"
+  },
+  {
+    "file": "program/SPECIAL/SPECIAL7.py",
+    "before_sha256": "ebf2717dbbf2406556092bf94c021cf187c47de3b085384b01c69d2192e048a7",
+    "after_sha256": "8bf21a92e5fc4c61018fc3b0693f7f17c46c108361dc90a9e7ee1999deb19335"
+  },
+  {
+    "file": "program/event_application.py",
+    "before_sha256": "963e4f7a116462ba2dd4679887a6d1675e4b93083a17e1074ba7222f0784e635",
+    "after_sha256": "7ea487b413404bbd0250b33215a583cbcfd8c7b96bf4e1f8a1a24c0da5e5af8d"
+  },
+  {
+    "file": "program/special_settings_model.py",
+    "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after_sha256": "1d12039e4621a452b8acb035930ac79503e6fa9f04beb10c25a475a50c11f6d1"
+  },
+  {
+    "file": "program/special_time_slot.py",
+    "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after_sha256": "b4bbf61b0e459d67b9974bbb679fdd38e2299cbb43ff000cf842bb224442d07a"
+  },
+  {
+    "file": "program/special_ui.py",
+    "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after_sha256": "53a5337a6387eef5f703e1360a85f49e310ed788372175cadad520109249cfca"
+  }
+]

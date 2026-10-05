@@ -1,0 +1,352 @@
+{
+  "reference_input_zip": "모세의지팡이 합본 - 지피티(2).zip",
+  "part1": {
+    "original_files": 1331,
+    "current_files": 1331,
+    "modified": 0,
+    "added": 0,
+    "deleted": 0,
+    "aggregate_sha256": "66d9cd9290e9bfc9902dd3e62e4b83e8e337d05da8f46b530af355a226ee115e"
+  },
+  "original_part2_reference": {
+    "files": 13435,
+    "changed_after_tests": 0
+  },
+  "delivered_part2": {
+    "files": 13467,
+    "modified": 21,
+    "added": 32,
+    "deleted": 0,
+    "changed_total": 53,
+    "production_changed": 28,
+    "validation_added": 25
+  },
+  "scope_check": "Every added/modified file is accounted for with a direct reason in 03_DIFF_AND_REPRODUCE_KO.md; no unexplained files.",
+  "part1_source_in_archive": false,
+  "font_files": [],
+  "special_source_pins_verified": true,
+  "watch_local_contract_verified": true,
+  "modified_files": [
+    {
+      "path": "BACKTEST_SPECIAL/BACKTEST_SPECIAL1.py",
+      "before_sha256": "f050b4b1237fa8585d3c902b17df87a828b98e5107ba9d8e9311ccf3b7c4ce39",
+      "after_sha256": "2bf52153dc910de1c069f17b81d9d095294fb600ac1cfde4eacd13bc53b2a9e9",
+      "reason": "WONBI-first LIGHT, 접촉 TF의 TREND/HMA 후계산, OZ 지연/복원 callback, 세션별 child 소비."
+    },
+    {
+      "path": "BACKTEST_SPECIAL/BACKTEST_SPECIAL2.py",
+      "before_sha256": "259cd1d03b08c96e6a6f7b1c2dca36c681ed7dcd0783510302f09b026415eae8",
+      "after_sha256": "dffea3a50abef71c8bbe4ca0863d608e5dade2e95545d5062cdd31ea2fcb8c99",
+      "reason": "외부 SWEEP LIGHT와 후속 OZ 분리, 기존 TRUE-B0 자격 연결, 무환경 과거 복원."
+    },
+    {
+      "path": "BACKTEST_SPECIAL/BACKTEST_SPECIAL3.py",
+      "before_sha256": "be98e6fbd557cc2197f6be9f8b79bcd22e0a6f18c9fe831eb43f2a0242a07788",
+      "after_sha256": "238ba33be28329cc44403fca5063b36f376ca17cbf1cdf39621f60a9899c1fbf",
+      "reason": "unordered EMA/FVG chain은 유지하고 최종 OZ 지연, 기존 미정의 TF 이름 연결, 세션 소비."
+    },
+    {
+      "path": "BACKTEST_SPECIAL/BACKTEST_SPECIAL4.py",
+      "before_sha256": "3eb7d64e0eee8434f7ac11e13636f582948110a6a6b08973e4edbbded6c54f9d",
+      "after_sha256": "8133e3741c1146d4501eb5876b108f9ec8d00aead7c0b73432e228c89a8767e2",
+      "reason": "30m boundary LIGHT, active 때 OZ 복원, 실제 final candidate에서 추세/ACK 계산."
+    },
+    {
+      "path": "BACKTEST_SPECIAL/BACKTEST_SPECIAL5.py",
+      "before_sha256": "c46adc3cfcaf4a4f2af9f7e9f16535700336b6268510eefb9f94b7ead5195fcf",
+      "after_sha256": "9264856d5fb821a8d39676679b120a39642129889c06c749cbe55e74491ea43a",
+      "reason": "필수 부모 유지/하위 BLIND gating, setup 이전 지속 lower state 복원, 형제 취소 의미 연결."
+    },
+    {
+      "path": "BACKTEST_SPECIAL/BACKTEST_SPECIAL6.py",
+      "before_sha256": "c3323b8e21d56b49a844c714ed3eae24152822befdf54305d726e4daede4de3e",
+      "after_sha256": "41998cf6b63fb6825c4cd8fa7cf6e03d091bb824031c38e8426bf234e42d0cf2",
+      "reason": "MA/slope → OHLC-only FVG 복원 → 하위 OZ, 지속 상태·child/signature 소비."
+    },
+    {
+      "path": "BACKTEST_SPECIAL/BACKTEST_SPECIAL7.py",
+      "before_sha256": "931c41a8f1d7ecd6416550aa8f80e21573c3c446c29d1f1a02a3a494b0422e4b",
+      "after_sha256": "7064000e04037a06713ee27e4240f76fbc793c1f0439a55cb8aaae54181529e1",
+      "reason": "EMA 대체 TREND를 현 Part2 TREND 엔진으로 연결, REGIME 하위 gating·지속 상태 복원."
+    },
+    {
+      "path": "generic_backtest/analytics.py",
+      "before_sha256": "543b69b32fc95b8a7475efbd63d57e5d4c9f674f12098ac13b627a8010c365ec",
+      "after_sha256": "79d927e5c3cd012efec24a7e7f1f52c85c233054db1f990bec5aac9ae711ac52",
+      "reason": "빈 committed prefix 집계 및 부분 구간 statistics 지원."
+    },
+    {
+      "path": "generic_backtest/cli.py",
+      "before_sha256": "fbf4a2117933b5c47edad0c3829035cbe6cfa41d8a1d8ba92e330ee3c6169d6d",
+      "after_sha256": "587a75136703c2dd0247345a273f363be072848e0f9df255b6db0584390fd5cf",
+      "reason": "coordinator에 partial commit callback 연결."
+    },
+    {
+      "path": "generic_backtest/context.py",
+      "before_sha256": "b3c7d3350e41b464286065a68eed883d158b98b6d388a9955d3ffd6e9d57fc27",
+      "after_sha256": "8b66320a057ff3ab3272b2c5e5b4f828dd88b93cfaea5fd321871b427a00cb21",
+      "reason": "현재 scoped deferred feature marker를 worker의 명시적 feature 접근 시 해소."
+    },
+    {
+      "path": "generic_backtest/gui.py",
+      "before_sha256": "1afd2bc62ccfabb97f40d267c3330cf2a5e54597ff611752b9bde0b9ba49ce37",
+      "after_sha256": "c11cb81f14d83c83a2c7c2d10792459016b239486688f7588e1f72d97893bad4",
+      "reason": "기존 dashboard의 FULL/PARTIAL·요청/완료/진행률 표시 및 취소 결과 열기."
+    },
+    {
+      "path": "generic_backtest/ipc.py",
+      "before_sha256": "eadce9d548848bc15f1b285ffefb00c25a13f124a209a3708a29cb367446109d",
+      "after_sha256": "75a95070b7256844a7a432e40325f1ce2fbed0fc3f8c6595301e3e4786e974dd",
+      "reason": "취소 ACK 이후에도 확정 PARTIAL 결과 수신; 취소/commit lock 경합 처리."
+    },
+    {
+      "path": "generic_backtest/journal.py",
+      "before_sha256": "09797e44d0859629b436c2b42807c45498521266b5ac2316a18d9cbab9c983c2",
+      "after_sha256": "97e60877bcff98a80c306468cae2d53ea8872b28479ae245dfde33902ed899f0",
+      "reason": "commit byte offset/sequence/hash checkpoint와 미확정 꼬리 rollback."
+    },
+    {
+      "path": "generic_backtest/outcome.py",
+      "before_sha256": "026167517d4453ab70d8764398caa5ff77673d1f342594f001f88c0063cf619d",
+      "after_sha256": "2449247d552e319ca6d21a5a8a1c04a15e1a1815c4955093ccd54a4475b151cc",
+      "reason": "확정 outcome transaction 보존, 취소 시 열린 거래 OPEN_CANCELLED 구분."
+    },
+    {
+      "path": "generic_backtest/results.py",
+      "before_sha256": "f913f783dd8b4aa6d45fce587122f7a974706f98f1f47bf86b806f9332408a18",
+      "after_sha256": "ac8ce645ba82389fde78c540839d2fe71e605414070b003d4a14a7e457ae1d8e",
+      "reason": "PARTIAL finalize/verification, 실제 완료 구간과 이벤트·거래·통계 무결성 검사."
+    },
+    {
+      "path": "generic_backtest/runner.py",
+      "before_sha256": "7faec8c59e5549251350ba8edff8e6388934bcda0adf135664f8a65f92ba8927",
+      "after_sha256": "1be14fdd36284b536c5b295fe1f5c29fb3833f0e67f783329bb0a2fca8219f43",
+      "reason": "SPECIAL/OZ WATCH native 호출 이전 conditional registry, 실행 주기 guard, 관측 commit·partial finalize."
+    },
+    {
+      "path": "generic_backtest/watch/engines/composite.py",
+      "before_sha256": "478c9fd1007dc0976421936dbd28d4aaf39435f1bfd63dc30c7d6f3cb839c8b9",
+      "after_sha256": "b77e26145bc8e3c5cff9ac5f9c81827737683ec3d18aa586c268d00496a51890",
+      "reason": "기존 observe를 setup/armed-OZ 단계로 분리하고 eager observe 계약 유지."
+    },
+    {
+      "path": "generic_backtest/watch/engines/local_contract.json",
+      "before_sha256": "9c6ad12cafb5af1b9940725add891099379a054bd610e839494fdb9cfc4803b5",
+      "after_sha256": "3303f1d6ad825df4b5946f8dc5dab5a5b26636a668279bf49794f6fcedf1ebc8",
+      "reason": "검토·수정한 composite.py/oz.py 두 local hash만 갱신; Part1 source 계약 hash는 유지."
+    },
+    {
+      "path": "generic_backtest/watch/engines/oz.py",
+      "before_sha256": "ecb88f3c937ec673862720c249ecc9125346d14239a52f2913ec66ac9e7b57bb",
+      "after_sha256": "38cce8cb4b810eafe3411d2414c5430a20181278225663b7de96425291ccf9ba",
+      "reason": "SPECIAL4 final gate를 위한 callable ACK 지원; 기존 bool ACK 동작 보존."
+    },
+    {
+      "path": "generic_backtest/watch/percentile_runtime.py",
+      "before_sha256": "31bdfcafe432eb6da06e42608fe24b20d587da9d17e3e01e620bb9518a9a4114",
+      "after_sha256": "bbfc69be7326ba1b3f3cf4c810f3d957e771457691269c9e978d990d9a1f03c0",
+      "reason": "setup 관측과 lower native/OZ 관측 분리, 실제 prefix silent 복원."
+    },
+    {
+      "path": "generic_backtest/worker.py",
+      "before_sha256": "991b8350cf5e355bcfeaed9fb15852012134a04e18c02468df467e58f914a575",
+      "after_sha256": "9e3729d9571bbf0ec554ede5054c981042f2b1e2ed07ed0b85aaf60e609968cf",
+      "reason": "검토된 SPECIAL bridge 사전 로딩 및 scoped conditional RPC; 일반 callback 경로 보존."
+    }
+  ],
+  "added_files": [
+    {
+      "path": "BACKTEST_SPECIAL/WATCH_UI_V1.py",
+      "sha256": "597a566dff8e7de1e0210b79d8d0d3e6d8a689f46f50d2d430def794a6d181b1",
+      "note": "",
+      "reason": "현재 UI/loader가 참조하지만 원본에서 누락된 WATCH SDK 진입 adapter 추가."
+    },
+    {
+      "path": "conditional_validation/01_ANALYSIS_KO.md",
+      "sha256": "e764b2fbbd6886d3c9cf3bb693db49f166ef9341cd5e723db4e1ed4b412cc248",
+      "note": "",
+      "reason": "수정 전 전략별 분석과 후속 자료·소비 의미 정정."
+    },
+    {
+      "path": "conditional_validation/02_IMPLEMENTATION_AND_VALIDATION_KO.md",
+      "sha256": "d2b1bf4373a91fd7a4ef381888c3640e61954727076e4a88a31b741155a269fb",
+      "note": "",
+      "reason": "전략별 요청 항목, 성능 원시 수치 해석, PARTIAL 및 미인증 범위 보고."
+    },
+    {
+      "path": "conditional_validation/03_DIFF_AND_REPRODUCE_KO.md",
+      "sha256": "c8d17fe7057fe1e6c180a2a0785cdd9f67eb8e0ae25f7c98831db3805f71c7b0",
+      "note": "",
+      "reason": "전체 변경 파일/사유/개수 및 재현 절차."
+    },
+    {
+      "path": "conditional_validation/benchmark.py",
+      "sha256": "a0471402616450eac84eb7ac6304f459c96540680212a68ea5678fca79e3163e",
+      "note": "",
+      "reason": "수정 eager/conditional 짧은 합성/실제 prefix 벤치마크 재현 driver."
+    },
+    {
+      "path": "conditional_validation/benchmark_original.py",
+      "sha256": "ba4e04bdd10b89f75b043a5128f3ff4b8b6910b3468e4c69e8982a42571c453f",
+      "note": "",
+      "reason": "별도 원본 Part2 경로를 명시해 원본 SPECIAL5~7 실행 계측 재현."
+    },
+    {
+      "path": "conditional_validation/benchmark_reconstruction.py",
+      "sha256": "aba272cc0fb124a2d15c36feb013a88e72d8903d369d2924df4c769c6a1c61fd",
+      "note": "",
+      "reason": "native exact-prefix 복원 회수/시간/실제 호출 대조 재현."
+    },
+    {
+      "path": "conditional_validation/benchmark_results.json",
+      "sha256": "96055c62022b75ce0b993f09494a859ad839907aa822f2807bf94b8213a68c3a",
+      "note": "",
+      "reason": "합성 dormant 96관측 실측 결과; 2회 시간 측정+별도 profile."
+    },
+    {
+      "path": "conditional_validation/broker_prefix_benchmark.json",
+      "sha256": "42bf32f9aa8d58fb494907a5db4f7b25e029eb20d04bdb140b3eb099dbb1501b",
+      "note": "",
+      "reason": "실제 broker 96 tick의 한정된 prefix 실측과 입력 hash."
+    },
+    {
+      "path": "conditional_validation/dashboard_partial.png",
+      "sha256": "3692f0f8df745ac911230bd4366514a4b287364bf05433b3f72d06b04baefd91",
+      "note": "",
+      "reason": "기존 Tk dashboard의 약50% 취소 합성 결과 표시 화면."
+    },
+    {
+      "path": "conditional_validation/final_test_log.txt",
+      "sha256": "ba2e14fe2d9b185d7af6ba75f945a42d8b4d2d054297ca0ecb74990a589c8078",
+      "note": "",
+      "reason": "최종 전체 회귀 + 추가 테스트의 원문 로그."
+    },
+    {
+      "path": "conditional_validation/original_part2_benchmark.json",
+      "sha256": "2858bed7650b6f7110090fef2a0715bf6a8ff4e84240474e01e4fc06db61edf4",
+      "note": "",
+      "reason": "수정하지 않은 원본 SPECIAL5~7의 단기 실측."
+    },
+    {
+      "path": "conditional_validation/original_part2_execution.json",
+      "sha256": "8456355d927126118952da27188fbeb62e3b9c429e1c509ae068120fc0cd2834",
+      "note": "",
+      "reason": "원본 SPECIAL1~4 실행 실패와 5~7 선언 확인 기록."
+    },
+    {
+      "path": "conditional_validation/original_test_log.txt",
+      "sha256": "24a0fbe05dc62a466ae7867c8bcc60baec3da52b91ac446f94ac9afd942ab8b8",
+      "note": "",
+      "reason": "원본 Part2 전체 validation_suite 회귀 로그."
+    },
+    {
+      "path": "conditional_validation/part2_changes.diff",
+      "sha256": "b13c29f079c64002bca6195d0f9051be5a41a275c11f7f4f26cfafa466bc83e5",
+      "note": "",
+      "reason": "기존 Part2 파일 21개의 전체 unified diff. 신규 코드는 산출물 각 파일."
+    },
+    {
+      "path": "conditional_validation/reconstruction_benchmark.json",
+      "sha256": "69618539f48705cb1957a6ca3adabf374549abbf714f6e83a8d87dce38e71c2b",
+      "note": "",
+      "reason": "replay 122 context의 동일성 및 복원 native 실제 비용."
+    },
+    {
+      "path": "conditional_validation/source_audit.json",
+      "sha256": null,
+      "note": "SELF_HASH_EXCLUDED",
+      "reason": "Part1/원본 Part2 무변경 검사, Part2 diff 목록·해시·계수."
+    },
+    {
+      "path": "conditional_validation/test_conditional.py",
+      "sha256": "bd9b255b1d960571101838f33f717c5c2c3f7f5e1ae99a2d22413d914ca725d8",
+      "note": "",
+      "reason": "native prefix 복원, gap/동시 tick, 미래 접근 차단, 실행 주기 guard."
+    },
+    {
+      "path": "conditional_validation/test_dashboard.py",
+      "sha256": "f6e05c5ceb7f01967912adfd93166e1bc3da34a2b3766b092c43a90a1b18916b",
+      "note": "",
+      "reason": "기존 GUI에서10/30/50/80% PARTIAL 결과 정상 표시."
+    },
+    {
+      "path": "conditional_validation/test_intrabar.py",
+      "sha256": "ebbd09243f49b7dd3de443c85e865350c11435d3120495e6ff31528eae7ea058",
+      "note": "",
+      "reason": "실제 Part1 WONBI oracle의09:32 및 완료봉 EMA 시점 구분."
+    },
+    {
+      "path": "conditional_validation/test_live_rules.py",
+      "sha256": "a63d271c8d9531d18a0e15acd8f827c905627ce60db9f576eb59859c81412ddb",
+      "note": "",
+      "reason": "Part1 실제 OZ 30메서드의 양방향/프로필/취소·만료·재시도 대조."
+    },
+    {
+      "path": "conditional_validation/test_partial.py",
+      "sha256": "ca7f4c83c9bc65b2b1c6a94a1f6630b514f5586cc4d48161b71270e0187e54c6",
+      "note": "",
+      "reason": "실제 coordinator/journal/outcome/verifier의 취소 prefix 통합 회귀."
+    },
+    {
+      "path": "conditional_validation/test_restoration.py",
+      "sha256": "45209780da05411692304f6b372b53df1ebff7563405dbb72a342ea3102bbb65",
+      "note": "",
+      "reason": "게이트 이전 미완료 상태 복원·기소비 후보 부활 금지·ACK 재시도."
+    },
+    {
+      "path": "conditional_validation/test_watch_path.py",
+      "sha256": "6c4e810182bb7e111057eded6f71ae6ef0f2dcfeb173bcf5ca55788ba54e08a1",
+      "note": "",
+      "reason": "일반 BAR WATCH의 TICK/봉마감/LIVE_PARITY 전체 worker 경로 회귀."
+    },
+    {
+      "path": "conditional_validation/test_worker_smoke.py",
+      "sha256": "328d00f82d68d09b0732887c6056cb7f977c1b9c658d7cb09ee285faea169a25",
+      "note": "",
+      "reason": "SPECIAL1~7 실제 격리 worker 시작/관측/finish 계약 검사."
+    },
+    {
+      "path": "conditional_validation/verification_summary.json",
+      "sha256": "9a742d1c0af2524e22a6eedf1b89b5b79014b5ad631cd665a5c47d038230770b",
+      "note": "",
+      "reason": "실행한 테스트 수치, 통과 범위와 미인증/미구현 범위."
+    },
+    {
+      "path": "generic_backtest/conditional.py",
+      "sha256": "fc021fa6dabb7822902cfc125a08cfe9aafb17866ae682a13d20e51046e97e14",
+      "note": "",
+      "reason": "실행 내 raw prefix·현재 binding·선택 native stream·정확한 과거 replay와 계측."
+    },
+    {
+      "path": "generic_backtest/conditional_client.py",
+      "sha256": "65dc99942f552c1a9550d9cc76e530a124515f33e560e5902865ba4edeae0370",
+      "note": "",
+      "reason": "제한된 feature/history RPC 및 replay context 전송 수신."
+    },
+    {
+      "path": "generic_backtest/partial.py",
+      "sha256": "9b3988b07d3d19ecbd59792df3374297d904fc10a4fd8f6ff0c784f33d706805",
+      "note": "",
+      "reason": "마지막 atomic observation checkpoint, rollback, 실제 구간/진행률 metadata."
+    },
+    {
+      "path": "generic_backtest/special_builtin.py",
+      "sha256": "45e63d8344d587c543c0cf14a0e4ff270cd284bb16e17ce86ad14f70694827f9",
+      "note": "",
+      "reason": "검토된 SPECIAL1~7 source SHA allowlist. 일반 plugin import/capability 제한은 유지."
+    },
+    {
+      "path": "generic_backtest/special_oz_runtime.py",
+      "sha256": "a48ba815b4362724c0edf0ae8ed81002990d181d2f0327842fc85a6eecbf4ca2",
+      "note": "",
+      "reason": "현재 Part2 OZ 엔진의 전략별 지속 상태와 gated observation/replay 실행."
+    },
+    {
+      "path": "generic_backtest/special_runtime.py",
+      "sha256": "60b982904b5d882c1649e0647a94fd171b1c8e2a20396b353838189a3a2e75ee",
+      "note": "",
+      "reason": "현재 SPECIAL1~4 callback을 Generic SDK에 한정 연결; 양방향 LIGHT 후 lower 복원."
+    }
+  ],
+  "deleted_files": []
+}

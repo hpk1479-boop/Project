@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "installer": "C:\\Users\\hpk14\\Desktop\\하나님의방패 프로젝트\\수정본2\\배포\\v1.0.2_20261005_202614_7cd39e4e0f69d3c8\\하나님의방패 통합설치.exe",
+  "installer_sha256": "12704ef236c195a3db07077cc3e2e059b0fbcbf060ab5fc4a08f16eddd2df1b6",
+  "revision": "수정본2",
+  "build_id": "20261005_202614_7cd39e4e0f69d3c8",
+  "version": "v1.0.2",
+  "expiry_date": "2026-12-31",
+  "install_expires_at": "2026-10-06T20:26:21+09:00",
+  "sources_unchanged": true,
+  "compilations": [
+    {
+      "name": "DivineShield_Master",
+      "source_sha256": "26271c25ffd4344b591ba434af9b5d924b16f4a67e9e053d5219a69747ef6239",
+      "generated_sha256": "15509d10a4c6515ce5c66f8e273e1f30754c7bbb7fb91853e34c0876b08a98ed",
+      "binary_sha256": "c0daa889991a092c9adc0cc11f6db1d9cdf4bf62be18a7126e7e0642134ba1d2",
+      "compiler_exit": 1,
+      "log": "DivineShield_Master.log"
+    },
+    {
+      "name": "DivineShield_Notifier",
+      "source_sha256": "c8ef863354060712442f242e8761a00437b17c3aa8a5ce78f2bda0aaf81739fe",
+      "generated_sha256": "802a8e7913f6aad70d4f4d5a8de6c6200bdd12d6a09616e16611a5ee8f835e96",
+      "binary_sha256": "7dd9d25ca501473a3ec360c2ec5bf1546a52e12af9e3213f767e2a9c1b7e8919",
+      "compiler_exit": 1,
+      "log": "DivineShield_Notifier.log"
+    },
+    {
+      "name": "DivineShield_Slave",
+      "source_sha256": "7ea2ddab46a5b565b85c20e77d3b76739219524365209186a63f76c2d9dafbd6",
+      "generated_sha256": "429c55149db56669fffa30a12f8ed6d52230e397eae5e7e61745dc61c3b4a092",
+      "binary_sha256": "33218c973949d4362eb2df724e0abed47db0f9978acc7c908961a3854a65d874",
+      "compiler_exit": 1,
+      "log": "DivineShield_Slave.log"
+    },
+    {
+      "name": "DivineShield_Trading",
+      "source_sha256": "4d231ccc4a9366feb14c51b6922e170315b94dcc0559a951a148d5cf607bc13b",
+      "generated_sha256": "edd8c3738c45aac471dcbc5a0689800c4c6829d1e2d9fa71dbc071369f1dcf05",
+      "binary_sha256": "5eb5092d7eea62035eaeacdb9670f35ba590d386198e54c571d07af5695b604d",
+      "compiler_exit": 1,
+      "log": "DivineShield_Trading.log"
+    }
+  ],
+  "artifacts_dir": "C:\\Users\\hpk14\\Desktop\\하나님의방패 프로젝트\\수정본2\\배포\\v1.0.2_20261005_202614_7cd39e4e0f69d3c8\\개발자용 컴파일본"
+}

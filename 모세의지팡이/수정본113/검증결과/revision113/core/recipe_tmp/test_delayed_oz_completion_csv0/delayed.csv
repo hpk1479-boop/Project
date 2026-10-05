@@ -1,0 +1,8 @@
+run_id,time_ms,strategy,profile,grade,symbol,tf,direction,trigger,message,recipient,signal_id,b0_price,b0_time,signal_source,signal_tf,signal_price,oz_validity,neckline_price,neckline_time_ms
+delayed,1530000,USER_BINDING,,,TEST,1m,LONG,CONDITION_NOTIFICATION,"[accepted bindings] 🟢 매수 신호 발생
+──────────────────
+• 종목: TEST
+• 위치: 5분 EMA50 가격 터치
+• 주기: 1분
+• 현재 가격: 110.00
+──────────────────",TEST_CHANNEL,delayed,99.0,1380,OZ,1m,110.0,"{""tf"":""1m"",""bar_time_ms"":1500000,""remaining_bars"":2}",104.0,1440000

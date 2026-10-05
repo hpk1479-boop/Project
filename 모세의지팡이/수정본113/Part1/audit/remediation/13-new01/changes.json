@@ -1,0 +1,17 @@
+[
+  {
+    "file": "audit/run_tests.py",
+    "before_sha256": "d1cc6b44e551e860f4ad50bda9f2cac4a5f1fd70f11e6c8ed9b61f913b5501ae",
+    "after_sha256": "4ea7e4ac491f75ad51073ae0761dba971419bf2f4f33fadb347d971c91b10a26"
+  },
+  {
+    "file": "audit/test_config_deadline.py",
+    "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after_sha256": "784f8f2437cf634bf7974b1693eab3956e06a44134c6addaa5c8d509452cd49f"
+  },
+  {
+    "file": "program/manager_KIM.py",
+    "before_sha256": "a8fc74ea3e39772fa40154cfc3ae44fa6e0a62003e83a6d86af4f1a2325a7b08",
+    "after_sha256": "dbe97192d8d8c895eb0175c7838ea9f375e35358ea82eccc811e4a8666415d42"
+  }
+]

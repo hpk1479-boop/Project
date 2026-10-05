@@ -1,0 +1,140 @@
+{
+  "document": "매뉴얼/모세_사용자_매뉴얼.pdf",
+  "title": "모세 트레이딩 시스템 사용자 매뉴얼",
+  "revision": "수정본113",
+  "pages": 25,
+  "bytes": 3539041,
+  "sha256": "e76b8f957aee94e7ecbf4d8f56f9a4c59f497c4864381a844df1e8906c63a61b",
+  "overflow_checks": [
+    {
+      "page": 2,
+      "title": "먼저 어디서 무엇을 하나요?",
+      "overflow": false
+    },
+    {
+      "page": 3,
+      "title": "필요한 페이지부터 펼쳐 보세요",
+      "overflow": false
+    },
+    {
+      "page": 4,
+      "title": "설치할 위치를 직접 확인하세요",
+      "overflow": false
+    },
+    {
+      "page": 5,
+      "title": "EA와 네 개 지표를 연결합니다",
+      "overflow": false
+    },
+    {
+      "page": 6,
+      "title": "나만의 알림 봇을 준비합니다",
+      "overflow": false
+    },
+    {
+      "page": 7,
+      "title": "알림과 명령을 받을 곳을 저장합니다",
+      "overflow": false
+    },
+    {
+      "page": 8,
+      "title": "Gemini 연결 키와 모델을 저장합니다",
+      "overflow": false
+    },
+    {
+      "page": 9,
+      "title": "올존은 마이크로 더블바텀·더블탑입니다",
+      "overflow": false
+    },
+    {
+      "page": 10,
+      "title": "일반 올존과 무지성 올존",
+      "overflow": false
+    },
+    {
+      "page": 11,
+      "title": "브레이커는 앞전 저점·고점을 깹니다",
+      "overflow": false
+    },
+    {
+      "page": 12,
+      "title": "화면에서 네 가지 선택을 구분합니다",
+      "overflow": false
+    },
+    {
+      "page": 13,
+      "title": "전략을 고르고 전체 시작을 누릅니다",
+      "overflow": false
+    },
+    {
+      "page": 14,
+      "title": "전략 선택·선택삭제·초기화",
+      "overflow": false
+    },
+    {
+      "page": 15,
+      "title": "개인 대화로 감시 조건을 등록합니다",
+      "overflow": false
+    },
+    {
+      "page": 16,
+      "title": "대상과 기간을 먼저 확인합니다",
+      "overflow": false
+    },
+    {
+      "page": 17,
+      "title": "재생 방식과 결과 옵션",
+      "overflow": false
+    },
+    {
+      "page": 18,
+      "title": "요청 기간과 보유 데이터 구간",
+      "overflow": false
+    },
+    {
+      "page": 19,
+      "title": "구축 승인·진행·결과 확인",
+      "overflow": false
+    },
+    {
+      "page": 20,
+      "title": "핵심 요약을 먼저 확인합니다",
+      "overflow": false
+    },
+    {
+      "page": 21,
+      "title": "목록에서 전략을 관리합니다",
+      "overflow": false
+    },
+    {
+      "page": 22,
+      "title": "AI에게 백테스트를 요청합니다",
+      "overflow": false
+    },
+    {
+      "page": 23,
+      "title": "새 올존 전략을 라이브까지 연결합니다",
+      "overflow": false
+    },
+    {
+      "page": 24,
+      "title": "마지막 메시지와 로그부터 확인합니다",
+      "overflow": false
+    },
+    {
+      "page": 25,
+      "title": "빠르게 되짚어 보기",
+      "overflow": false
+    }
+  ],
+  "text_checks": "passed",
+  "hyperlinks": 12,
+  "program_code_changed": false,
+  "visual_review": "passed: rendered pages 16, 17, 19",
+  "body_changed_pages": [
+    16,
+    17,
+    19
+  ],
+  "other_chapters_unchanged": true
+}

@@ -1,0 +1,7 @@
+{
+  "stage": "S2",
+  "authorization": "User requested S2 Snapshot storage and public injection APIs",
+  "baseline_manifest_sha256": "1e4aadcfac8f1dcfc4af18c0810b4e454361706b346936757d2f669f380de630",
+  "original_manifest_modified": false,
+  "golden_expected_modified": false
+}

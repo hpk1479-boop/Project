@@ -1,0 +1,17 @@
+[
+  {
+    "file": "audit/test_baseline.py",
+    "before_sha256": "a124c95ef0e3bbea2ab1da300de7148d06f5c682e2eb24268566420c620ec716",
+    "after_sha256": "3bf6226015eeda6a14f9583282402fa4233f2f3bf0227a72e487ddf2ae67ba1e"
+  },
+  {
+    "file": "program/manager_KIM.py",
+    "before_sha256": "0fe78f231dd26458528f86473635e8cea2241c5c68cd6a4f8b69e5e361a30cb2",
+    "after_sha256": "9e8f30c9f5e01ac69048349780e30993375ce6365ace31d44b820c3b4e5f2187"
+  },
+  {
+    "file": "program/monitor_OZ.py",
+    "before_sha256": "67975f01c1c35291ba1d84e4a0711b0bf925690ccd22ac4eb5b504849b06e1e5",
+    "after_sha256": "22a664a27f0affe324bbf5453a915519f10eacb6a0048a6d95304b6667d9d666"
+  }
+]

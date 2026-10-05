@@ -1,0 +1,72 @@
+{
+  "stage": "S1",
+  "baseline": "frozen S0",
+  "changes": [
+    {
+      "file": "Part1/audit/harness.py",
+      "before_sha256": "9addae8a5eac1170737263d9aca63acf1089e5bc9d78749697e847594dadc787",
+      "after_sha256": "f63830ec1e648b636a22d020e45be3ed5a91b89270ce70032f4097fb8852e66a"
+    },
+    {
+      "file": "Part1/program/indicator_facts.py",
+      "before_sha256": "c60551b5a0431acb405bf53919c853d05af706c236bb1ace12fcd8fbcdb529c4",
+      "after_sha256": "959b55b7edda33c619e5d67e9d8e95946c0db9d3d2ac648c3c4f08fe3fc0494c"
+    },
+    {
+      "file": "Part1/program/monitor_OZ.py",
+      "before_sha256": "844c95c5b28c01521b521a293a9ca8531bcca83f596eb4f1ff7c21fd21f0977c",
+      "after_sha256": "c090c48510981dc2c63d66823be6265f4262957d2977bf6b22f27fbe7b7e000d"
+    },
+    {
+      "file": "Part1/program/strategy_FVG.py",
+      "before_sha256": "7d06f0eda0df61303d5e87d8a785075b7b339ac51581c699339a8879eaf619fd",
+      "after_sha256": "4aba4aa802e49932efded4583b4e5d4d84fd66e821a1a3175e4afe2c9dd30416"
+    },
+    {
+      "file": "Part1/program/THE STAFF OF MOSES.py",
+      "before_sha256": "f72b84fcfa17e5f876ba182e0854e128fabd20fb6692e9b1eac3bcd688ea8254",
+      "after_sha256": "65b4a3476640b64f510f103628630115b2075650f91a631b2b97855dd0e1688f"
+    },
+    {
+      "file": "Part2/calculations/common.py",
+      "before_sha256": "1f25d322a3b8c1f0a77fb28bc7f646e017713b5d6b5e71a71939a0fbe51b2a73",
+      "after_sha256": "37c6491f5a96010a62099c6f3327170230c20181d7c4f634e8ee112f94b5a30b"
+    },
+    {
+      "file": "Part2/staff_golden/contracts.py",
+      "before_sha256": "f17c2d4dfd542de457ecd8b61122ec81e64fafd5cee05e27c53e0138005161b8",
+      "after_sha256": "2a2a3952641743ce40bbd3e3846aa55107c67acc7a3407989b7d1176b520f584"
+    },
+    {
+      "file": "Part2/validation_suite/test_oz_fvg_optimization.py",
+      "before_sha256": "4e729af87c1d7da5769485af6bf73dc0279eef6f56c4f3106b411367b0dc4f7c",
+      "after_sha256": "7318ff54d6682cd095862ebb25ba9e664df906dccbcfc04fe35a9e1638b4075f"
+    },
+    {
+      "file": "Part3/calculations/common.py",
+      "before_sha256": "1f25d322a3b8c1f0a77fb28bc7f646e017713b5d6b5e71a71939a0fbe51b2a73",
+      "after_sha256": "37c6491f5a96010a62099c6f3327170230c20181d7c4f634e8ee112f94b5a30b"
+    },
+    {
+      "file": "Part3/generic_backtest/live_source.py",
+      "before_sha256": null,
+      "after_sha256": "5ce0f79fbe733bad7803c3061adf2e7f61e8910fedf2e882e74ea898f026fa0f"
+    },
+    {
+      "file": "Part2/validation_suite/test_staff_s1.py",
+      "before_sha256": null,
+      "after_sha256": "d9dd485ad13f0c412a1d0946d88d1d3504d118b6dec7c4b44f5e18d24b304481"
+    },
+    {
+      "file": "Part2/staff_golden/parity_compare.py",
+      "before_sha256": null,
+      "after_sha256": "0c257be5a05397763fdc0c8c63094a05e1456f982facce50d7e150c37c5c9d08"
+    },
+    {
+      "file": "Part2/validation_suite/test_staff_s1_parity_comparison.py",
+      "before_sha256": null,
+      "after_sha256": "12979b13d34e27fa78be4ce48ef42a5e92d748e6319bfd1150f8b25b36a90a72"
+    }
+  ],
+  "legacy_audit_chain": "Original manifest and historical units preserved. User-requested units 21/22 anchor only the four S1 owners to frozen S0 and append S1 deltas. Other inherited discrepancies stay visible."
+}

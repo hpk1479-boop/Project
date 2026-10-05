@@ -1,0 +1,19 @@
+{
+  "regular_live_path": {
+    "loops": 12,
+    "bars": 3,
+    "before_seconds": 2.8395,
+    "after_seconds": 0.0083,
+    "speedup": 340.2,
+    "before_full_score_evaluations": 24,
+    "after_fact_computations": 12,
+    "after_full_score_evaluations": 0
+  },
+  "on_demand_full_score": {
+    "before_seconds": 0.2341,
+    "after_seconds": 0.0414,
+    "speedup": 5.7,
+    "after_fact_computations": 59,
+    "after_duplicate_computations": 0
+  }
+}

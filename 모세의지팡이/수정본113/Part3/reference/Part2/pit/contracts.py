@@ -1,0 +1,86 @@
+from dataclasses import asdict, is_dataclass, dataclass, fields
+from functools import lru_cache
+from pathlib import Path
+import hashlib
+import json
+import struct
+
+ROOT = Path(__file__).resolve().parents[1]
+HMA_SOURCE_SHA = 'f011f76291acc856772ab77357b661472a6571f66183e249e9b05312ba88f2b4'
+PROFILE = 'PIT_TICK_V1'
+TIMEFRAMES = dict(zip(('1m','2m','3m','4m','5m','6m','10m','12m','15m','20m','30m',
+                      '1h','2h','3h','4h','6h','8h','12h','1d'),
+                     (60,120,180,240,300,360,600,720,900,1200,1800,3600,7200,10800,14400,21600,28800,43200,86400)))
+
+class PitError(ValueError):
+    def __init__(self, code, detail=''):
+        self.code = code
+        super().__init__(code + (': ' + detail if detail else ''))
+
+_CANONICAL_ATOMS = frozenset((str, int, bool, type(None)))
+
+
+@dataclass
+class _CanonicalBox:
+    value: object
+
+
+@lru_cache(maxsize=256)
+def _field_names(cls):
+    return tuple(f.name for f in fields(cls))
+
+
+def _canonical_dataclass(value):
+    kind = type(value)
+    if kind in _CANONICAL_ATOMS: return value
+    if kind is float: return {'binary64': struct.pack('<d', value).hex()}
+    if is_dataclass(value) and not isinstance(value, type):
+        result = {name: _canonical_dataclass(getattr(value, name))
+                  for name in _field_names(kind)}
+        return dict(sorted(result.items()))
+    if kind in (list, tuple): return [_canonical_dataclass(v) for v in value]
+    if kind is dict and all(type(k) is str for k in value):
+        result = {k: _canonical_dataclass(v) for k, v in value.items()}
+        return dict(sorted(result.items()))
+    # Retain stdlib behavior for exotic container/deepcopy objects.
+    return canonical(asdict(_CanonicalBox(value))['value'])
+
+
+def canonical(value):
+    if type(value) in _CANONICAL_ATOMS: return value
+    if is_dataclass(value):
+        if isinstance(value, type): value = asdict(value)
+        else: return _canonical_dataclass(value)
+    if isinstance(value, float): return {'binary64':struct.pack('<d',value).hex()}
+    if isinstance(value, dict): return {str(k):canonical(v) for k,v in sorted(value.items())}
+    if isinstance(value, (list,tuple)): return [canonical(v) for v in value]
+    return value
+
+def digest(value):
+    return hashlib.sha256(json.dumps(canonical(value),sort_keys=True,separators=(',',':'),ensure_ascii=False).encode()).hexdigest()
+
+def file_hash(path):
+    h=hashlib.sha256()
+    with Path(path).open('rb') as f:
+        for chunk in iter(lambda:f.read(1024*1024),b''): h.update(chunk)
+    return h.hexdigest()
+
+def verify_sources():
+    """Validate local PIT references only; no operational runtime is required."""
+    from generic_backtest.provenance import source_snapshot
+    from .features.percentile.profiles import verify_source_hashes
+    try:
+        if file_hash(ROOT/'generic_backtest/reference_sources/THE_STAFF_OF_MOSES.mq5') != HMA_SOURCE_SHA:
+            raise ValueError('local MQL HMA reference differs')
+        return {'operational':{'scope':'BACKTEST_LOCAL_ONLY','percentile':verify_source_hashes(ROOT)},
+                'runtime':source_snapshot()}
+    except Exception as exc: raise PitError('E_SOURCE_DRIFT',str(exc)) from exc
+
+def fresh_output(path):
+    from replay.operational_baseline import check_output,plain_path
+    p=plain_path(path)
+    if not p.is_relative_to(ROOT/'pit_spike'): raise PitError('E_OLD_SOURCE_WRITE',str(p))
+    check_output(p)
+    if p.exists(): raise PitError('E_OUTPUT_COMMIT','Existing output')
+    p.mkdir(parents=True)
+    return p

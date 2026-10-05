@@ -1,0 +1,12 @@
+[
+  {
+    "file": "audit/test_baseline.py",
+    "before_sha256": "85bd7c49b51c9731580d4621775239c763efcb534850d2baaa902c9a63db6168",
+    "after_sha256": "5431561894c644b68b8bbe57346d4cc3db224a6ec02ab26e3ac4d04f1d13461e"
+  },
+  {
+    "file": "program/MT5/THE_STAFF_OF_MOSES.mq5",
+    "before_sha256": "3c401e217298d70b83c6ded66dcaaa2edeee356bcb21eb9223301848d762bff2",
+    "after_sha256": "277b391b1251c1c6e5e1e30da17871832a17420fdfcfae307573519b5c332f95"
+  }
+]

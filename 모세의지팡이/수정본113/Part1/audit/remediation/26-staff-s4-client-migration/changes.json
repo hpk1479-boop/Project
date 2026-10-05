@@ -1,0 +1,32 @@
+[
+  {
+    "file": "program/manager_KIM.py",
+    "before_sha256": "c6464c9254ccb8481f83f9bace3c5d8d3502b81ae664f4214a4493bcc7065d5e",
+    "after_sha256": "ec1cc0bed7588669f74be82211901616a84045e2ce9258e679a156e6907e5b76"
+  },
+  {
+    "file": "program/monitor_OZ.py",
+    "before_sha256": "c090c48510981dc2c63d66823be6265f4262957d2977bf6b22f27fbe7b7e000d",
+    "after_sha256": "f2576f31bc6a71d438bea219540c8258d3180b312cda0b89e2daabf692246a1a"
+  },
+  {
+    "file": "program/staff_snapshot.py",
+    "before_sha256": "386fb333f4409fee1e34836c7b2708bd6ac253feb7ec59c45eb193643b1689e9",
+    "after_sha256": "ec4e71d4a750b7f33a639e64a88d5af05b38bedbfb465781bb03ce10622c94ab"
+  },
+  {
+    "file": "program/strategy_FVG.py",
+    "before_sha256": "4aba4aa802e49932efded4583b4e5d4d84fd66e821a1a3175e4afe2c9dd30416",
+    "after_sha256": "205391223bf7b2e0f8f27b29243da9fbb6746231c9188b9f56c1604572170b14"
+  },
+  {
+    "file": "program/strategy_INDICATOR.py",
+    "before_sha256": "d2aff665c3c28187697eb937b16a40b71008525cf7777815b0c4a9f3569043c7",
+    "after_sha256": "7cb808093a4eed05bd4dac74ae1d342dc9f4b43ca9333712c11a7da250c66f4e"
+  },
+  {
+    "file": "program/strategy_SWEEP.py",
+    "before_sha256": "6532300d5a070d64ae74f26bbbad551815f6a5ecb20b4fb60f5d9cfb0f870d0f",
+    "after_sha256": "6d331ff6afe8307d61858f2243884b7b49ffc4f16062ac23c28f355f914fc39d"
+  }
+]

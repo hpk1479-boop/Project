@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "ea_build_hashes": [
+        "7e721cbff5b08e4bc1a9dbce3385fe6d5b2f8fc1f552567f32e893ee53d0792e",
+        "905946cad255c9d10f2ceedf3568789f6aff8a0493dfa991f9c6fc2a4bedc50f",
+        "af30fe4bf841bcbce9e99b1670d15452dd976fba090c075a66e09d9945c1ff32",
+        "e434827fdc453013a40942f55bd574bc6d2b35f38bdcd33fd8602bbec4eaab5c"
+      ],
+      "evidence": "검증결과/ea_build_compat/day_comparison.json",
+      "scope": "XAUUSD+ 2026-09-01 BAR, Strategy Tester reconnect-free capture",
+      "evidence_symbol_map": "수정본35 검증결과/symbol_registry/day_comparison.json (XAUUSD+ 2026-09-01 BAR, 1378 bundles, same bundle_sha256)",
+      "source_anchor": {
+        "ea_build_hash": "7e721cbff5b08e4bc1a9dbce3385fe6d5b2f8fc1f552567f32e893ee53d0792e",
+        "mql_source_fingerprint": "7b1ed361c1fa01cd4c52e2fb4285305f0c849b108f1ccc32a43b399a26c3341c",
+        "evidence": "검증결과/symbol_default113/verification.json"
+      }
+    }
+  ]
+}

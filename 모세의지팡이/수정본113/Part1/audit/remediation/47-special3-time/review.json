@@ -1,0 +1,5 @@
+{
+  "scope": "SPECIAL3 final alert hours: OPENING final_time_filters removed; code default 09:00-11:00/16:00-18:00/21:00-24:00 KST; slot accepts 24:00; slot dialog shows/saves strategy-own hours",
+  "tests": "tests/test_special3_time.py, tests/test_ui_slots.py",
+  "limitations": "setup time_filters, config OPENING_* keys and chain deadline logic unchanged"
+}

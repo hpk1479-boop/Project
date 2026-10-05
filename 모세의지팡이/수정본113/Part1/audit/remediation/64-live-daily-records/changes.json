@@ -1,0 +1,32 @@
+[
+  {
+    "file": "program/event_host.py",
+    "before_sha256": "c0ed91f7c771269050546f5e3e2a231c06f516d7dc328b4ef883161668bfe287",
+    "after_sha256": "56c3979d03aecc6049087325c016d9b10319bc2702606b40b832efba5420f6ff"
+  },
+  {
+    "file": "program/manager_KIM.py",
+    "before_sha256": "fec632d1e739cf325f49f33c3b31b71ded4c210b75cbfbd985bdcaf9682df3f2",
+    "after_sha256": "34c1515e18e66f762b7eeee3f1a3a3d012ce3b385c6ab5b098789fb926d27fca"
+  },
+  {
+    "file": "program/strategy_settings_view.py",
+    "before_sha256": "e00e8db6e89d8391204215bca8710ad9336dab28dae543f5453d87c03e7baef2",
+    "after_sha256": "bc746783c85ff4dbfff4065e6c4f7f705f9e651f09bc2268359777a20f98f8ab"
+  },
+  {
+    "file": "program/machine_roots.py",
+    "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after_sha256": "b17eda225953f0f4a65982674acd11631af53b512995e11099fc49c9f75a35b0"
+  },
+  {
+    "file": "program/live_alert_recording.py",
+    "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after_sha256": "1aec5c4dbd311a317c16d0ad657274530d4fe74cc9b86ac2349861c7cf5a4cc9"
+  },
+  {
+    "file": "program/live_record_folder_ui.py",
+    "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after_sha256": "c645e3d615510f10b9f2adbc19f7d3fc92bb41dfca39ddd1f6945eb93e8d059e"
+  }
+]
