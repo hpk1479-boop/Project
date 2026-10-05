@@ -1,0 +1,6 @@
+{
+  "stage": "S8",
+  "authorization": "User S8: EA ROW/HEARTBEAT, 1s status cadence, STAFF encoding cache/copy reduction; no schema/client/decision changes",
+  "golden_expected_modified": false,
+  "source_manifest_sha256": "b2b19acc73842b220100f4f69551f82d7627a269694fc6910ec5a9923f7e318a"
+}

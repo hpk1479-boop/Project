@@ -1,0 +1,8 @@
+{
+  "stage": "S6",
+  "authorization": "User directly edited revision 13 config and supplied both values; preserve the edit.",
+  "STAFF_ALLOWED_SYMBOLS": "XAUUSD+,NAS100, BTCUSD",
+  "TARGET_SYMBOLS": "XAUUSD+,NAS100, BTCUSD",
+  "config_rewritten_by_agent": false,
+  "verification": "user_symbol_validation.json"
+}

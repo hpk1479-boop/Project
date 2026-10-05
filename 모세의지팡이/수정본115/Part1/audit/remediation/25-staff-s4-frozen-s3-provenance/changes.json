@@ -1,0 +1,12 @@
+[
+  {
+    "file": "program/manager_KIM.py",
+    "before_sha256": "56bb5aca9ce45ae00c616252436d9ae4a11fcbde939f2df35edb93964e68bc07",
+    "after_sha256": "c6464c9254ccb8481f83f9bace3c5d8d3502b81ae664f4214a4493bcc7065d5e"
+  },
+  {
+    "file": "program/strategy_INDICATOR.py",
+    "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after_sha256": "d2aff665c3c28187697eb937b16a40b71008525cf7777815b0c4a9f3569043c7"
+  }
+]

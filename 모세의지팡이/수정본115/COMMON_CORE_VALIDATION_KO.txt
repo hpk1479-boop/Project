@@ -1,0 +1,83 @@
+공용 계산 코어 작업/검증 기록
+=============================
+
+목적
+- LIVE와 BACKTEST 실행 경로는 섞지 않는다.
+- LIVE 계산식은 변경하지 않는다.
+- BACKTEST가 LIVE의 FVG / TREND / ALLZONE(OZ) 계산 코어를 직접 재사용한다.
+
+작업 순서
+1) FVG 공용화
+2) TREND 공용화
+3) ALLZONE Monitor(OZ) 공용화
+
+LIVE 비변경 확인
+- Part1/program/strategy_FVG.py
+  SHA256 b4cadc6764a09dc91e0f416ca9fc9d8a2a6c20a1de645704e29e344d51322520
+- Part1/program/strategy_TREND.py
+  SHA256 922ffc9e966b8e48b414792fa80fa948c933c18d7d99211da5b1a086deda2dfd
+- Part1/program/monitor_OZ.py
+  SHA256 60d4cc071dd52f85ac218387915638f32c22996090658204d17718558fd0f581
+- Part1/program/MT5/THE_STAFF_OF_MOSES.mq5
+  SHA256 7d53fea04ca3c971a84b5dd4faffbe3bc2d5a88656d3eeb3eea670b0403f459a
+- Part1/program/MT5/THE_STAFF_OF_MOSES.mq5
+  SHA256 db800a750db1bb4641537767ee12e0666c64e7c42eb26a54a9f2fc6a454d47b5
+
+FVG
+- BACKTEST의 별도 FVG 수식 복제를 제거하고 실제 LIVE strategy_FVG 함수 객체를 직접 재사용.
+- 기존 BACKTEST 구현과 랜덤/강제 gap fixture 비교: 수치/zone/fill exact parity 통과.
+- LIVE 파일 수정 없음.
+
+TREND
+- BACKTEST가 LIVE strategy_TREND.TrendEngine의 score/evaluate/metric_snapshot 계산 메서드를 직접 재사용.
+- 네 TF/양방향/전체 metric 비교 exact parity 통과.
+- LIVE 네트워크 client 생성자는 BACKTEST에서 사용하지 않음.
+- LIVE 파일 수정 없음.
+
+ALLZONE Monitor / OZ
+- BACKTEST의 복제 규칙을 LIVE monitor_OZ.OZMonitor 핵심 계산/상태전이 메서드 직접 재사용으로 변경.
+- historical 환경 차이는 외부유동성 watch adapter와 checkpoint persistence adapter만 분리.
+- LIVE OZMonitor 생성자/실행 thread/network loop를 BACKTEST에서 실행하지 않음.
+- import 시 LIVE OZ 로그를 만들거나 root logging을 설정하지 않도록 BACKTEST loader에서 import 부수효과 차단.
+- Part1/program/logs/OZ_monitor.log 생성 안 됨 확인.
+
+검증 결과
+- python -m compileall -q Part2 : PASS
+- test_shared_live_calculations.py : 3/3 PASS
+- test_oz.py : 50/50 PASS (분할/격리 실행)
+  * 28/28 PASS: alerts/cancel-expire/scalar/retry/readonly/export/subclass
+  * 4/4 PASS: non-native dtype
+  * 6/6 PASS: observation_order oscillating
+  * 6/6 PASS: observation_order nan (격리 실행 포함)
+  * 6/6 PASS: observation_order equal
+- test_oz.py 전체 일괄 실행은 환경 시간 제한에 걸려 분할/격리 실행으로 재검증함. 기능 실패는 확인되지 않음.
+
+미해결 기록 (이번 변경과 무관)
+- Part2/validation_suite/test_ipc.py : 32 PASS / 4 FAIL
+- 4건 모두 다음 기존 파일이 패키지에 없어 발생:
+  Part2/backtest_specials/GENERIC_EXAMPLE_V1.py
+- 실패 조합: SIGNAL/ENTRY x DELTA_V1/FULL
+- 공용 FVG/TREND/OZ 변경부의 assertion/계산 실패가 아님.
+
+변경 범위
+MODIFIED
+- Part2/calculations/allzone.py
+- Part2/calculations/allzone_runtime.py
+- Part2/generic_backtest/watch/engine_capability.py
+- Part2/generic_backtest/watch/engines/fvg_math.py
+- Part2/generic_backtest/watch/engines/local_contract.json
+- Part2/generic_backtest/watch/engines/source_contract.json
+- Part2/generic_backtest/watch/engines/trend.py
+- Part2/generic_backtest/watch/engines/trend_math.py
+
+ADDED
+- Part2/generic_backtest/live_source.py
+- Part2/validation_suite/test_shared_live_calculations.py
+
+REMOVED
+- 없음
+
+현재 단계
+- FVG / TREND / ALLZONE Monitor 계산 코어 공용화 완료.
+- LIVE 소스는 기준본 그대로 유지.
+- SPECIAL 1~7 공용화는 아직 진행하지 않음.

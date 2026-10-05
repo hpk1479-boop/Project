@@ -1,0 +1,6 @@
+{
+  "scope": "System Control common module status buttons, real MT5 pipe connection state, and SPECIAL-only strategy settings diagnostics",
+  "strategy_judgment_changed": false,
+  "tests": "tests/test_module_status_navigation.py; tests/test_ui_slots.py; tests/test_module_diagnostics.py",
+  "note": "Display names and navigation only; STAFF/ENGINE/OZ/KIM keys and diagnostic IPC remain unchanged."
+}

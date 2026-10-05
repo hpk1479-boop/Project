@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv*/
+generic_cache/
+generic_runs/
+validation_outputs/

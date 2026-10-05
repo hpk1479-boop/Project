@@ -1,0 +1,12 @@
+numpy==2.3.5
+pandas==3.0.1
+pyzmq==27.1.0
+pywebview==6.2.1
+pythonnet==3.2.0
+MetaTrader5==5.0.6180
+duckdb>=1.4,<2
+requests>=2.32,<3
+tzdata
+jsonschema>=4.23,<5
+pyinstaller==6.22.2
+pytest>=8,<10

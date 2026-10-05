@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "description": "Synthetic MT5 buffer values, not recalculated MT5 indicators. UTC bar-open timestamps; last row is live.",
+  "symbol": "BTCUSD",
+  "epoch": 1789387200,
+  "bars": 80,
+  "base_price": 100.0,
+  "step": 0.2,
+  "timeframes": ["1m", "2m", "3m", "4m", "5m", "6m", "10m", "12m", "15m", "20m", "30m", "1h", "2h", "3h", "4h", "6h", "8h", "12h", "1d"],
+  "tail": {
+    "78": {"open": 119.0, "high": 120.6, "low": 118.6, "close": 120.0, "hma_6": 118.0, "hma_17": 119.0},
+    "79": {"open": 119.0, "high": 120.6, "low": 118.2, "close": 120.0, "hma_6": 120.0, "hma_17": 119.0}
+  },
+  "sweep_daily_previous": {"open": 120.0, "high": 140.0, "low": 118.8, "close": 122.0},
+  "phases": ["OUT", "IN", "NEXT_BAR"],
+  "expected_fvg_zone": {"fvg_side": "BULL", "zone_bot": 116.2, "zone_top": 118.6},
+  "expected_final": {"kind": "FINAL_ALERT", "strategy": "OZ", "direction": "LONG", "grade": "S", "trigger_name": "B0", "source_tf": "1m"}
+}

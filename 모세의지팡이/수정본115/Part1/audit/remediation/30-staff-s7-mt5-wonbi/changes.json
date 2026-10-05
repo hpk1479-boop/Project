@@ -1,0 +1,44 @@
+[
+  {
+    "file": "program/monitor_OZ.py",
+    "before_sha256": "f2576f31bc6a71d438bea219540c8258d3180b312cda0b89e2daabf692246a1a",
+    "after_sha256": "0d06bb38dca139b2aa8d095f24c11de28982613aa9a9db5137effc1f9fd93e72",
+    "observed_s6_before_sha256": "f2576f31bc6a71d438bea219540c8258d3180b312cda0b89e2daabf692246a1a"
+  },
+  {
+    "file": "program/staff_compat.py",
+    "before_sha256": "c4be8b9d76a78bd94acc578ce648972c6ac8471bf85190ec5e5a441a7b484a2a",
+    "after_sha256": "3c84f545b1febf0dcb5bdb31dc54f6e161666932ea406e10d808dce110a3670a",
+    "observed_s6_before_sha256": "c4be8b9d76a78bd94acc578ce648972c6ac8471bf85190ec5e5a441a7b484a2a"
+  },
+  {
+    "file": "program/staff_schema.py",
+    "before_sha256": "32e6525467486da6701ffa437a8dd45794b45141c54d1a617c45ff7271879514",
+    "after_sha256": "d4903e06dce159d59be92d449e0bcafd1621ec5e676bb875f8609888f9899df0",
+    "observed_s6_before_sha256": "32e6525467486da6701ffa437a8dd45794b45141c54d1a617c45ff7271879514"
+  },
+  {
+    "file": "program/THE STAFF OF MOSES.py",
+    "before_sha256": "4b3c22d25b635ddd7729ca731d07a9f436ff66bf30913e8ec22ca1e24df6e006",
+    "after_sha256": "417461b44a9843a58e0ae05b5faba2e3d072c2c660df4ea39483189f6df97d19",
+    "observed_s6_before_sha256": "4b3c22d25b635ddd7729ca731d07a9f436ff66bf30913e8ec22ca1e24df6e006"
+  },
+  {
+    "file": "program/MT5/STAFF_Wire_Schema.mqh",
+    "before_sha256": "0830a6d216a8f83b1ed472e02d61f49310b629ec61e5d9de78bbefb31d1acb2b",
+    "after_sha256": "afa8b1f932bfe33cf89290a65c0ec22223a8adee3188349c5def1e2601c6e92f",
+    "observed_s6_before_sha256": "0830a6d216a8f83b1ed472e02d61f49310b629ec61e5d9de78bbefb31d1acb2b"
+  },
+  {
+    "file": "program/MT5/STAFF_Wire_V2.mqh",
+    "before_sha256": "84b2a5c3fc9acdfd34afabf74c65c051acd92115a19da7e8c94f8a025d4913fc",
+    "after_sha256": "dac56904cf4f0d7ad2dfcbe055bca158470504ece18108b96ba42e2c7fd89577",
+    "observed_s6_before_sha256": "84b2a5c3fc9acdfd34afabf74c65c051acd92115a19da7e8c94f8a025d4913fc"
+  },
+  {
+    "file": "program/MT5/THE_STAFF_OF_MOSES.mq5",
+    "before_sha256": "aceb229f46bff9595b267f73b65aa2f52cb0ce82b0c05db4b2d34c21d9ba1397",
+    "after_sha256": "f662e76a1308971f723018d9ca7a968c64bae6e95ae04b252f9390a50a0d6beb",
+    "observed_s6_before_sha256": "aceb229f46bff9595b267f73b65aa2f52cb0ce82b0c05db4b2d34c21d9ba1397"
+  }
+]

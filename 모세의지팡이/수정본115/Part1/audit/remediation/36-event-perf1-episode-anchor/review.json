@@ -1,0 +1,4 @@
+{
+  "stage": "PERF1",
+  "authorization": "User: retain true decision lookback. Active OUT extreme may become B0 within this publication. Reproduced failing 96-vs-466 row test, now corrected. Inactive episodes do not retain history."
+}

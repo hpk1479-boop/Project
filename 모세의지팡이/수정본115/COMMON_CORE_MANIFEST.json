@@ -1,0 +1,55 @@
+{
+  "baseline": "STAFF_BASELINE_BT_INPUT_v1 + RegimeSlope 4 indicators",
+  "commonized": [
+    "FVG",
+    "TREND",
+    "ALLZONE_OZ"
+  ],
+  "live_mode_sources_modified": false,
+  "files": {
+    "Part2/calculations/allzone.py": {
+      "sha256": "d7beed29ee3a7a7c02d456fbefeb63820fd100914b521de09b492ac53293c56e",
+      "bytes": 3240
+    },
+    "Part2/calculations/allzone_runtime.py": {
+      "sha256": "d7b85ad90c4e0898ef08dc89e31679758e75277eec255d5b64cdefc9cce1b3d4",
+      "bytes": 13233
+    },
+    "Part2/generic_backtest/live_source.py": {
+      "sha256": "5ce0f79fbe733bad7803c3061adf2e7f61e8910fedf2e882e74ea898f026fa0f",
+      "bytes": 1952
+    },
+    "Part2/generic_backtest/watch/engine_capability.py": {
+      "sha256": "bf201ba90226befd46c0674248810b5c26d012c27a15342306b2b2f147bac1b8",
+      "bytes": 1492
+    },
+    "Part2/generic_backtest/watch/engines/fvg_math.py": {
+      "sha256": "093e100fcf77b4609180d0e58f2f630f9b45215edce6da4ff3553c76225beb94",
+      "bytes": 985
+    },
+    "Part2/generic_backtest/watch/engines/local_contract.json": {
+      "sha256": "63b11c5a840f506904bf00da79d295ac51be261b953888a96ae181e6293ee6e9",
+      "bytes": 1252
+    },
+    "Part2/generic_backtest/watch/engines/source_contract.json": {
+      "sha256": "1d847f8f2bba94d15be7ee4556646029ad365924daac312b90cb7f6df4b6aebc",
+      "bytes": 15889
+    },
+    "Part2/generic_backtest/watch/engines/trend.py": {
+      "sha256": "95cbf7d0ff9621e6d7d6e3cd23e02ce3ffbfdc9ed422cfa006b7e4d934e5f387",
+      "bytes": 1787
+    },
+    "Part2/generic_backtest/watch/engines/trend_math.py": {
+      "sha256": "1f50d0903e3ea4fe286f9c341d7966fb648baa524b32b549ad7e5357844f1097",
+      "bytes": 1509
+    },
+    "Part2/validation_suite/test_shared_live_calculations.py": {
+      "sha256": "1fc32e8ae4dfa6d4f2e00e7f0a6870360bcc534fdc5244707b4baa5669a92f58",
+      "bytes": 1749
+    },
+    "COMMON_CORE_VALIDATION_KO.txt": {
+      "sha256": "1086ea51b804f81e6d6ea84ab0fc40d5b9ad1acabb92a200a29427043e403fe7",
+      "bytes": 3605
+    }
+  }
+}

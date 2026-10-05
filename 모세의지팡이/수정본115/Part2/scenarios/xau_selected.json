@@ -1,0 +1,12 @@
+{
+  "symbol": "XAUUSD+",
+  "start": "2025-09-01",
+  "end": "2025-10-01",
+  "mode": "BAR",
+  "strategies": ["SPECIAL1"],
+  "commands": [],
+  "triggers": {},
+  "overlap_trading_days": 0,
+  "cores": null,
+  "timer_ms": 1000
+}

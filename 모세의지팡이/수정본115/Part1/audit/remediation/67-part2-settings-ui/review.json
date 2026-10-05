@@ -1,0 +1,5 @@
+{
+  "scope": "Part2 strategy settings uses the same modern window as Part1 (live=False: backtest title/subtitle, no LIVE record-folder button, Part2 footer, new strategies unchecked); old ttk dialog removed",
+  "tests": "tests/test_strategy_settings_ui31.py (new Part2 case), tests/test_module_status_navigation.py",
+  "limitations": "UI only; settings data and Part2 run inputs unchanged"
+}

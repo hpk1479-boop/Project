@@ -1,0 +1,12 @@
+[
+  {
+    "file": "audit/test_baseline.py",
+    "before_sha256": "a8d3acbb6203a5e9cae93944205bdddbbe6214403624d5f425071952cb5589a9",
+    "after_sha256": "b65e11e2b1b05fb1e7f5979daaa984c256cec65729c7f60d3df9d14dbf1c2925"
+  },
+  {
+    "file": "program/watch_orchestrator.py",
+    "before_sha256": "773e55241d2f5985bd41def1b0949d770008d57824aa05d8c885e205a2c0f9bd",
+    "after_sha256": "b8c30e2c996d59bd6900e5a9bb11a464e3ff31f3db36d3d82a2d8cf1e58dcb5f"
+  }
+]

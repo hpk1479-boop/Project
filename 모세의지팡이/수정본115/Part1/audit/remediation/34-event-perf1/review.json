@@ -1,0 +1,7 @@
+{
+  "stage": "PERF1",
+  "authorization": "User: bundle caches, subscription filtering, closed SWEEP/OZ computation optimization, NumPy scan, adaptive input windows; cumulative seed changes diagnostic; LIVE/replay identity required",
+  "polling_default_preserved": true,
+  "no_Part2_Part3_dependency": true,
+  "network_blocked_in_tests": true
+}

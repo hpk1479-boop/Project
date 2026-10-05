@@ -1,0 +1,6 @@
+# Already provided by .venv-replay; no environment/package installation needed.
+# Exact executed Python/package versions are in the spike environment receipt.
+numpy==2.3.5
+pandas==3.0.1
+pytest==9.0.2
+pyzmq==27.1.0

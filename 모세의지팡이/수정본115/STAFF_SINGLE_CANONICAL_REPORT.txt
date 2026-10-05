@@ -1,0 +1,22 @@
+Part1 MT5 execution STAFF cleanup
+
+Canonical STAFF: Part1/program/MT5/THE_STAFF_OF_MOSES.mq5
+Legacy duplicate removed: THE_STAFF_OF_MOSES_UNIFIED.mq5
+Part1 execution STAFF count: 1
+Python MT5 expert stem updated to THE_STAFF_OF_MOSES
+
+Part1/program/MT5/THE_STAFF_OF_MOSES.mq5
+  size=54937
+  sha256=764b0e61b844b29001984cc1ea81e2f542cb7d43e24e211a516ab2a3f52b5d03
+Part1/program/MT5/PRICE_of_Moses.mq5
+  size=26009
+  sha256=0d7b6c049cc7075b060bb0c4cacf5228122a5bcedafbba5f01d09f35342fe21c
+Part1/program/MT5/RSI_of_Moses.mq5
+  size=9703
+  sha256=7b51fe3e84be407029b73ccbb80ed4afd3a7fac9db2c90a2b7d03da761d14ee6
+Part1/program/MT5/STO_of_Moses.mq5
+  size=9790
+  sha256=6e797e65e217450741881a1fb922f8bb6ce9e0527c92a3220dc3ef01482970dc
+Part1/program/MT5/DI_of_Moses.mq5
+  size=9705
+  sha256=27c52621ab01edbb3ce6946ed6e4ca69c2f4b2a08a1791acf5c1a2d9c1392f95

@@ -1,0 +1,47 @@
+{
+  "original_ea_build_hash": "905946cad255c9d10f2ceedf3568789f6aff8a0493dfa991f9c6fc2a4bedc50f",
+  "mql_source_fingerprint": "23d60203ed1b57ca9b547a40399f974744b1a2d9945f4c52e621bd6320f706ea",
+  "reviewed_source_edition": "수정본35",
+  "sources": {
+    "Part1/program/MT5/DI_of_Moses.mq5": "9501386b1f2439595edfda3df62296b881033bc0f69eb2fe52f22aaf469b0927",
+    "Part1/program/MT5/PRICE_of_Moses.mq5": "471f4ad8f32d4b106d2f36f67ac7180e83578eeaae73ccfcfa919495e259448a",
+    "Part1/program/MT5/RSI_of_Moses.mq5": "73efb10943974665ebe2fc3e8d176bb3334a8d3ab88a8f82bcc0a0b896d808f3",
+    "Part1/program/MT5/STAFF_Identity_Status.mqh": "16f8e719756e873f78ab75a9357863b5f6119951a506001d876258d2f366593e",
+    "Part1/program/MT5/STAFF_Symbol_Map.mqh": "043f7c75e43d8d14b78ed63aa5f6279333e4823288b23067443a4a83aa609746",
+    "Part1/program/MT5/STAFF_Wire_Schema.mqh": "d6543fba19e8b53e801ed066c7261d691ed699432ee534e9f9bd8f0983c6095b",
+    "Part1/program/MT5/STAFF_Wire_V2.mqh": "612f3e32175f1a9b4ae53d375c03bf6ac79b0ad307dddcf19fd83ada11950b87",
+    "Part1/program/MT5/STO_of_Moses.mq5": "7c2f860a96fbac7e03ed62acf0a03b3e7387b26efc3f367b53ab4f76ebc34d26",
+    "Part1/program/MT5/THE_STAFF_OF_MOSES.mq5": "36814470436fa7ded11b560460231f7611268c4e98670d84a327873554bba4ef"
+  },
+  "differences": [
+    {
+      "file": "Part1/program/MT5/STAFF_Wire_Schema.mqh",
+      "diff": [
+        "--- recording source\n",
+        "+++ current source\n",
+        "@@ -4,5 +4,5 @@\n",
+        " const int STAFF_WIRE_VALUE_COLUMNS = 50;",
+        " const uint STAFF_WIRE_SCHEMA_ID = 0x379D2170;",
+        "-const string STAFF_EA_BUILD_HASH = \"b184c6693f797b2b80f03a6daeb6bd57db0a1795383a52c1534d86b5d89e67cd\";",
+        "+const string STAFF_EA_BUILD_HASH = \"238f50f0b298f886648e07376a4bc7d40a78b8417b11386c19c9bf8354f25303\";",
+        " const int STAFF_WIRE_FULL=1, STAFF_WIRE_ROW=2, STAFF_WIRE_HEARTBEAT=3;",
+        " const int STAFF_WIRE_HELLO=4, STAFF_WIRE_BUNDLE=5, STAFF_WIRE_ACK=6;"
+      ]
+    },
+    {
+      "file": "Part1/program/MT5/THE_STAFF_OF_MOSES.mq5",
+      "diff": [
+        "--- recording source\n",
+        "+++ current source\n",
+        "@@ -36,5 +36,5 @@\n",
+        " ",
+        " input group \"=== Targets ===\"",
+        "-input string InpSymbols = \"XAUUSD+,NAS100,BTCUSD\";  // comma-separated logical symbols",
+        "+input string InpSymbols = \"XAUUSD+,NAS100,\";  // comma-separated logical symbols",
+        " // Tester only: logical symbol written to Wire/native export. Empty = tester symbol (_Symbol).",
+        " input string InpTesterLogicalSymbol = \"\";"
+      ]
+    }
+  ],
+  "assessment": "Only default LIVE symbols and HELLO build identity changed; recording calculations unchanged. Source anchor is explicit and invalidated by any later source edit."
+}

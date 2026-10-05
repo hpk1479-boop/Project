@@ -1,0 +1,156 @@
+...........................FFFF......................................... [ 22%]
+........................................................................ [ 44%]
+........................................................................ [ 67%]
+........................................................................ [ 89%]
+..................................                                       [100%]
+=================================== FAILURES ===================================
+________ test_isolated_workers_order_positive_outputs[SIGNAL-DELTA_V1] _________
+
+transport = 'DELTA_V1', role = 'SIGNAL'
+
+    @pytest.mark.parametrize('transport',['DELTA_V1','FULL'])
+    @pytest.mark.parametrize('role',['SIGNAL','ENTRY'])
+    def test_isolated_workers_order_positive_outputs(transport,role):
+>       record=parse_literal_metadata(ROOT/'backtest_specials/GENERIC_EXAMPLE_V1.py')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+validation_suite/test_ipc.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+generic_backtest/plugins.py:21: in parse_literal_metadata
+    raw = path.read_bytes()
+          ^^^^^^^^^^^^^^^^^
+/usr/lib/python3.13/pathlib/_abc.py:625: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/mnt/data/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+
+/usr/lib/python3.13/pathlib/_local.py:539: FileNotFoundError
+__________ test_isolated_workers_order_positive_outputs[SIGNAL-FULL] ___________
+
+transport = 'FULL', role = 'SIGNAL'
+
+    @pytest.mark.parametrize('transport',['DELTA_V1','FULL'])
+    @pytest.mark.parametrize('role',['SIGNAL','ENTRY'])
+    def test_isolated_workers_order_positive_outputs(transport,role):
+>       record=parse_literal_metadata(ROOT/'backtest_specials/GENERIC_EXAMPLE_V1.py')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+validation_suite/test_ipc.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+generic_backtest/plugins.py:21: in parse_literal_metadata
+    raw = path.read_bytes()
+          ^^^^^^^^^^^^^^^^^
+/usr/lib/python3.13/pathlib/_abc.py:625: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/mnt/data/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+
+/usr/lib/python3.13/pathlib/_local.py:539: FileNotFoundError
+_________ test_isolated_workers_order_positive_outputs[ENTRY-DELTA_V1] _________
+
+transport = 'DELTA_V1', role = 'ENTRY'
+
+    @pytest.mark.parametrize('transport',['DELTA_V1','FULL'])
+    @pytest.mark.parametrize('role',['SIGNAL','ENTRY'])
+    def test_isolated_workers_order_positive_outputs(transport,role):
+>       record=parse_literal_metadata(ROOT/'backtest_specials/GENERIC_EXAMPLE_V1.py')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+validation_suite/test_ipc.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+generic_backtest/plugins.py:21: in parse_literal_metadata
+    raw = path.read_bytes()
+          ^^^^^^^^^^^^^^^^^
+/usr/lib/python3.13/pathlib/_abc.py:625: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/mnt/data/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+
+/usr/lib/python3.13/pathlib/_local.py:539: FileNotFoundError
+___________ test_isolated_workers_order_positive_outputs[ENTRY-FULL] ___________
+
+transport = 'FULL', role = 'ENTRY'
+
+    @pytest.mark.parametrize('transport',['DELTA_V1','FULL'])
+    @pytest.mark.parametrize('role',['SIGNAL','ENTRY'])
+    def test_isolated_workers_order_positive_outputs(transport,role):
+>       record=parse_literal_metadata(ROOT/'backtest_specials/GENERIC_EXAMPLE_V1.py')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+validation_suite/test_ipc.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+generic_backtest/plugins.py:21: in parse_literal_metadata
+    raw = path.read_bytes()
+          ^^^^^^^^^^^^^^^^^
+/usr/lib/python3.13/pathlib/_abc.py:625: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/mnt/data/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+
+/usr/lib/python3.13/pathlib/_local.py:539: FileNotFoundError
+=========================== short test summary info ============================
+FAILED validation_suite/test_ipc.py::test_isolated_workers_order_positive_outputs[SIGNAL-DELTA_V1] - FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+FAILED validation_suite/test_ipc.py::test_isolated_workers_order_positive_outputs[SIGNAL-FULL] - FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+FAILED validation_suite/test_ipc.py::test_isolated_workers_order_positive_outputs[ENTRY-DELTA_V1] - FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+FAILED validation_suite/test_ipc.py::test_isolated_workers_order_positive_outputs[ENTRY-FULL] - FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+4 failed, 318 passed in 76.31s (0:01:16)

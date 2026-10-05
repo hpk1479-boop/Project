@@ -1,0 +1,47 @@
+수정본88: Groq HTTP 413 요청 크기 처리
+
+확인
+Groq 공식 오류 계약에서 HTTP 413은 요청 본문 크기 초과다.
+짧은 사용자 문장과 별개로 응답 schema는 약 66KB였고, 같은 정의가 반복됐다.
+공통 reply_schema의 중첩/루트 $defs와 조건 속성·canonical 구조가 중복 전송됐다.
+전송 내용의 중복을 줄이며 기존 검증 규칙은 보존한다.
+
+변경
+common_ai/schema_transport.py: 전송용 schema의 동일 하위 정의를 $defs/$ref로 공유.
+실제 schema 위치만 처리하고 enum/const/default의 데이터 객체는 그대로 보존.
+기존 JSON 포인터의 대상과 상위 경로를 보호하며 URI 인코딩과 ~0/~1을 처리.
+ID/anchor/dynamic/recursive scope가 있는 schema는 구조를 그대로 둔다.
+common_ai/groq.py: 전송용 schema와 JSON 공백 축소, HTTP 413 크기 오류 표시.
+원래 schema는 변경하지 않으며 모델 응답을 parse_reply로 다시 검증한다.
+재시도·다른 모델 자동 전환·schema 규칙 삭제는 추가하지 않았다.
+Agent, security 필터, Recipe/schema/validator/compiler, Part1/Part2는 변경하지 않았다.
+
+측정
+동일 사용자 요청·허용된 공통 계약·합성 키로 외부 호출 없이 비교했다.
+전송 schema: 66,006 bytes → 20,643 bytes.
+요청 본문: 87,801 bytes → 33,867 bytes, 61.4% 감소.
+전송 구조 정리 시간: 15.22ms (해당 측정 1회).
+모델명·API 키는 설정값을 그대로 사용한다.
+
+검증
+관련 Python 검사 154 PASS, FAIL/ERROR/SKIP 0.
+전략/BACKTEST/CHAT/도구 호출의 허용·거부 결과와 원본 불변성을 확인했다.
+기존 포인터·URI 인코딩·객체 리터럴·조건·배열 경계를 포함했다.
+저장된 연결로 사용자 요청을 한 번 확인했으나 HTTP 429 사용 한도로 추론은 완료되지 않았다.
+추가 API 요청은 하지 않았으며 키/서버 오류 원문을 출력하지 않았다.
+전략 적용이나 생성 파일 저장도 하지 않았다.
+
+검사 파일
+tests/test_groq_schema_transport88.py
+tests/test_groq_provider88.py
+기존 Groq integration, 모델 선택, Gemini 키 설정 검사도 함께 실행했다.
+verify_current_manifest.json에 전송 schema 검사 추가.
+
+증거
+검증결과/groq_payload88.xml
+검증결과/groq_payload_size88.json
+
+사용
+실행 중 창을 정상 종료한 뒤 START_MOSES.pyw를 다시 실행해 수정 코드를 적용한다.
+Groq의 계정·모델 사용 한도가 회복되면 요청을 다시 보낼 수 있다.
+참조: https://console.groq.com/docs/errors

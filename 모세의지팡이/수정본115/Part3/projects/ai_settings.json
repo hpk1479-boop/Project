@@ -1,0 +1,5 @@
+{
+  "provider": "ollama",
+  "model": "moses-qwen35-tools:latest",
+  "timeout": 90
+}

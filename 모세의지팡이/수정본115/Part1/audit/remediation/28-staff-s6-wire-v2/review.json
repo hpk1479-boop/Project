@@ -1,0 +1,7 @@
+{
+  "stage": "S6",
+  "authorization": "User requested Wire v2 and updated external-behavior verification policy",
+  "golden_expected_modified": false,
+  "source_manifest_sha256": "cf386a13c3b0bebc291185ee40fb2da9ac9204e58f2a68c26b9f9764c35092dd",
+  "final_adjustment": "Complete per-feed reconnect counter and preserve its diagnostic test; no calculation or external decision change."
+}

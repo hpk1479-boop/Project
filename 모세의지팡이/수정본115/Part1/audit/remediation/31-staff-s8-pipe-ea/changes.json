@@ -1,0 +1,26 @@
+[
+  {
+    "file": "program/THE STAFF OF MOSES.py",
+    "before_sha256": "417461b44a9843a58e0ae05b5faba2e3d072c2c660df4ea39483189f6df97d19",
+    "after_sha256": "8db6da919a58da4c21cecd750fe0ebd7c005e8d2e63624ed0f7678803e336879",
+    "observed_s6_before_sha256": "417461b44a9843a58e0ae05b5faba2e3d072c2c660df4ea39483189f6df97d19"
+  },
+  {
+    "file": "program/MT5/STAFF_Identity_Status.mqh",
+    "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after_sha256": "16f8e719756e873f78ab75a9357863b5f6119951a506001d876258d2f366593e",
+    "observed_s6_before_sha256": "59cf98fcefdc321f0cae87ac82bd3fa1d0cd7586b51019e780fbd7c1ea35ddda"
+  },
+  {
+    "file": "program/MT5/STAFF_Wire_Schema.mqh",
+    "before_sha256": "afa8b1f932bfe33cf89290a65c0ec22223a8adee3188349c5def1e2601c6e92f",
+    "after_sha256": "db12eab04c047bb8e2f0aca97edd3fb12823e072023aa0407e6bd5ec939c3998",
+    "observed_s6_before_sha256": "afa8b1f932bfe33cf89290a65c0ec22223a8adee3188349c5def1e2601c6e92f"
+  },
+  {
+    "file": "program/MT5/THE_STAFF_OF_MOSES.mq5",
+    "before_sha256": "f662e76a1308971f723018d9ca7a968c64bae6e95ae04b252f9390a50a0d6beb",
+    "after_sha256": "f4d34834000c45ef8fea587848d448459d58b8ce53dd4672c426b36304d0d64f",
+    "observed_s6_before_sha256": "f662e76a1308971f723018d9ca7a968c64bae6e95ae04b252f9390a50a0d6beb"
+  }
+]

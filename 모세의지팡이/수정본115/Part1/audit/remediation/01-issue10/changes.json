@@ -1,0 +1,27 @@
+[
+  {
+    "file": "audit/test_baseline.py",
+    "before_sha256": "5062de67572e3a4c6e8b99f2736cd388d46c569d69ab6a2d7ebc450dbba4c535",
+    "after_sha256": "a124c95ef0e3bbea2ab1da300de7148d06f5c682e2eb24268566420c620ec716"
+  },
+  {
+    "file": "program/monitor_OZ.py",
+    "before_sha256": "35104044611693ca3574841395943a487938bbc934b01097e472f55a226b6e4c",
+    "after_sha256": "67975f01c1c35291ba1d84e4a0711b0bf925690ccd22ac4eb5b504849b06e1e5"
+  },
+  {
+    "file": "program/strategy_FVG.py",
+    "before_sha256": "14964ae30a96df2c96848222048ba2557ce42bd400d5ce7525f930a5f334bfbe",
+    "after_sha256": "678763991b3dbeca828e9e6fa90eb7ee3fed03159fa74c8b5c22dec0736fc027"
+  },
+  {
+    "file": "program/strategy_SWEEP.py",
+    "before_sha256": "eb33691294de19e70523157eba8e0ad8002ab7c0cea4c82d27154bcde4c9351a",
+    "after_sha256": "e26b591d9f8ead6c9f57689505222f15d0b656adb37a96e8ee906d4f15ed3edd"
+  },
+  {
+    "file": "program/strategy_TREND.py",
+    "before_sha256": "4f1f06be127f123c5c303b51dad1769bfced0e7ce3d5284b2f9da32dd82e0eeb",
+    "after_sha256": "0794097e95db12bf34fe1942158cd09cdc513c70457488caa1d0b16a312c9958"
+  }
+]

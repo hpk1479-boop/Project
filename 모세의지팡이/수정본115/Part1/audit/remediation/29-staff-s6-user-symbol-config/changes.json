@@ -1,0 +1,9 @@
+[
+  {
+    "file": "program/config.txt",
+    "before_sha256": "3ced5044dda3474ebfe4c4c51774faf53b49811c6bad10c3a29a671fa6f018fb",
+    "after_sha256": "1a13819c4b972d05fc742b4730ff728c975250ffb37e65d1ea2360168effbb60",
+    "user_owned_change": true,
+    "observed_s5_before_sha256": "3ced5044dda3474ebfe4c4c51774faf53b49811c6bad10c3a29a671fa6f018fb"
+  }
+]

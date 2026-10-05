@@ -1,0 +1,44 @@
+{
+  "id": "SPECIAL7",
+  "name": "15분 추세 · 1분 브레이커 올존",
+  "symbol_source": "CONFIG",
+  "time_filters": [
+    "MAIN_ASIA",
+    "MAIN_LONDON",
+    "MAIN_NEWYORK"
+  ],
+  "final_time_filters": [
+    "MAIN_ASIA",
+    "MAIN_LONDON",
+    "MAIN_NEWYORK"
+  ],
+  "recipe": {
+    "schema_version": 2,
+    "base": "AI",
+    "name": "15분 추세 · 1분 브레이커 올존",
+    "description": "15분 추세와 같은 방향의 1분 브레이커 OZ",
+    "symbols": [],
+    "strategy_intent": {
+      "direction": "BOTH",
+      "symbols": [],
+      "steps": [
+        {
+          "kind": "TREND",
+          "tfs": [
+            "15m"
+          ]
+        }
+      ],
+      "order_mode": "SIMULTANEOUS",
+      "persistent": true,
+      "final": {
+        "kind": "OZ",
+        "tfs": [
+          "1m"
+        ],
+        "validation_mode": "NORMAL",
+        "trigger_mode": "BREAKER"
+      }
+    }
+  }
+}

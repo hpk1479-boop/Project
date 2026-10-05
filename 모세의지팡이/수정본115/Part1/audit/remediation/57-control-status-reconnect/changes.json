@@ -1,0 +1,42 @@
+[
+  {
+    "file": "OZ_SYSTEM CONTROL.pyw",
+    "before_sha256": "515488f7b93f7fadcee8866e7f106506aab84961ba232850f58004be40b1817f",
+    "after_sha256": "94516c1b6fe85aa435a2d2e1e33fd71febd8dcd5fb645e6401fdfff050972d5d"
+  },
+  {
+    "file": "program/event_pipe_host.py",
+    "before_sha256": "b25bfba5dae71516419a493d79be9a63782635827c70dc3fdcd5da9bd1e7e1ff",
+    "after_sha256": "e80a0baaa846f64dc8b85072af709ed87423301db17c8c3e0d8282663a4dd792"
+  },
+  {
+    "file": "program/module_diagnostics.py",
+    "before_sha256": "13b8150f2ce1e34a5c23570f7f36190468be7d3ef3b3a8dbb15b36009182c84f",
+    "after_sha256": "c06b6de144c8d7cf31843b9a41eb0e897fe5936d1e6ecf8467848f7157f26da9"
+  },
+  {
+    "file": "program/module_status_ui.py",
+    "before_sha256": "3c0134d7a712f8c3383a262ec5a8f73511275ba7b00efa2e5d69470a649ac471",
+    "after_sha256": "7f4f29babc24e5e6a93bede5f3aff6ea6b50f22a7b93fc5540cf6ef40558b1ca"
+  },
+  {
+    "file": "program/event_engine/engine.py",
+    "before_sha256": "ed554a42c8627289f68438d67a7d7bb093656bc7e8855988bbf6cefaded84d7e",
+    "after_sha256": "cc1267417e4c5c975c787a878b76c6d13d678490c4ef7ea1be5f3fb9d186d049"
+  },
+  {
+    "file": "program/MT5/THE_STAFF_OF_MOSES.mq5",
+    "before_sha256": "6934ca46d3244c221fcdc47e7ce5e3865a6b9e1e48e724bf50dd116e3bf84aef",
+    "after_sha256": "d01be0561af753a79e006c46e8ed97bcf5124173b6c1085f6ef7a132b14fe20b"
+  },
+  {
+    "file": "program/MT5/THE_STAFF_OF_MOSES.ex5",
+    "before_sha256": "af30fe4bf841bcbce9e99b1670d15452dd976fba090c075a66e09d9945c1ff32",
+    "after_sha256": "e434827fdc453013a40942f55bd574bc6d2b35f38bdcd33fd8602bbec4eaab5c"
+  },
+  {
+    "file": "program/MT5/STAFF_Wire_Schema.mqh",
+    "before_sha256": "de84df347792a453a7c3b3c92052d0448af286dc0162b10a098255fa188d37c8",
+    "after_sha256": "c7cb41224ab4828d6e3de0c1f4fd7acfd4b5689088dc24ac01727961f8d718dc"
+  }
+]
