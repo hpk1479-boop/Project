@@ -1,6 +1,0 @@
-{
-  "scope": "Rename three visible module labels to STAFF, EVENT, OZ",
-  "strategy_judgment_changed": false,
-  "tests": "tests/test_module_status_navigation.py",
-  "note": "Display labels only; internal module keys, health values and logging stay unchanged."
-}

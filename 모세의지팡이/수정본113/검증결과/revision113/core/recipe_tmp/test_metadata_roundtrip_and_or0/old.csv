@@ -1,2 +1,0 @@
-run_id,time_ms,strategy,profile,grade,symbol,tf,direction,trigger,message,recipient,signal_id,b0_price,b0_time
-old,1,,,,,,,,prior alert,,old,,

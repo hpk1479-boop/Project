@@ -1,5 +1,0 @@
-{
-  "scope": "Header and window title per mode: 라이브 전략 설정 / 백테스트 전략 설정",
-  "tests": "tests/test_strategy_settings_ui31.py, tests/test_module_status_navigation.py",
-  "limitations": "UI text only"
-}

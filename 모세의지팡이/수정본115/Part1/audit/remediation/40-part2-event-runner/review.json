@@ -1,6 +1,0 @@
-{
-  "stage": "PART2_CONNECT",
-  "scope": "tester-only BAR/TIMER recording, lossless MSP3 container reader, bounded streaming resolution selector",
-  "preserved": "LIVE EA block, Wire/schema, strategy formulas and decisions, user config, Part3",
-  "tests": "tests/test_part2_event_runner.py; related E1 tests; actual BAR/TIMER and offline PipeReceiver parity"
-}

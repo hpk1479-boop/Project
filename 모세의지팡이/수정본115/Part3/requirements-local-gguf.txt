@@ -1,3 +1,0 @@
-# No PyTorch/Transformers/PEFT or Ollama is needed by local_gguf.
-# llama-server and its libraries are configured as project-relative files.
-jsonschema>=4.23,<5

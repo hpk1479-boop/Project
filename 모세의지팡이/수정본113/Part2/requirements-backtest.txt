@@ -1,5 +1,0 @@
-# Target runtime from the supplied PIT requirements; installed in a clean venv.
-numpy==2.3.5
-pandas==3.0.1
-pyzmq==27.1.0
-duckdb>=1.4,<2

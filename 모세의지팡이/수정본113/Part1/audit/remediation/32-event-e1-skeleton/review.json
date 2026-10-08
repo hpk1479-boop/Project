@@ -1,7 +1,0 @@
-{
-  "stage": "E1",
-  "authorization": "User: opt-in event skeleton only, unchanged polling, no E2",
-  "no_production_strategy_migration": true,
-  "no_Part2_Part3_dependency": true,
-  "tests_network_blocked": true
-}

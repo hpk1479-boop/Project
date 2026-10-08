@@ -1,2 +1,0 @@
-run_id,time_ms,strategy,profile,grade,symbol,tf,direction,trigger,message,recipient,signal_id,b0_price,b0_time,signal_source,signal_tf,signal_price,oz_validity,neckline_price,neckline_time_ms
-new,120123,SPECIAL1,,,XAUUSD+,1m,LONG,,unchanged text,offline,one,99.0,0,OZ,,101.25,"{""tf"":""1m"",""bar_time_ms"":120000,""remaining_bars"":2}",104.0,60000

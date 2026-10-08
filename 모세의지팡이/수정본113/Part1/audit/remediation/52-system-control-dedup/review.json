@@ -1,6 +1,0 @@
-{
-  "scope": "Remove the duplicate Event Engine process row and its obsolete refresh control from System Control",
-  "strategy_judgment_changed": false,
-  "tests": "tests/test_module_status_navigation.py; tests/test_ui_slots.py",
-  "note": "Start and stop retain their process lifecycle; the module status panel refreshes once per second."
-}

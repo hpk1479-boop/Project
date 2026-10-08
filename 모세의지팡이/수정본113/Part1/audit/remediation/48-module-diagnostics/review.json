@@ -1,5 +1,0 @@
-{
-  "scope": "A module memory traces and warning files; module isolation and viewer",
-  "tests": "log_restore evidence",
-  "strategy_judgment_changed": false
-}

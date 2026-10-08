@@ -1,3 +1,0 @@
-# Read-only MT5 acquisition stays in its own process and environment.
-numpy==2.3.5
-MetaTrader5==5.0.6180; sys_platform == "win32"

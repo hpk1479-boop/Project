@@ -1,6 +1,0 @@
-{
-  "stage": "S3",
-  "authorization": "User requested S3 Snapshot API and client library",
-  "before_manifest_sha256": "698c61dcb9bd3ea13676b4af85214260f0bc78dd0da2ca22fa8da21f156128e4",
-  "golden_expected_modified": false
-}

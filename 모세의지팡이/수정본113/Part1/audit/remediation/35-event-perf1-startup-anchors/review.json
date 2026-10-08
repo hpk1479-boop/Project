@@ -1,4 +1,0 @@
-{
-  "stage": "PERF1",
-  "authorization": "User: retain logically necessary historical bars, including stored startup B0; only same-symbol canonical checkpoint files are read from memory; no file/network access."
-}

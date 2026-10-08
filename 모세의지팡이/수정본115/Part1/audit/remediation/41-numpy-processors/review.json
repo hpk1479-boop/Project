@@ -1,6 +1,0 @@
-{
-  "scope": "Resident NumPy SWEEP/FVG/INDICATOR/WATCH; identical predicates and schemas",
-  "calculations": "Full history reference diagnostics; shared general ATR EWM backend; FVG Wilder seed remains private",
-  "protected": "COMPOSER/SPECIAL/config/EA/STAFF/Wire unchanged",
-  "tests": "Condition boundaries, no DataFrame/deepcopy market path, checkpoint/legacy restore, LIVE=replay"
-}

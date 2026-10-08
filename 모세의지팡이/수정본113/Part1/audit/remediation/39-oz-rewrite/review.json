@@ -1,7 +1,0 @@
-{
-  "stage": "OZ rewrite",
-  "scope": "persistent OZ state and full NumPy Board views; same decision flow and output contract",
-  "removed": "OZ-only preparation cache, history anchors and implicit-indicator BoardFrames branch",
-  "protected": "other strategy/consumer decisions, Part2 native extraction, Part3, MT5 and config",
-  "auto_review": "Initial broad shared-code rewrite rejected. Reference audit confirmed explicit indicator requests in remaining consumers; retained SelectionPort interface and non-OZ frame logic, removed only OZ-specific branch. Related tests pass."
-}

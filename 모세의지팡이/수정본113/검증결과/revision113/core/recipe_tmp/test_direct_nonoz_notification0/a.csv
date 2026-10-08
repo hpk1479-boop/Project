@@ -1,2 +1,0 @@
-run_id,time_ms,strategy,profile,grade,symbol,tf,direction,trigger,message,recipient,signal_id,b0_price,b0_time,signal_source,signal_tf,signal_price,oz_validity,neckline_price,neckline_time_ms
-r,120123,SPECIAL1,,,XAUUSD+,1h,SHORT,,unchanged text,offline,ae71331b6e644af43a0ba3f26686fb8ce5ad5342f52d03569f5315b6965968ec,,,SIGNAL,,106.0,,,

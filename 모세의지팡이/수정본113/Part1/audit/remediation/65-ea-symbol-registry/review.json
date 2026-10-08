@@ -1,5 +1,0 @@
-{
-  "scope": "LIVE input no longer limited by config symbol lists: pipe accepts well-formed EA symbols, registry from validated cache keys, engine subscription wildcard, host symbols = config hint + EA symbols; config.txt comment only",
-  "tests": "tests/test_symbol_registry.py, tests/test_event_e3.py, synthetic240 LIVE(no lists) = replay",
-  "limitations": "MT5 EA broker mapping and Part2 tester symbol are later stages; composer command symbols unchanged (config+SPECIAL+manual)"
-}

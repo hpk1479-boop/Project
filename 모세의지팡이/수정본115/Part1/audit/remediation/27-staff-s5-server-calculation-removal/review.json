@@ -1,7 +1,0 @@
-{
-  "stage": "S5",
-  "authorization": "User requested S5 server calculation removal",
-  "golden_expected_modified": false,
-  "special_1_7_modified": false,
-  "source_manifest_sha256": "ec4116e1cfa93f1e979a38f69667e68444061812ab2764a8d0dc9dc9e8ab7c4c"
-}
