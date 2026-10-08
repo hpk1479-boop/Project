@@ -1,0 +1,90 @@
+{
+  "target_mode": "SPECIAL",
+  "specials": {
+    "SPECIAL1": {
+      "enabled": false,
+      "trigger": null,
+      "time_filters": null
+    },
+    "SPECIAL2": {
+      "enabled": true,
+      "trigger": "무지성 브레이커 올존",
+      "time_filters": null
+    },
+    "SPECIAL3": {
+      "enabled": false,
+      "trigger": null,
+      "time_filters": null
+    },
+    "SPECIAL4": {
+      "enabled": false,
+      "trigger": null,
+      "time_filters": null
+    },
+    "SPECIAL5": {
+      "enabled": false,
+      "trigger": null,
+      "time_filters": null
+    },
+    "SPECIAL6": {
+      "enabled": false,
+      "trigger": null,
+      "time_filters": null
+    },
+    "SPECIAL7": {
+      "enabled": false,
+      "trigger": null,
+      "time_filters": null
+    }
+  },
+  "watch": {
+    "text": "",
+    "chat_id": "BACKTEST"
+  },
+  "spread_points": {
+    "XAUUSD+": 0.0
+  },
+  "result_mode": "ALERT_ONLY",
+  "virtual_entry": {
+    "schema": 2,
+    "mode": "CONFIRM",
+    "tf": "SIGNAL",
+    "conditions": [
+      {
+        "kind": "CANDLE_CLOSE",
+        "recipe_index": 0
+      },
+      {
+        "kind": "MA_POSITION",
+        "family": "HMA",
+        "period": 6,
+        "tf": "SIGNAL",
+        "recipe_index": 1
+      }
+    ],
+    "atr": {
+      "tf": "SIGNAL",
+      "period": 14
+    },
+    "filters": [
+      {
+        "kind": "ENVIRONMENT",
+        "condition": "MA_STATE",
+        "tf": "SIGNAL",
+        "bar_state": "CLOSED",
+        "family": "HMA",
+        "fast": 6,
+        "slow": 17,
+        "recipe_index": 0
+      }
+    ],
+    "stop": {
+      "kind": "OZ_B0",
+      "tf": "SIGNAL",
+      "bars": 5,
+      "period": 14,
+      "multiplier": 1.0
+    }
+  },
+  "virtual_entry_target": "SPECIAL2"
+}

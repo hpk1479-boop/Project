@@ -1,0 +1,5 @@
+{
+  "purpose": "Register only the already frozen S3 bytes needed as S4 predecessors",
+  "baseline_defects_resolved": false,
+  "source_manifest_sha256": "3b77d22144e9545d082e9dff83b9b5b09f2f4d07d3b1d35c0ed29d847d5181e2"
+}

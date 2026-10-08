@@ -1,0 +1,75 @@
+{
+  "original_ea_build_hash": "76440d6e9cc3753fbab3ce76d44d8076df9b96e9052de89a91ea564296542377",
+  "licensed_test_ea_build_hash": "fca68ace0e20c1594392f8590dffdd66ff08e7bbcdf2f87f69ee23221c729366",
+  "mql_source_fingerprint": "8dfd82e257c01e70ffcde77ca4e0fcae88f8a80190734a504c1e7c7bccc18f68",
+  "reviewed_source_edition": "수정본158 (EA 소스는 152 이후 변경 없음)",
+  "sources": {
+    "Part1/program/MT5/DI_of_Moses.mq5": "9501386b1f2439595edfda3df62296b881033bc0f69eb2fe52f22aaf469b0927",
+    "Part1/program/MT5/PRICE_of_Moses.mq5": "471f4ad8f32d4b106d2f36f67ac7180e83578eeaae73ccfcfa919495e259448a",
+    "Part1/program/MT5/RSI_of_Moses.mq5": "73efb10943974665ebe2fc3e8d176bb3334a8d3ab88a8f82bcc0a0b896d808f3",
+    "Part1/program/MT5/STAFF_Identity_Status.mqh": "16f8e719756e873f78ab75a9357863b5f6119951a506001d876258d2f366593e",
+    "Part1/program/MT5/STAFF_Symbol_Map.mqh": "043f7c75e43d8d14b78ed63aa5f6279333e4823288b23067443a4a83aa609746",
+    "Part1/program/MT5/STAFF_Wire_Schema.mqh": "9ffa11261c9002c9eb857d5ab20291623d4348d187adfb1ccec3a385b55b5a30",
+    "Part1/program/MT5/STAFF_Wire_V2.mqh": "612f3e32175f1a9b4ae53d375c03bf6ac79b0ad307dddcf19fd83ada11950b87",
+    "Part1/program/MT5/STO_of_Moses.mq5": "7c2f860a96fbac7e03ed62acf0a03b3e7387b26efc3f367b53ab4f76ebc34d26",
+    "Part1/program/MT5/THE_STAFF_OF_MOSES.mq5": "3a209c0ea9d3271c1501e8a832ad85b90e9b9976dd66b434ee3203ab9c950774"
+  },
+  "licensed_test_build": {
+    "method": "통합설치/releasekit/mt5.py build_mt5 (배포 빌더와 같은 만료 검사 삽입·MetaEditor 컴파일)",
+    "expiry_local": "2026-10-10 00:00 (시험용, 실제 배포와 해시가 겹치지 않음)",
+    "outputs": {
+      "THE_STAFF_OF_MOSES.ex5": "fca68ace0e20c1594392f8590dffdd66ff08e7bbcdf2f87f69ee23221c729366",
+      "PRICE_of_Moses.ex5": "e64bbcb3fb60dcda354402fde9afc4bfb5cc97a262f6f363de7232554989e7bf",
+      "RSI_of_Moses.ex5": "afd40d13cef4d915778ad3e6bba4cc29d95f14f73065db7a38d2b7e92b60486d",
+      "STO_of_Moses.ex5": "519b1e3fb06b06e792ebd6275ad1d13546eda15b63a97707110b81561b16dfb7",
+      "DI_of_Moses.ex5": "93375c37c3845a28e445058969136efae20e6f74278c9631d944a7d9f196d065"
+    },
+    "generated_sources": {
+      "DI_of_Moses.mq5": "0380bbc566b99e0a14d749879c9859a8617cc33d3154026091c3f4958f7a58e2",
+      "PRICE_of_Moses.mq5": "25f5b2a0ab5a2d30d766b39965810367757f02152186c8330b7fb969d27f684b",
+      "RSI_of_Moses.mq5": "dda63da0c9be9240c1c60487504baa2707b273c27fbc4bc40a6b2f929dd0894a",
+      "STO_of_Moses.mq5": "692a4d4f15a70f31ce64f0b48b21fbd01217782e1e3cf579229bf7b4395542c0",
+      "THE_STAFF_OF_MOSES.mq5": "aaa438b8c699800c72dee353ac3014e595b9ff29679ccda931de17f6beb9e4ea"
+    }
+  },
+  "comparison": {
+    "symbol": "XAUUSD+",
+    "mode": "BAR",
+    "start": "2026-09-01T09:00:00+09:00",
+    "end": "2026-10-01T09:00:00+09:00",
+    "total": {
+      "developer": {
+        "bundles": 30164,
+        "bundle_sha256": "c70ff1ff428df6d0376cb47bd5440f8b85b692b20fcb7bf98ff088a575e521ab"
+      },
+      "licensed": {
+        "bundles": 30164,
+        "bundle_sha256": "c70ff1ff428df6d0376cb47bd5440f8b85b692b20fcb7bf98ff088a575e521ab"
+      }
+    },
+    "day_count": {
+      "developer": 22,
+      "licensed": 22
+    },
+    "same_identity_fields": {
+      "schema_id": true,
+      "timer_ms": true,
+      "tester_model": true,
+      "tester_symbol": true
+    }
+  },
+  "compared_days": 22,
+  "developer_capture": {
+    "ea_build_hash": "76440d6e9cc3753fbab3ce76d44d8076df9b96e9052de89a91ea564296542377",
+    "capture_id": "71094e0b95003629ec386d1a090c46f9ae8c39b3185ee308d519e278a443139b",
+    "path": "captures/XAUUSD+/BAR/2026/09/71094e0b95003629ec386d1a090c46f9ae8c39b3185ee308d519e278a443139b_d8d2bced9a804e84b84e249248ee89d4",
+    "tick_evidence": "REAL_TICKS"
+  },
+  "licensed_capture": {
+    "ea_build_hash": "fca68ace0e20c1594392f8590dffdd66ff08e7bbcdf2f87f69ee23221c729366",
+    "capture_id": "f0b0dab172aedba7d6fe6c80321238381d32a1aabbf2b467fc971567c6eb73f1",
+    "tick_evidence": "REAL_TICKS",
+    "reconstruction_verified": true
+  },
+  "assessment": "Licensed copy adds only the OnInit expiry gate; the same month recorded with it is identical to the developer EA capture (every day bundle count and bundle_sha256). Source anchor is explicit and invalidated by any later source or developer EX5 change."
+}

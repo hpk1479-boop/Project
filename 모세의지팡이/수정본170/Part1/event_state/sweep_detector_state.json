@@ -1,0 +1,3749 @@
+{
+  "version": 1,
+  "detectors": {
+    "SPECIAL2:SWEEP:XAUUSD+:10m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "10m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490200.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 4110.9,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 4105.38,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 4109.95,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:12m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "12m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791489600.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 4110.9,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 4105.38,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 4109.95,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:15m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "15m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791489600.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 4110.9,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 4105.38,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 4109.95,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:1h:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "1h",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791486000.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 4110.9,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791486000.0,
+          "touch_high": 4132.75,
+          "touch_low": 4105.38,
+          "touch_close": 4123.92
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 4105.38,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791486000.0,
+          "touch_high": 4132.75,
+          "touch_low": 4105.38,
+          "touch_close": 4123.92
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 4109.95,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791486000.0,
+          "touch_high": 4132.75,
+          "touch_low": 4105.38,
+          "touch_close": 4123.92
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:1m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "1m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490800.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 4110.9,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 4105.38,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 4109.95,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:20m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "20m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791489600.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 4110.9,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 4105.38,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 4109.95,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:2m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "2m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490680.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 4110.9,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 4105.38,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 4109.95,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:30m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "30m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791487800.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 4110.9,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 4105.38,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 4109.95,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:3m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "3m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490680.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 4110.9,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 4105.38,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 4109.95,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:4m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "4m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490560.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 4110.9,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 4105.38,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 4109.95,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:5m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "5m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490500.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 4110.9,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 4105.38,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 4109.95,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:6m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "6m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490320.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 4110.9,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 4105.38,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 4109.95,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 4066.5,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:10m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "10m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490200.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 4169.98,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 4280.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 4140.34,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490200.0,
+          "touch_high": 4146.02,
+          "touch_low": 4130.58,
+          "touch_close": 4143.2
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 4135.73,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490200.0,
+          "touch_high": 4146.02,
+          "touch_low": 4130.58,
+          "touch_close": 4143.2
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 4143.32,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490200.0,
+          "touch_high": 4146.02,
+          "touch_low": 4130.58,
+          "touch_close": 4143.2
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:12m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "12m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791489600.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 4169.98,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 4280.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 4140.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 4135.73,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 4143.32,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:15m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "15m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791489600.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 4169.98,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 4280.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 4140.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 4135.73,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791489600.0,
+          "touch_high": 4135.84,
+          "touch_low": 4123.06,
+          "touch_close": 4131.83
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 4143.32,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:1h:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "1h",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791486000.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 4169.98,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 4280.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 4140.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 4135.73,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 4143.32,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:1m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "1m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490800.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 4169.98,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 4280.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 4140.34,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490800.0,
+          "touch_high": 4143.48,
+          "touch_low": 4139.52,
+          "touch_close": 4139.69
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 4135.73,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490800.0,
+          "touch_high": 4143.48,
+          "touch_low": 4139.52,
+          "touch_close": 4139.69
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 4143.32,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490800.0,
+          "touch_high": 4143.48,
+          "touch_low": 4139.52,
+          "touch_close": 4139.69
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:20m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "20m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791489600.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 4169.98,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 4280.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 4140.34,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791489600.0,
+          "touch_high": 4146.02,
+          "touch_low": 4123.06,
+          "touch_close": 4143.2
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 4135.73,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791489600.0,
+          "touch_high": 4146.02,
+          "touch_low": 4123.06,
+          "touch_close": 4143.2
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 4143.32,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791489600.0,
+          "touch_high": 4146.02,
+          "touch_low": 4123.06,
+          "touch_close": 4143.2
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:2m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "2m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490680.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 4169.98,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 4280.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 4140.34,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490680.0,
+          "touch_high": 4146.02,
+          "touch_low": 4142.72,
+          "touch_close": 4143.2
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 4135.73,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490680.0,
+          "touch_high": 4146.02,
+          "touch_low": 4142.72,
+          "touch_close": 4143.2
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 4143.32,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490680.0,
+          "touch_high": 4146.02,
+          "touch_low": 4142.72,
+          "touch_close": 4143.2
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:30m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "30m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791487800.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 4169.98,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 4280.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 4140.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 4135.73,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 4143.32,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:3m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "3m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490680.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 4169.98,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 4280.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 4140.34,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490680.0,
+          "touch_high": 4146.02,
+          "touch_low": 4139.52,
+          "touch_close": 4139.69
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 4135.73,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490680.0,
+          "touch_high": 4146.02,
+          "touch_low": 4139.52,
+          "touch_close": 4139.69
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 4143.32,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490680.0,
+          "touch_high": 4146.02,
+          "touch_low": 4139.52,
+          "touch_close": 4139.69
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:4m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "4m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490560.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 4169.98,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 4280.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 4140.34,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490560.0,
+          "touch_high": 4146.02,
+          "touch_low": 4134.0,
+          "touch_close": 4143.2
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 4135.73,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490560.0,
+          "touch_high": 4146.02,
+          "touch_low": 4134.0,
+          "touch_close": 4143.2
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 4143.32,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490560.0,
+          "touch_high": 4146.02,
+          "touch_low": 4134.0,
+          "touch_close": 4143.2
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:5m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "5m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490500.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 4169.98,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 4280.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 4140.34,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490500.0,
+          "touch_high": 4146.02,
+          "touch_low": 4131.56,
+          "touch_close": 4143.2
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 4135.73,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490500.0,
+          "touch_high": 4146.02,
+          "touch_low": 4131.56,
+          "touch_close": 4143.2
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 4143.32,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490500.0,
+          "touch_high": 4146.02,
+          "touch_low": 4131.56,
+          "touch_close": 4143.2
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:XAUUSD+:6m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "XAUUSD+",
+        "source_tf": "6m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490320.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 4169.98,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 4280.34,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 4140.34,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490320.0,
+          "touch_high": 4144.03,
+          "touch_low": 4131.39,
+          "touch_close": 4143.6
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 4135.73,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490320.0,
+          "touch_high": 4144.03,
+          "touch_low": 4131.39,
+          "touch_close": 4143.6
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 4143.32,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490320.0,
+          "touch_high": 4144.03,
+          "touch_low": 4131.39,
+          "touch_close": 4143.6
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:10m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "10m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490200.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490200.0,
+          "touch_high": 30805.05,
+          "touch_low": 30703.55,
+          "touch_close": 30724.55
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 30123.85,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 30758.3,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490200.0,
+          "touch_high": 30805.05,
+          "touch_low": 30703.55,
+          "touch_close": 30724.55
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 30913.8,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490200.0,
+          "touch_high": 30805.05,
+          "touch_low": 30703.55,
+          "touch_close": 30724.55
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490200.0,
+          "touch_high": 30805.05,
+          "touch_low": 30703.55,
+          "touch_close": 30724.55
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:12m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "12m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791489600.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791489600.0,
+          "touch_high": 30793.1,
+          "touch_low": 30699.5,
+          "touch_close": 30727.3
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 30123.85,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 30758.3,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791489600.0,
+          "touch_high": 30793.1,
+          "touch_low": 30699.5,
+          "touch_close": 30727.3
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 30913.8,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791489600.0,
+          "touch_high": 30793.1,
+          "touch_low": 30699.5,
+          "touch_close": 30727.3
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791489600.0,
+          "touch_high": 30793.1,
+          "touch_low": 30699.5,
+          "touch_close": 30727.3
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:15m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "15m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791489600.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791489600.0,
+          "touch_high": 30805.05,
+          "touch_low": 30699.5,
+          "touch_close": 30795.55
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 30123.85,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 30758.3,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791489600.0,
+          "touch_high": 30805.05,
+          "touch_low": 30699.5,
+          "touch_close": 30795.55
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 30913.8,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791489600.0,
+          "touch_high": 30805.05,
+          "touch_low": 30699.5,
+          "touch_close": 30795.55
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791489600.0,
+          "touch_high": 30805.05,
+          "touch_low": 30699.5,
+          "touch_close": 30795.55
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:1h:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "1h",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791486000.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791486000.0,
+          "touch_high": 31092.55,
+          "touch_low": 30758.3,
+          "touch_close": 30793.35
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 30123.85,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 30758.3,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791486000.0,
+          "touch_high": 31092.55,
+          "touch_low": 30758.3,
+          "touch_close": 30793.35
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 30913.8,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791486000.0,
+          "touch_high": 31092.55,
+          "touch_low": 30758.3,
+          "touch_close": 30793.35
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791486000.0,
+          "touch_high": 31092.55,
+          "touch_low": 30758.3,
+          "touch_close": 30793.35
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:1m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "1m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490800.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490800.0,
+          "touch_high": 30727.55,
+          "touch_low": 30688.85,
+          "touch_close": 30717.8
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 30123.85,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 30758.3,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490800.0,
+          "touch_high": 30727.55,
+          "touch_low": 30688.85,
+          "touch_close": 30717.8
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 30913.8,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490800.0,
+          "touch_high": 30727.55,
+          "touch_low": 30688.85,
+          "touch_close": 30717.8
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490800.0,
+          "touch_high": 30727.55,
+          "touch_low": 30688.85,
+          "touch_close": 30717.8
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:20m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "20m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791489600.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791489600.0,
+          "touch_high": 30805.05,
+          "touch_low": 30699.5,
+          "touch_close": 30724.55
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 30123.85,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 30758.3,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791489600.0,
+          "touch_high": 30805.05,
+          "touch_low": 30699.5,
+          "touch_close": 30724.55
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 30913.8,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791489600.0,
+          "touch_high": 30805.05,
+          "touch_low": 30699.5,
+          "touch_close": 30724.55
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791489600.0,
+          "touch_high": 30805.05,
+          "touch_low": 30699.5,
+          "touch_close": 30724.55
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:2m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "2m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490680.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490680.0,
+          "touch_high": 30746.3,
+          "touch_low": 30722.55,
+          "touch_close": 30724.55
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 30123.85,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 30758.3,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490680.0,
+          "touch_high": 30746.3,
+          "touch_low": 30722.55,
+          "touch_close": 30724.55
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 30913.8,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490680.0,
+          "touch_high": 30746.3,
+          "touch_low": 30722.55,
+          "touch_close": 30724.55
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490680.0,
+          "touch_high": 30746.3,
+          "touch_low": 30722.55,
+          "touch_close": 30724.55
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:30m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "30m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791487800.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791487800.0,
+          "touch_high": 31047.05,
+          "touch_low": 30758.3,
+          "touch_close": 30793.35
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 30123.85,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 30758.3,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791487800.0,
+          "touch_high": 31047.05,
+          "touch_low": 30758.3,
+          "touch_close": 30793.35
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 30913.8,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791487800.0,
+          "touch_high": 31047.05,
+          "touch_low": 30758.3,
+          "touch_close": 30793.35
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791487800.0,
+          "touch_high": 31047.05,
+          "touch_low": 30758.3,
+          "touch_close": 30793.35
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:3m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "3m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490680.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490680.0,
+          "touch_high": 30746.3,
+          "touch_low": 30688.85,
+          "touch_close": 30717.8
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 30123.85,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 30758.3,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490680.0,
+          "touch_high": 30746.3,
+          "touch_low": 30688.85,
+          "touch_close": 30717.8
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 30913.8,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490680.0,
+          "touch_high": 30746.3,
+          "touch_low": 30688.85,
+          "touch_close": 30717.8
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490680.0,
+          "touch_high": 30746.3,
+          "touch_low": 30688.85,
+          "touch_close": 30717.8
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:4m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "4m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490560.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490560.0,
+          "touch_high": 30792.3,
+          "touch_low": 30717.35,
+          "touch_close": 30724.55
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 30123.85,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 30758.3,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490560.0,
+          "touch_high": 30792.3,
+          "touch_low": 30717.35,
+          "touch_close": 30724.55
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 30913.8,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490560.0,
+          "touch_high": 30792.3,
+          "touch_low": 30717.35,
+          "touch_close": 30724.55
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490560.0,
+          "touch_high": 30792.3,
+          "touch_low": 30717.35,
+          "touch_close": 30724.55
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:5m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "5m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490500.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490500.0,
+          "touch_high": 30801.05,
+          "touch_low": 30717.35,
+          "touch_close": 30724.55
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 30123.85,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 30758.3,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490500.0,
+          "touch_high": 30801.05,
+          "touch_low": 30717.35,
+          "touch_close": 30724.55
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 30913.8,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490500.0,
+          "touch_high": 30801.05,
+          "touch_low": 30717.35,
+          "touch_close": 30724.55
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490500.0,
+          "touch_high": 30801.05,
+          "touch_low": 30717.35,
+          "touch_close": 30724.55
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:6m:fe95f3860f40de80cd65e785": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "6m",
+        "levels": [
+          "PDL",
+          "PREV_4H_LOW",
+          "PREV_8H_LOW",
+          "PREV_SESSION_LOW",
+          "PWL"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490320.0,
+      "states": {
+        "PDL:2026-10-07 00:00:00": {
+          "direction": "LONG",
+          "level_code": "PDL",
+          "level_name": "전일저가(PDL)",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490320.0,
+          "touch_high": 30805.05,
+          "touch_low": 30717.35,
+          "touch_close": 30726.3
+        },
+        "PWL:2026-09-28T00:00:00+00:00": {
+          "direction": "LONG",
+          "level_code": "PWL",
+          "level_name": "주봉저가",
+          "level_price": 30123.85,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_4H_LOW:2026-10-08 16:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_4H_LOW",
+          "level_name": "4시간봉 이전봉 저가",
+          "level_price": 30758.3,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791490320.0,
+          "touch_high": 30805.05,
+          "touch_low": 30717.35,
+          "touch_close": 30726.3
+        },
+        "PREV_8H_LOW:2026-10-08 08:00:00": {
+          "direction": "LONG",
+          "level_code": "PREV_8H_LOW",
+          "level_name": "8시간봉 이전봉 저가",
+          "level_price": 30913.8,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490320.0,
+          "touch_high": 30805.05,
+          "touch_low": 30717.35,
+          "touch_close": 30726.3
+        },
+        "PREV_SESSION_LOW:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "LONG",
+          "level_code": "PREV_SESSION_LOW",
+          "level_name": "이전 세션 저가",
+          "level_price": 30935.05,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791490320.0,
+          "touch_high": 30805.05,
+          "touch_low": 30717.35,
+          "touch_close": 30726.3
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:10m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "10m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490200.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 31311.6,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 31055.75,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791440400.0,
+          "touch_high": 31211.8,
+          "touch_low": 31185.05,
+          "touch_close": 31204.8
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 31163.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 31204.8,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 31259.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:12m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "12m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791489600.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 31311.6,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 31055.75,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791440640.0,
+          "touch_high": 31211.8,
+          "touch_low": 31184.8,
+          "touch_close": 31186.8
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 31163.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 31204.8,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 31259.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:15m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "15m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791489600.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 31311.6,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 31055.75,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791440100.0,
+          "touch_high": 31211.8,
+          "touch_low": 31170.8,
+          "touch_close": 31204.8
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 31163.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 31204.8,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 31259.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:1h:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "1h",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791486000.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 31311.6,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 31055.75,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791435600.0,
+          "touch_high": 31259.3,
+          "touch_low": 31200.3,
+          "touch_close": 31212.05
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 31163.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 31204.8,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 31259.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:1m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "1m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490800.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 31311.6,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 31055.75,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791441300.0,
+          "touch_high": 31191.8,
+          "touch_low": 31185.55,
+          "touch_close": 31186.8
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 31163.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 31204.8,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 31259.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:20m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "20m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791489600.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 31311.6,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 31055.75,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791439200.0,
+          "touch_high": 31214.8,
+          "touch_low": 31170.8,
+          "touch_close": 31187.05
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 31163.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 31204.8,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 31259.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:2m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "2m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490680.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 31311.6,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 31055.75,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791441240.0,
+          "touch_high": 31195.8,
+          "touch_low": 31184.8,
+          "touch_close": 31186.8
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 31163.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 31204.8,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 31259.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:30m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "30m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791487800.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 31311.6,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 31055.75,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791439200.0,
+          "touch_high": 31214.8,
+          "touch_low": 31170.8,
+          "touch_close": 31204.8
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 31163.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 31204.8,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 31259.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:3m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "3m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490680.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 31311.6,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 31055.75,
+          "touched": true,
+          "consumed": false,
+          "touch_time": 1791441180.0,
+          "touch_high": 31203.55,
+          "touch_low": 31184.8,
+          "touch_close": 31186.8
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 31163.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 31204.8,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 31259.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:4m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "4m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490560.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 31311.6,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 31055.75,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791441120.0,
+          "touch_high": 31206.55,
+          "touch_low": 31184.8,
+          "touch_close": 31186.8
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 31163.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 31204.8,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 31259.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:5m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "5m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490500.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 31311.6,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 31055.75,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791441000.0,
+          "touch_high": 31209.55,
+          "touch_low": 31184.8,
+          "touch_close": 31189.3
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 31163.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 31204.8,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 31259.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    },
+    "SPECIAL2:SWEEP:NAS100:6m:e270a135880c668708eac18d": {
+      "spec": {
+        "symbol": "NAS100",
+        "source_tf": "6m",
+        "levels": [
+          "PDH",
+          "PREV_4H_HIGH",
+          "PREV_8H_HIGH",
+          "PREV_SESSION_HIGH",
+          "PWH"
+        ],
+        "session_london": "1600-0100",
+        "session_newyork": "2100-0600"
+      },
+      "last_closed_time": 1791490320.0,
+      "states": {
+        "PDH:2026-10-07 00:00:00": {
+          "direction": "SHORT",
+          "level_code": "PDH",
+          "level_name": "전일고가(PDH)",
+          "level_price": 31311.6,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PWH:2026-09-28T00:00:00+00:00": {
+          "direction": "SHORT",
+          "level_code": "PWH",
+          "level_name": "주봉고가",
+          "level_price": 31055.75,
+          "touched": true,
+          "consumed": true,
+          "touch_time": 1791441000.0,
+          "touch_high": 31209.55,
+          "touch_low": 31184.8,
+          "touch_close": 31186.8
+        },
+        "PREV_4H_HIGH:2026-10-08 16:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_4H_HIGH",
+          "level_name": "4시간봉 이전봉 고가",
+          "level_price": 31163.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_8H_HIGH:2026-10-08 08:00:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_8H_HIGH",
+          "level_name": "8시간봉 이전봉 고가",
+          "level_price": 31204.8,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        },
+        "PREV_SESSION_HIGH:NY:2026-10-08T21:00:00+09:00": {
+          "direction": "SHORT",
+          "level_code": "PREV_SESSION_HIGH",
+          "level_name": "이전 세션 고가",
+          "level_price": 31259.3,
+          "touched": false,
+          "consumed": false,
+          "touch_time": null,
+          "touch_high": null,
+          "touch_low": null,
+          "touch_close": null
+        }
+      }
+    }
+  }
+}

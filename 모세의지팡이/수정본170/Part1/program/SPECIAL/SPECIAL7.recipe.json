@@ -1,0 +1,84 @@
+{
+  "id": "SPECIAL7",
+  "name": "15분 추세 · 1분 브레이커 올존",
+  "symbol_source": "CONFIG",
+  "time_filters": [],
+  "final_time_filters": {
+    "MAIN_ASIA": "0800-1200",
+    "MAIN_LONDON": "1400-1900",
+    "MAIN_NEWYORK": "2100-2400"
+  },
+  "recipe": {
+    "schema_version": 2,
+    "base": "AI",
+    "name": "15분 추세 · 1분 브레이커 올존",
+    "description": "15분 추세와 같은 방향의 1분 브레이커 OZ",
+    "symbols": [],
+    "strategy_intent": {
+      "direction": "BOTH",
+      "symbols": [],
+      "steps": [
+        {
+          "kind": "TREND",
+          "tfs": [
+            "15m"
+          ]
+        }
+      ],
+      "order_mode": "SIMULTANEOUS",
+      "persistent": true,
+      "final": {
+        "kind": "OZ",
+        "tfs": [
+          "1m"
+        ],
+        "validation_mode": "NORMAL",
+        "trigger_mode": "BREAKER"
+      }
+    },
+    "virtual_entry": {
+      "schema": 2,
+      "mode": "CONFIRM",
+      "tf": "SIGNAL",
+      "conditions": [
+        {
+          "kind": "CANDLE_CLOSE"
+        },
+        {
+          "kind": "MA_POSITION",
+          "family": "HMA",
+          "period": 6,
+          "tf": "SIGNAL"
+        }
+      ],
+      "atr": {
+        "tf": "SIGNAL",
+        "period": 14
+      },
+      "filters": [
+        {
+          "kind": "ENVIRONMENT",
+          "condition": "MA_STATE",
+          "tf": "SIGNAL",
+          "bar_state": "CLOSED",
+          "family": "HMA",
+          "fast": 6,
+          "slow": 17
+        },
+        {
+          "kind": "ENVIRONMENT",
+          "condition": "TREND",
+          "tf": "15m",
+          "bar_state": "FORMING"
+        }
+      ],
+      "stop": {
+        "kind": "OZ_B0",
+        "tf": "SIGNAL",
+        "bars": 5,
+        "period": 14,
+        "multiplier": 1.0
+      }
+    }
+  }
+}

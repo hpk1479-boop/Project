@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "watches": [
+    {
+      "watch_id": "CFGCHAINTRG:1c24e0bcd5e12d2168d1",
+      "watch_type": "EMA_CROSS",
+      "timeframes": [
+        "1m"
+      ],
+      "symbol": "XAUUSD+",
+      "direction": null,
+      "level_side": null,
+      "ma_family": "EMA",
+      "fast_period": 50,
+      "slow_period": 200,
+      "persistent": true,
+      "request_chat_id": null,
+      "chain_id": "CFGCHAIN:PIPELINE_3",
+      "chain_stage": 0,
+      "silent": true,
+      "evaluation_mode": "CLOSE",
+      "watch_owner": "KIM"
+    },
+    {
+      "watch_id": "CFGCHAINTRG:49bb7fa59cfeeaec22d6",
+      "watch_type": "EMA_CROSS",
+      "timeframes": [
+        "2m"
+      ],
+      "symbol": "XAUUSD+",
+      "direction": null,
+      "level_side": null,
+      "ma_family": "EMA",
+      "fast_period": 50,
+      "slow_period": 200,
+      "persistent": true,
+      "request_chat_id": null,
+      "chain_id": "CFGCHAIN:PIPELINE_3@2m",
+      "chain_stage": 0,
+      "silent": true,
+      "evaluation_mode": "CLOSE",
+      "watch_owner": "KIM"
+    },
+    {
+      "watch_id": "CFGCHAINTRG:216e629030b491fb5e82",
+      "watch_type": "EMA_CROSS",
+      "timeframes": [
+        "1m"
+      ],
+      "symbol": "NAS100",
+      "direction": null,
+      "level_side": null,
+      "ma_family": "EMA",
+      "fast_period": 50,
+      "slow_period": 200,
+      "persistent": true,
+      "request_chat_id": null,
+      "chain_id": "CFGCHAIN:PIPELINE_3@NAS100",
+      "chain_stage": 0,
+      "silent": true,
+      "evaluation_mode": "CLOSE",
+      "watch_owner": "KIM"
+    },
+    {
+      "watch_id": "CFGCHAINTRG:f8b135aa2c83370bd16a",
+      "watch_type": "EMA_CROSS",
+      "timeframes": [
+        "2m"
+      ],
+      "symbol": "NAS100",
+      "direction": null,
+      "level_side": null,
+      "ma_family": "EMA",
+      "fast_period": 50,
+      "slow_period": 200,
+      "persistent": true,
+      "request_chat_id": null,
+      "chain_id": "CFGCHAIN:PIPELINE_3@NAS100@2m",
+      "chain_stage": 0,
+      "silent": true,
+      "evaluation_mode": "CLOSE",
+      "watch_owner": "KIM"
+    }
+  ]
+}

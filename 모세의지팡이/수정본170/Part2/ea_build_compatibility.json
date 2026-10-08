@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "ea_build_hashes": [
+        "7e721cbff5b08e4bc1a9dbce3385fe6d5b2f8fc1f552567f32e893ee53d0792e",
+        "905946cad255c9d10f2ceedf3568789f6aff8a0493dfa991f9c6fc2a4bedc50f",
+        "af30fe4bf841bcbce9e99b1670d15452dd976fba090c075a66e09d9945c1ff32",
+        "e434827fdc453013a40942f55bd574bc6d2b35f38bdcd33fd8602bbec4eaab5c"
+      ],
+      "evidence": "검증결과/ea_build_compat/day_comparison.json",
+      "scope": "XAUUSD+ 2026-09-01 BAR, Strategy Tester reconnect-free capture",
+      "evidence_symbol_map": "수정본35 검증결과/symbol_registry/day_comparison.json (XAUUSD+ 2026-09-01 BAR, 1378 bundles, same bundle_sha256)",
+      "source_anchor": {
+        "ea_build_hash": "7e721cbff5b08e4bc1a9dbce3385fe6d5b2f8fc1f552567f32e893ee53d0792e",
+        "mql_source_fingerprint": "7b1ed361c1fa01cd4c52e2fb4285305f0c849b108f1ccc32a43b399a26c3341c",
+        "evidence": "검증결과/symbol_default113/verification.json"
+      }
+    },
+    {
+      "ea_build_hashes": [
+        "76440d6e9cc3753fbab3ce76d44d8076df9b96e9052de89a91ea564296542377",
+        "fca68ace0e20c1594392f8590dffdd66ff08e7bbcdf2f87f69ee23221c729366"
+      ],
+      "evidence": "문서/EA_녹화호환_152소스검증.json",
+      "scope": "XAUUSD+ 2026-09-01~2026-10-01 BAR month, developer vs licensed recording",
+      "source_anchor": {
+        "ea_build_hash": "76440d6e9cc3753fbab3ce76d44d8076df9b96e9052de89a91ea564296542377",
+        "mql_source_fingerprint": "8dfd82e257c01e70ffcde77ca4e0fcae88f8a80190734a504c1e7c7bccc18f68",
+        "evidence": "문서/EA_녹화호환_152소스검증.json"
+      }
+    }
+  ]
+}

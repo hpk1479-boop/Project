@@ -1,0 +1,9 @@
+{
+  "passed": 3,
+  "failed": 0,
+  "skipped": [],
+  "failures": [],
+  "deselected": [
+    "verification/test_strategy_metadata69.py::test_strategy_metadata_remains_the_same_after_project_relocation"
+  ]
+}

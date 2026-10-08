@@ -1,0 +1,6 @@
+{
+  "stage": "S7",
+  "authorization": "User: MT5-authoritative Wonbi; no Python Wonbi regression; revised Part2 execution policy",
+  "golden_expected_modified": false,
+  "source_manifest_sha256": "9ca13ba7ccabff521a162e8b643e731c9da0573260d00f8226de7efd4d6208fa"
+}

@@ -1,0 +1,1 @@
+{"schema_version": 2, "presets": [{"id": "ANY_NEW_ID", "name": "공통 전략 ANY_NEW_ID", "final_time_filters": {"MAIN_LONDON": {"enabled": true}}, "recipe": {"schema_version": 2, "base": "AI", "strategy_intent": {"symbols": ["TEST.cash"], "steps": [{"kind": "TREND", "tfs": ["15m"]}], "final": {"kind": "OZ", "tfs": ["1m"], "validation_mode": "NORMAL", "trigger_mode": "OZ"}}}}]}

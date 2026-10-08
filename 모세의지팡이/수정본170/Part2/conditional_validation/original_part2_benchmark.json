@@ -1,0 +1,143 @@
+{
+  "scope": "ORIGINAL_PART2_UNMODIFIED_SHORT_SYNTHETIC_FLAT_NOT_POSITIVE_MARKET_PARITY",
+  "rows": [
+    {
+      "strategy": "BACKTEST_SPECIAL5",
+      "profiled": false,
+      "seconds": 6.297218409999914,
+      "loop_seconds": 5.336845496000024,
+      "bundle_calls": 1440,
+      "family_calls": 5760,
+      "events": [],
+      "event_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "diagnostics": null,
+      "profile": []
+    },
+    {
+      "strategy": "BACKTEST_SPECIAL5",
+      "profiled": false,
+      "seconds": 6.292009467999378,
+      "loop_seconds": 5.487602465000236,
+      "bundle_calls": 1440,
+      "family_calls": 5760,
+      "events": [],
+      "event_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "diagnostics": null,
+      "profile": []
+    },
+    {
+      "strategy": "BACKTEST_SPECIAL5",
+      "profiled": true,
+      "seconds": 6.782056685000498,
+      "loop_seconds": 6.073377714000344,
+      "bundle_calls": 1440,
+      "family_calls": 5760,
+      "events": [],
+      "event_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "diagnostics": null,
+      "profile": [
+        {
+          "calls": 96,
+          "cumulative_seconds": 4.8906e-05,
+          "file": "BACKTEST_SPECIAL5.py",
+          "function": "on_observation",
+          "line": 760,
+          "recursive_calls": 0,
+          "self_seconds": 4.8906e-05
+        }
+      ]
+    },
+    {
+      "strategy": "BACKTEST_SPECIAL6",
+      "profiled": false,
+      "seconds": 4.5961272510003255,
+      "loop_seconds": 3.834602255000391,
+      "bundle_calls": 1056,
+      "family_calls": 4224,
+      "events": [],
+      "event_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "diagnostics": null,
+      "profile": []
+    },
+    {
+      "strategy": "BACKTEST_SPECIAL6",
+      "profiled": false,
+      "seconds": 4.724158804000581,
+      "loop_seconds": 3.980832549999832,
+      "bundle_calls": 1056,
+      "family_calls": 4224,
+      "events": [],
+      "event_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "diagnostics": null,
+      "profile": []
+    },
+    {
+      "strategy": "BACKTEST_SPECIAL6",
+      "profiled": true,
+      "seconds": 5.500230601999647,
+      "loop_seconds": 4.705090835000192,
+      "bundle_calls": 1056,
+      "family_calls": 4224,
+      "events": [],
+      "event_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "diagnostics": null,
+      "profile": [
+        {
+          "calls": 96,
+          "cumulative_seconds": 4.2174e-05,
+          "file": "BACKTEST_SPECIAL6.py",
+          "function": "on_observation",
+          "line": 831,
+          "recursive_calls": 0,
+          "self_seconds": 4.2174e-05
+        }
+      ]
+    },
+    {
+      "strategy": "BACKTEST_SPECIAL7",
+      "profiled": false,
+      "seconds": 2.1403452599997763,
+      "loop_seconds": 1.3959168419996786,
+      "bundle_calls": 288,
+      "family_calls": 1152,
+      "events": [],
+      "event_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "diagnostics": null,
+      "profile": []
+    },
+    {
+      "strategy": "BACKTEST_SPECIAL7",
+      "profiled": false,
+      "seconds": 2.2662383099996077,
+      "loop_seconds": 1.4642477540000982,
+      "bundle_calls": 288,
+      "family_calls": 1152,
+      "events": [],
+      "event_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "diagnostics": null,
+      "profile": []
+    },
+    {
+      "strategy": "BACKTEST_SPECIAL7",
+      "profiled": true,
+      "seconds": 2.382594214999699,
+      "loop_seconds": 1.5542660250002882,
+      "bundle_calls": 288,
+      "family_calls": 1152,
+      "events": [],
+      "event_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "diagnostics": null,
+      "profile": [
+        {
+          "calls": 96,
+          "cumulative_seconds": 6.935800000000001e-05,
+          "file": "BACKTEST_SPECIAL7.py",
+          "function": "on_observation",
+          "line": 568,
+          "recursive_calls": 0,
+          "self_seconds": 6.935800000000001e-05
+        }
+      ]
+    }
+  ]
+}

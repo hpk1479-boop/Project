@@ -1,0 +1,55 @@
+# 수정본170 전후 측정 (이 PC, 창고는 배포본 데이터창고, 읽기만; 라이브 MOSES·MT5 꺼진 상태)
+# 169 = 수정본169 코드, 170 = 수정본170 코드. 같은 창고·같은 실행 기록으로 쟀습니다.
+
+## 1. 시작: 계획 단계 (72개월 XAUUSD+ 2020-10-01~2026-10-01, SPECIAL2)
+169 make_plan: 15.3s, reuse 73 pieces, record 0, hashed 292 files 16.98 GB in 14.9s
+169 make_plan: 14.8s, reuse 73 pieces, record 0, hashed 292 files 16.98 GB in 14.3s   (다시 잼)
+170 plan step (no hashing): 0.43s, reuse 73, files hashed 0
+- 169는 시작 한 번에 이 해시를 4번 했습니다(계획 프로세스, 실행의 계획, prepare의 계획, runner). 170은 실행에서 1번입니다.
+
+## 2. 실제 실행 (창고 복사본, 임시 폴더; SPECIAL8 2020-10-12~14, BAR)
+CLI plan: 0 COMPLETE reuse 1 record 0
+run: COMPLETE in 10.1s, alerts 92, files hashed 4 (4 distinct), BUILD_PLAN events 2, cleanup events 0, analytics.json False
+- 녹화 파일 4개가 각각 한 번씩만 해시됐습니다. 실행 안의 계획 두 번(실행의 계획, prepare의 계획)은 같은 검사 결과를 썼습니다.
+
+## 3. 실행 중 job.json (72개월 실행 기록 6a899c17의 계획)
+job.json of the 72-month run: 167 kB -> 11.4 kB
+- 감독 프로세스가 실행 중 0.1초마다 읽는 파일입니다. 재사용 녹화는 capture_id·start·end만 남깁니다.
+
+## 4. 창 열기 (새 프로세스에서 첫 호출 #1, 다시 열기 #2)
+수정본169
+backtest options         #1:     477 ms   response 21497 bytes
+backtest options         #2:      90 ms   response 21497 bytes
+pandas loaded by the options: True
+backtest recent (list)   #1:      22 ms   response 17664 bytes
+backtest recent (list)   #2:      18 ms   response 17664 bytes
+settings read            #1:    1313 ms   response 2655 bytes
+settings read            #2:       2 ms   response 2655 bytes
+수정본170
+backtest options         #1:      93 ms   response 21497 bytes
+backtest options         #2:      62 ms   response 21497 bytes
+pandas loaded by the options: False
+backtest recent (list)   #1:      24 ms   response 17664 bytes
+backtest recent (list)   #2:      18 ms   response 17664 bytes
+settings read            #1:      57 ms   response 2655 bytes
+settings read            #2:       2 ms   response 2655 bytes
+- 응답 크기는 같습니다. 레지스트리 비교(169 대 170): same data: True | independent copies: True True | missing message same: True
+- 백테스트 목록은 원래 빨라서(약 20ms) 차이가 없습니다.
+
+## 5. 결과 화면 (60개월 SPECIAL8 가상진입 실행 fae689a3, 거래 31,904건)
+거래 페이지: 170 이어 읽기와 169 방식(처음부터 읽기) 비교
+pages identical: 30
+first page                 170     3.6 ms   169     2.5 ms
+next page                  170     3.4 ms   169     4.9 ms
+page 300 (offset 30000)    170   804.1 ms   169   739.9 ms
+page 301                   170     3.6 ms   169   740.9 ms
+back to page 2             170     0.7 ms   169     4.9 ms
+RR·기간 바꾸기
+open (load + all, best RR)            1648 ms
+RR change, 170                         100 ms
+RR change, table recomputed (169)      161 ms
+period change: table only, 170          14 ms
+period change: chosen RR, 170           22 ms
+period change, 169 (view twice)         82 ms
+same screen after the RR came back: True
+- 결과 화면 첫 열기(1.6초, 거래 CSV를 줄마다 읽음)는 이번에 고치지 않았습니다.

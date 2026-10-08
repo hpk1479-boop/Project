@@ -1,0 +1,757 @@
+run_id,time_ms,strategy,profile,grade,symbol,tf,direction,trigger,message,recipient,signal_id,b0_price,b0_time,signal_source,signal_tf,signal_price,env_tf,neckline_price,neckline_time_ms
+8d47eab6331a43d19dc853f40c2c16c6,1787794800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,71bd3e35b9e786e891d537919a42ce2a041045bd5b75e5dad8fb84ef3c435911,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787798400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,804a16001d8349598261810137c8dc502c41ec0806e8d5a4a7c34939f1f18afc,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787802000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,2682d9d8e1e620c4075261ec90ab54cc0ef3c818c63034baefd07f24b7a54616,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787805600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,5ea2796b8701cf2e5f4dd4c30193107fed32045e554b71cf595a170c4fff064e,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787809200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,befae101024bcb75f28fc6dbc77156b02b44052440caccbc1f99c19385d3ff75,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787812800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,552b408f839e90932b95dc0e482d24e7a078c2cc4d53b54820344f00c7a93ad8,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787816400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,b4a6dd2ff95ae2697424f46e404cf8f0ad8e1598dfacd4dd55bbd1009e1d84fd,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787820000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,7b1c36350b3a8ded246bc1e0145d16ef44131cfd42db1652981c7186773e8532,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787823600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,135bd3ad6df2e2fcc665821140242101c1170a2389499b2a4ebe53ebd1c92a51,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787827200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,91aa101ce27e9bc845bba005fcee44346ee1845c8935da8526a96530ffed1c6b,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787830800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,cad9bd65843bf61c0c52e0aad4e68be8aaa6bd6987a98c271e3ca49d8dc614e2,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787834400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,7e76d9c7f8f0ff720ebbb2de0aea3e50bf03e60df409f00faa9508a14a04d9d0,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787881200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,c4e8251997128c6d2ca9ca81db56025f038fdc4e87f4fe93794d70bd5f446657,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787884800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,c3360f2a631f15b016a5a5f764f9a101c1df37437f62f9cd5f197a5e39d70cfc,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787888400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,5b35fa043442ba9f846682123ff8c47d04e50f8221f62f7a3fc78b64deda86d3,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787892000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,67e854c8eb234b49e76bd6d53b0d835505950df7c07222761a8f3eaebb5dd4d9,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787895600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,a330ce44da01d93d38a8e18104c9235af62cabf857578fc736f9a0a47b11c538,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787899200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,04d93e0de1d318c7277b8bb7d45e4a460f844876f092fb7303cccd43d63e72c6,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787902800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,e1ef7ce99c827f96d63e384a920c04dd4e8bc2518803792db1cedf1c40d1bba8,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787906400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,595fed095ed315f0e29317149099d79ab3e1e73a508713e52db943a759ddd896,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787910000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,acd8d125a1c807792ecf90177837c67f64665f09e3d1171860c4abb4c66d7228,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787913600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,133085d9422aa6acb0e89ac4247ab2e7fd1d4128eb48fa2ea53674ec13573efa,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787917200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,be8dbc97c8d1aeab9a879585e80651b4093206bacca4fa774b7a1952a217e720,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1787920800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,d970d0efb65b27f22f015827adc0b9a639d318a6eb1555744775b9e4b8bcfe8a,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788140400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,9c3c1816ffed0c1ebb028ace29536067eae01e615d04809e0c9e162c0fc4415f,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788144000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,1f062d7451670ad3c6cc80d904e0070e0c30a1ecb55fd16bf28e59fb183e422e,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788147600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,fe0312cc5304c7ae3d0f1dcb536084b6f5a3a81afd88bb59143cbfa951957464,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788151200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,9dba69f6c680ad7ef522940987c1caa51be3e2ea0821b5f54808a382dab84e8b,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788154800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,303e96b523eaf8ff724cc0480b95a9a620cd84f2b0cd507ff36ee990e73d6c8a,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788158400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,6149ad45764e41388e95cfae8ea4ecd8759afb93e6ed3d9983b62ae4cd59d1ed,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788162000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,b1f038dc8920c4b92528275a9b5d352d5824efb7c830294a1f03f1eb88257c47,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788165600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,5ec40d8c8adec7c88c9a9433ee256646658910cc32d761f8e4f52108c5a92813,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788169200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,7b9a1223949016265880072fea3ab77b57c5e11d7c7ec009e1922b50f034c296,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788172800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,9ebdd4da5116bd7a4ee094690ac626a00fcd045f7ac41c0e9c920c7f37ab28ca,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788176400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,8c88cb6cc8064e879af8f1d93d6a85979c298f3201dc50ac623e992d29b8ebd0,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788180000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,b775202f60485a2275d18942d9b7bab0ade5428ee462627047085a5d6f6b8c02,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788226800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,b8a7b39938bf112c7bd0bca4d0862926b7ab20e5336da7ada9c4c8ab6e720249,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788230400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,1554f016341db5582837681cfe122efb81c880fcdf7f6612e81a0ed490bdea21,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788234000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,86a1c592fbcab2e49379cde226cd54d90d067f69aa867faded71a303324637ae,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788237600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,d764491002f376b7342a5e21e23be2047fde766d1c6b1463a72ddea885d672e9,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788241200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,0d924c448e86e1353e47c5fa8752cb6672e2b948115e7c150c897df924273561,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788244800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,5d9a873b2da1516306ef5c837a40e804322d4ed90b1d4af05ea27ad129e55fba,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788248400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,cd0a1672094aaf0a8ac19c70dc3427f08fe3f0ec33e45583ec746e2e8b1c77cd,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788252000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,7e555b17bd84058f1bc2049d92840f5bdaf1738d006606cffda703ba3726e179,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788255600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,8d1eb4d430dbf6ee56305a180c0b7727e7df01e9692fef8bcb068af94b7fe4fe,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788259200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,2b45a7d1f47d2801be858180c891003be6e2025d795c4be9b62b87acd51d7e0f,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788262800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,8d304cc63a4a867f40a6138b106c927d34da8c9ce8ac6e4a1e17f43d16f455dc,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788266400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,2d7527b01f6a1f58c5eb8f2e5a632f67e77807619ee27d5156ff743a79e55bb1,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788313200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,19f9dde1d5203a9f35797e10cb1a2eb31066dd29b4e7995b4e8a806e17f81713,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788316800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,d8f0abd9beae0a9edfd0a63b0e76604d84d82fce43375cb4b08fbe0b6b471653,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788320400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,d8b90d65bc03debc141976eec2b21a83569704d935a98a49a36417ccc96f002a,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788324000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,b4384c76b6e8b78a151ec063c858c5a62427f7e44bc1d2526b8b1181891bcdf4,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788327600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,dbb268c3cd855eaf397b13fd53a78b84b480c6d106cdb62969147578de4d0a3d,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788331200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,6cd3f3ddbcdb14211b6390421b22b9349eb1031be30c8353041b251f5f866afd,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788334800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,bc847323d3e612491704e747888129b886711cb6e2fc1390a00e109bc066cb57,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788338400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,fe5dedb8a9205f569e0b96eeb569b9df5e1e7134f9fe80e7dc94cbaf9f0cfd60,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788342000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,42686b516b633d00dbbbf25f6eaed55e94153d9c3bd6bb4c01a856ac684f1a20,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788345600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,0812a5548073053afb62db746c3211c90fe3c0267e6422ac56997dd2eb91df4b,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788349200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,31f5b75858b10cede0224d9429820594d0fc1f3d0b7ea56e6cee3e7711846a53,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788352800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,93b0a2dce9af7cd56446692cf1bfb2965ea080ac5874bbf4e1593205ef789225,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788399600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,0d288c12dd6460124ed0c47f41953582eb9e31489bdc9f66344ad6590768cbab,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788403200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,29890ee24f911164147d84541cfc84148c150fba20dfe0717580e0c465a0530b,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788406800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,6f0271b5097aa8617667626974b0f38ee1e3c627ef8dafadf682aa4e89256b1e,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788410400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,7ed0adc5eba58178e4c5f111884a8884af6404db93b65e097070ef2c659f82f4,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788414000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,755ae6436174369ada26b50c222c7c833e70902c41f558889fec9d9e9b3641cc,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788417600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,c9bd322249aa844ac994cd9b5a5008095ba7fb548a64974993d3e9704b2b9e47,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788421200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,bb1528a65ed6f9b94b75e313fec0e17fdbd78a20bb123012eb58ba1aab5f1f29,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788424800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,c039bff5ac6134194a64ad778bcfcda328549c42badd1c90f0076ee453bed1e9,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788428400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,61823dc69c10d03bfc30c5fa2b8138a13ece024cc81efa7c2925da8e0dfb7081,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788432000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,14c26858d310da10a14ae2d0be96574abd05422ae0b9c7eb2ba1e6ea88f20277,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788435600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,6dfa638e5c5a5f90ab9c6cedaa226c8cb7d11e45b18f4fee72396cb4b4557569,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788439200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,ea3caaff791db8d5a83d67174b7f569920407d004f631c203e51fd070920c84f,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788486000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,f5e15c3d1716b2d05bf222d11a4ed695152146ecb3b71d6090e06c72c7eaecf0,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788489600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,d94b0a776aad4bcc98b3e41c7b01401da90139afeae55cd0e348decb71721474,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788493200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,ec2f37bcbd1db567e143b6814555830655ce0141a8a025469664ccbcf98383d0,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788496800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,766adb1ee3c9098d8d7434239cf7874445371a3d523ffb32f88775722c2bf632,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788500400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,0151aa334eaf88a4ec3bebbc41b93c43602d8e5df0a7c8895ceea287dbf61739,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788504000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,b3e43e30b9beee9b243e43c285e67635d8ef012c5b9f41a589b2e8b2bb9709d2,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788507600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,cbb507d6fea540848ed01f947f6fe1517286479905474c3edc4881520607e259,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788511200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,2547307db55c0af1051452d9af277e0859dd7eb4b492d46fc0969b4064753660,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788514800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,93386843c96ab95280245f039f5eeffb1ba9313d401e00d4a41285982c541367,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788518400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,dff115223e2b00306bfbb60ccb525d7b8281117499bd900290d167d9974d42a0,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788522000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,ee3c26bccd9fd9cce1a8061d99377887aa44a0ffcf86aaed66051f699703ca13,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788525600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,c3fbd894751d0fc0ee41de26c7a93f89ccf360ea8d50b159d35e814e1be37937,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788745200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,7305fd9548d39865b084ad6256f50068c3342d354322bc2b9442f6dcc8ffccc7,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788748800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,cf398cf7abd670a98bd7fee032f22c90c8c9d5b256144f9d5480c3216bfacfbf,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788752400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,37be203d481340fd31f1b5aac98e719533bfc8434223da8d9bd6ef90dfd6f637,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788756000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,19d6781fa857a0c99316562a8419283e6537de07ed1ab907a91644bcbe872405,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788759600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,a81852df7347fbbc0647d326a01981854cc9907dfe96dba1a0ac36e6e33376f1,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788763200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,d6ba9f9d62a799075f1d0c3ed72ffa842bc9409b5fd21372d81df0d57f2dae9e,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788766800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,91a38eed4fb82b947883499fe21f83c99a0636b0434434456ce407a2cbfe53b4,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788770400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,1945c7a5844527e89631dbe839adfc59e0b66b16218a96437d4457af41bb8bf8,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788774000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,f895f3ec14d9c3f22f54adf936c3a7501cae48c3fe07d7f05e364dc3c1702ce1,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788777600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,d487936ee0830f6525f423c9ca7f0d6f3ac9eade6f43036dbb8a90645b84f961,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788781200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,ae61520643ff5ea69b92582626ce797f79f52ca98a5d76cc4ebf912884f27042,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788784800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,b3bc4ded5dd441e68b1e4a675748096efb69746a5ac33e40c7fd08b7dfa1a9cd,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788831600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,37a85f0f0e429254dffc621eb145d83c19f978c709cb934b51ee76a1311a2d00,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788835200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,2655902bc101803e6c9f2fadb74c45fb5a0fc260de01b4e7904b713df2399615,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788838800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,6a035df2c6720c7bd38b4447194da4443274462aa6f32d9ad3af3c7dea0cec58,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788842400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,93c4d8d6d1037eb18b7aa19ee1a510ad33fef02071510a750d0f99bc25524aed,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788846000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,5ac787c60246accbf898ca23fd520388dff2ad99e365a00a8d031befb67a5ba2,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788849600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,459f0ac93f4d48d1169ee261316519f2a275e0be23099750f8b683e8123aa0a6,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788853200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,db69d6133fbe2bb89a2586fae250bf0ebbe29d792d9d5f742f21ecca0fa2531e,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788856800000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,60075a4503af9a79f5591b4d13d898c8e83e003a7f0bb44ad7ad79a69a1f4288,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788860400000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,88c1d7399fc836a66ef2ff447fc33d37275940958a3aa7177aa4be98d839012a,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788864000000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,cbff6cc0a6dc5a3d4d649bbe4bd63bb82f39cc074459966046005e1655636073,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788867600000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,3f79cf5c7c408fa6d479dacc198bb99fa38a0f3af2599f7a1f4e28aa9c3c3a8a,,,SIGNAL,1m,100.75,1m,,
+8d47eab6331a43d19dc853f40c2c16c6,1788871200000,SPECIAL8,,,XAUUSD+,1m,LONG,CONDITION_NOTIFICATION,"[1분 HMA17·50 골든크로스 눌림매수] 🟢 매수 신호 발생
+──────────────────
+• 종목: XAUUSD+
+• 위치: 1분 HMA50 가격 터치 (마감봉)
+• 주기: 1분
+• 현재 가격: 100.75
+──────────────────",BACKTEST,bfa0640ace6ff93b11570c4902e6555eb08953f354e47790e04e312659333c03,,,SIGNAL,1m,100.75,1m,,

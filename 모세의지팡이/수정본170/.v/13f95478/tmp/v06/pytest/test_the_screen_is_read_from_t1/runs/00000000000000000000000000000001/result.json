@@ -1,0 +1,1 @@
+{"run_id": "00000000000000000000000000000001", "status": "COMPLETE", "status_label": "완료", "result_mode": "VIRTUAL_ENTRY", "alerts_csv": "runs/00000000000000000000000000000001/alerts.csv", "virtual_entry": {"summary": [], "trades_csv": "runs/00000000000000000000000000000001/virtual_trades.csv", "summary_csv": "runs/00000000000000000000000000000001/virtual_summary.csv"}}

@@ -1,0 +1,12 @@
+[
+  {
+    "file": "program/special_ui.py",
+    "before_sha256": "be112cc44f33c934d0493c84eb4c5229d0446dd9b6ee57f734f50306b56d2d9c",
+    "after_sha256": "5d216575da88a237a0073967f45977d30aa812fa8b9c3685ee9a9aac0c23d749"
+  },
+  {
+    "file": "program/strategy_settings_view.py",
+    "before_sha256": "bc746783c85ff4dbfff4065e6c4f7f705f9e651f09bc2268359777a20f98f8ab",
+    "after_sha256": "d37740d63cb92cc0d873fe1fd7043308a1403f211213a4e72463670da766ed74"
+  }
+]

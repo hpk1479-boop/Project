@@ -1,0 +1,6 @@
+{
+  "scope": "Host UI, separate settings and approved final-alert time-slot inputs",
+  "special_diff": "Each SPECIAL exactly two four-line insertions; SPECIAL5 sorted loop and CRLF retained",
+  "tests": "29 related tests; seven week standalone comparisons; configured synthetic240 LIVE/replay",
+  "limitations": "WATCH time disabled by user; new SPECIAL loader/dependencies need separate approval"
+}

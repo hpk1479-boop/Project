@@ -1,0 +1,5 @@
+{
+  "scope": "Selected chain dependencies, deterministic unordered traversals, static OZ upper bound and exact EWM prefix cache",
+  "tests": "Related offline logic, real capture comparisons, synthetic240/TIMER239 LIVE=replay, deterministic hash seeds",
+  "protected": "EA/schema/config/formulas/text/thresholds unchanged; SPECIAL AST differs only by sorted loop; no network delivery"
+}

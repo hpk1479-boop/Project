@@ -1,0 +1,4 @@
+{"event": "COMPLETE", "result": {"record": [], "convert": [], "estimate": {}, "approval_token": "approved"}}
+{"event": "RUN_START", "percent": 0}
+{"event": "RUN_PROGRESS", "percent": 25}
+{"event": "COMPLETE", "result": {"run_id": "54f76c2fa0bb4593b6a12f15bf194751", "status": "CANCELLED", "scenario": {"symbol": "TEST", "start": "2025-09-01", "end": "2025-09-08", "mode": "BAR", "hold": true}, "result_path": "runs/54f76c2fa0bb4593b6a12f15bf194751/result.json"}}

@@ -1,0 +1,9 @@
+# Main UI/LIVE/backtest environment. Match the existing engine requirements.
+pywebview==6.2.1
+numpy==2.3.5
+pandas==3.0.1
+duckdb>=1.4,<2
+requests>=2.32,<3
+tzdata
+# Local GGUF response validation; no Python ML runtime is required.
+jsonschema>=4.23,<5

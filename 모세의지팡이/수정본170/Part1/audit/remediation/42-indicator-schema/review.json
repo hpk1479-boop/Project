@@ -1,0 +1,5 @@
+{
+  "scope": "Final 50-column schema; fixed MT5 3-sigma Wonbi + config-only shared scaling; EMA20; native OUT/slope; explicit recursive seeds",
+  "tests": "Intended condition boundaries, old schema refusal, LIVE receive=replay, MT5 repeated captures, BAR/TIMER input and alerts",
+  "protected": "Original revisions, user config, SPECIAL/COMPOSER decisions, monitor_OZ mixed line endings, Part3 untouched"
+}

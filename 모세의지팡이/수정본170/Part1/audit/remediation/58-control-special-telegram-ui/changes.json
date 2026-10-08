@@ -1,0 +1,32 @@
+[
+  {
+    "file": "OZ_SYSTEM CONTROL.pyw",
+    "before_sha256": "94516c1b6fe85aa435a2d2e1e33fd71febd8dcd5fb645e6401fdfff050972d5d",
+    "after_sha256": "a97383168d4331f36fb3207ae78258bdf551074da5fed74bca38f07dc54704a6"
+  },
+  {
+    "file": "program/event_host.py",
+    "before_sha256": "87ef4f4d02ad53e4190cd2cd6cd3470092a398c3a314bbe72b361286f5cc8fb4",
+    "after_sha256": "53aaa0ee07b34737704f03eb0637387d7e5327a8279bd412f1a5cd135514aad7"
+  },
+  {
+    "file": "program/event_startup.py",
+    "before_sha256": "036c967a5fe2df484aad34996879d875f5b83f62081177c0f605086bf6016660",
+    "after_sha256": "be051048d4daf6a7804d793ad10a8f8f1dfec0ae8c21870562f4120088e0cab4"
+  },
+  {
+    "file": "program/module_diagnostics.py",
+    "before_sha256": "c06b6de144c8d7cf31843b9a41eb0e897fe5936d1e6ecf8467848f7157f26da9",
+    "after_sha256": "827abfd7fa1f5718e61f60c8256c63027784fa6a2eaf460dcdaec84d4303a163"
+  },
+  {
+    "file": "program/module_status_ui.py",
+    "before_sha256": "7f4f29babc24e5e6a93bede5f3aff6ea6b50f22a7b93fc5540cf6ef40558b1ca",
+    "after_sha256": "feffd6c2b0bf4ab1cc0a7675101d006bc72ad6289d5ab4033b5442c0b4f995e9"
+  },
+  {
+    "file": "program/special_ui.py",
+    "before_sha256": "e3883ea230d21980099928ff865c4c8b5a35c1f0a962a4aed7aa3efec76c7a8b",
+    "after_sha256": "b5a19e1b8d9667410fbba059ea086d9d748e1e601696d7e441a745f59f1c8e6e"
+  }
+]

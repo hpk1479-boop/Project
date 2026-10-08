@@ -1,0 +1,16 @@
+{
+  "target_mode": "SPECIAL",
+  "virtual_entry": null,
+  "virtual_entry_target": null,
+  "specials": {
+    "MY_ALPHA": {
+      "enabled": true,
+      "trigger": null,
+      "time_filters": null
+    }
+  },
+  "watch": {
+    "text": "",
+    "chat_id": "BACKTEST"
+  }
+}

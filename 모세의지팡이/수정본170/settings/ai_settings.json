@@ -1,0 +1,12 @@
+{
+  "provider": "gemini",
+  "model": "moses-qwen35-tools:latest",
+  "timeout": 90,
+  "gguf_model_path": "models/gguf/MOSES_Qwen35_4B_Q4_K_M.gguf",
+  "gguf_gpu_layers": -1,
+  "llama_server_path": "runtime/llama.cpp/llama-server.exe",
+  "watch_enabled": true,
+  "gemini_api_key": "AQ.Ab8RN6KCpiXqAYY7QGoqO8UhSmKZr7xKU0EF3nEQvtb2XfRl2w",
+  "gemini_model": "gemini-3.5-flash-lite",
+  "gguf_context_size": 16384
+}

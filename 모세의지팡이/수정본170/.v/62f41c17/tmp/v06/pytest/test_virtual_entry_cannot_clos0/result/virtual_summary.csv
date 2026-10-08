@@ -1,0 +1,10 @@
+﻿run_id,strategy,rr,alerts,entries,passes,pass_blocked,pass_risk,expired,pass_env,waiting,wins,losses,uncertain,unclosed,win_rate,average_r,total_r
+result,SPECIAL1,1.0,1,1,0,0,0,0,0,0,0,0,0,1,,,0
+result,SPECIAL1,1.5,1,1,0,0,0,0,0,0,0,0,0,1,,,0
+result,SPECIAL1,2.0,1,1,0,0,0,0,0,0,0,0,0,1,,,0
+result,SPECIAL1,2.5,1,1,0,0,0,0,0,0,0,0,0,1,,,0
+result,SPECIAL1,3.0,1,1,0,0,0,0,0,0,0,0,0,1,,,0
+result,SPECIAL1,3.5,1,1,0,0,0,0,0,0,0,0,0,1,,,0
+result,SPECIAL1,4.0,1,1,0,0,0,0,0,0,0,0,0,1,,,0
+result,SPECIAL1,4.5,1,1,0,0,0,0,0,0,0,0,0,1,,,0
+result,SPECIAL1,5.0,1,1,0,0,0,0,0,0,0,0,0,1,,,0

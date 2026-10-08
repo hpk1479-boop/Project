@@ -1,0 +1,139 @@
+{
+  "id": "SPECIAL9",
+  "name": "15분 상승추세 · 1분 HMA17·50 골크 눌림매수",
+  "symbol_source": "CONFIG",
+  "time_filters": [],
+  "final_time_filters": 0,
+  "recipe": {
+    "schema_version": 2,
+    "base": "AI",
+    "name": "15분 상승추세 · 1분 HMA17·50 골크 눌림매수",
+    "description": "1분 HMA17이 HMA50을 골든크로스한 뒤, 완성봉이 HMA50을 터치하고 HMA50 위에서 음봉으로 마감하는 순간 15분봉이 상승추세이면 LONG 알림을 보냅니다. 조건이 맞지 않는 터치는 넘기고 같은 골든크로스 안의 다음 터치를 봅니다. 가상진입은 알림 다음 봉 하나만 봅니다. 그 봉이 HMA50을 터치하고 HMA50 위에서 양봉으로 마감하면 진입하고, 아니면 패스합니다. HMA17>HMA50 정배열이나 15분 상승추세가 깨져도 진입하지 않습니다.",
+    "symbols": [],
+    "strategy_intent": {
+      "direction": "LONG",
+      "symbols": [],
+      "steps": [
+        {
+          "kind": "MA_CROSS",
+          "tfs": [
+            "1m"
+          ],
+          "ma_left": "HMA17",
+          "ma_right": "HMA50",
+          "direction": "LONG",
+          "bar_state": "CLOSED"
+        },
+        {
+          "kind": "TREND",
+          "tfs": [
+            "15m"
+          ],
+          "direction": "LONG"
+        },
+        {
+          "kind": "CANDLE_STATE",
+          "tfs": [
+            "1m"
+          ],
+          "side": "BEAR",
+          "direction": "LONG",
+          "bar_state": "CLOSED"
+        },
+        {
+          "kind": "MA_PRICE_STATE",
+          "tfs": [
+            "1m"
+          ],
+          "ma_family": "HMA",
+          "slow_period": 50,
+          "side": "ABOVE",
+          "direction": "LONG",
+          "bar_state": "CLOSED"
+        },
+        {
+          "kind": "MA_PRICE_TOUCH",
+          "tfs": [
+            "1m"
+          ],
+          "ma_family": "HMA",
+          "slow_period": 50,
+          "direction": "LONG",
+          "bar_state": "CLOSED"
+        }
+      ],
+      "order_mode": "SEQUENTIAL",
+      "cancel_conditions": [
+        {
+          "kind": "MA_CROSS",
+          "tfs": [
+            "1m"
+          ],
+          "ma_left": "HMA17",
+          "ma_right": "HMA50",
+          "direction": "SHORT",
+          "bar_state": "CLOSED"
+        }
+      ],
+      "persistent": true,
+      "final": {
+        "kind": "NOTIFY",
+        "direction": "LONG"
+      }
+    },
+    "virtual_entry": {
+      "schema": 2,
+      "mode": "CONFIRM",
+      "tf": "SIGNAL",
+      "conditions": [
+        {
+          "kind": "CANDLE_CLOSE"
+        },
+        {
+          "kind": "MA_TOUCH_CANDLE",
+          "family": "HMA",
+          "period": 50,
+          "tf": "SIGNAL"
+        },
+        {
+          "kind": "MA_POSITION",
+          "family": "HMA",
+          "period": 50,
+          "tf": "SIGNAL"
+        }
+      ],
+      "atr": {
+        "tf": "SIGNAL",
+        "period": 14
+      },
+      "filters": [
+        {
+          "kind": "ENVIRONMENT",
+          "condition": "MA_STATE",
+          "tf": "SIGNAL",
+          "bar_state": "CLOSED",
+          "family": "HMA",
+          "fast": 17,
+          "slow": 50
+        },
+        {
+          "kind": "ENVIRONMENT",
+          "condition": "TREND",
+          "tf": "15m",
+          "bar_state": "FORMING"
+        },
+        {
+          "kind": "MAX_BARS",
+          "bars": 1
+        }
+      ],
+      "stop": {
+        "kind": "ATR",
+        "tf": "SIGNAL",
+        "bars": 5,
+        "period": 14,
+        "multiplier": 1.0
+      }
+    }
+  }
+}

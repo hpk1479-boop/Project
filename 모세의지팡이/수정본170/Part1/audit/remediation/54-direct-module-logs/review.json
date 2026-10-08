@@ -1,0 +1,6 @@
+{
+  "scope": "Remove shared module log button and redundant click instruction from System Control",
+  "strategy_judgment_changed": false,
+  "tests": "tests/test_module_status_navigation.py",
+  "note": "Each of the eight module status buttons still opens its selected log."
+}

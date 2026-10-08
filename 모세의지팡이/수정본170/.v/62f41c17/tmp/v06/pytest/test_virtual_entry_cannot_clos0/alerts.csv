@@ -1,0 +1,2 @@
+signal_id,strategy,symbol,tf,direction,time_ms,b0_price,b0_time,signal_source
+signal,SPECIAL1,XAUUSD+,1m,LONG,1782864000000,8,1782863940,OZ

@@ -1,0 +1,1 @@
+{"provider": "local_gguf", "model": "saved:tag", "gguf_model_path": "models/gguf/saved.gguf"}

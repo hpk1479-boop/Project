@@ -1,0 +1,519 @@
+{
+  "progress_log": "runs/78ee09bfc6a749ac84e039bcdec9c00e/progress.jsonl",
+  "result_path": "runs/78ee09bfc6a749ac84e039bcdec9c00e/result.json",
+  "result_mode": "ALERT_ONLY",
+  "scenario": {
+    "symbol": "XAUUSD+",
+    "start": "2026-08-27",
+    "end": "2026-09-09",
+    "mode": "TICK",
+    "strategies": [
+      "SPECIAL8"
+    ],
+    "enabled_specials": [
+      "SPECIAL8"
+    ],
+    "triggers": {},
+    "commands": [],
+    "result_mode": "ALERT_ONLY",
+    "spread_points": {},
+    "build_only": false,
+    "available_only": false,
+    "overlap_trading_days": 3,
+    "cores": null,
+    "timer_ms": 1000,
+    "capture_start": "keyframe",
+    "oz_evaluation": "selected",
+    "virtual_bases": [],
+    "virtual_entry": null,
+    "base_frames": {},
+    "virtual_strategy": null,
+    "warnings": [],
+    "wonbi_sigma": 3.0
+  },
+  "config_hash": "2e0319a020066061ab9a1483c231cfd64f96e27d8b065cd0dae2f73967a21389",
+  "code_hash": "68620ade661423fa0b227a6cf552fd981b628d55d692419cd6623ad6c0fea07e",
+  "cores": 2,
+  "applied_special_settings": {
+    "SPECIAL8": {
+      "trigger": null,
+      "final_alert_time_filters": 0,
+      "time_source": "preset_default",
+      "time_basis": "KST",
+      "session_config": {
+        "MAIN_ASIA": "0800-1200",
+        "MAIN_LONDON": "1400-1900",
+        "MAIN_NEWYORK": "2100-2400"
+      }
+    }
+  },
+  "tested_settings": {
+    "version": 1,
+    "strategies": {
+      "SPECIAL8": {
+        "title": "1분 HMA17·50 골든크로스 눌림매수",
+        "folder": "Part1/program/SPECIAL",
+        "recipe_sha256": "30c4d2380314d9354c66347145a77cb6888ddbf6a1081d2d54280bb0ebda5487",
+        "edited": false,
+        "conditions": {
+          "direction": "LONG",
+          "symbols": [
+            "XAUUSD+"
+          ],
+          "steps": [
+            {
+              "kind": "MA_CROSS",
+              "tfs": [
+                "1m"
+              ],
+              "ma_left": "HMA17",
+              "ma_right": "HMA50",
+              "direction": "LONG",
+              "bar_state": "CLOSED",
+              "_resolved_direction": "LONG",
+              "_event_mode": true
+            },
+            {
+              "kind": "MA_PRICE_TOUCH",
+              "tfs": [
+                "1m"
+              ],
+              "ma_family": "HMA",
+              "slow_period": 50,
+              "direction": "LONG",
+              "bar_state": "CLOSED",
+              "_resolved_direction": "LONG",
+              "_event_mode": true
+            }
+          ],
+          "order_mode": "SEQUENTIAL",
+          "cancel_conditions": [
+            {
+              "kind": "MA_CROSS",
+              "tfs": [
+                "1m"
+              ],
+              "ma_left": "HMA17",
+              "ma_right": "HMA50",
+              "direction": "SHORT",
+              "bar_state": "CLOSED",
+              "_event_mode": true
+            }
+          ],
+          "persistent": true,
+          "final": {
+            "kind": "NOTIFY",
+            "direction": "LONG"
+          },
+          "time_filters": [],
+          "final_time_filters": 0
+        },
+        "base_frame": "1m",
+        "frames": {
+          "timeframes": [
+            "1m"
+          ],
+          "env_timeframes": [
+            "1m"
+          ]
+        },
+        "trigger": null,
+        "time_filters": 0,
+        "time_source": "preset_default"
+      }
+    },
+    "virtual_entry": null,
+    "config": {
+      "WONBI_SIGMA": "3.0",
+      "ASIA": "0900-1800",
+      "LONDON": "1600-0100",
+      "NEWYORK": "2100-0600",
+      "MAIN_ASIA": "0800-1200",
+      "MAIN_LONDON": "1400-1900",
+      "MAIN_NEWYORK": "2100-2400",
+      "OPENING_ASIA": "0900-1100",
+      "OPENING_LONDON": "1600-1800",
+      "OPENING_NEWYORK": "2100-2300",
+      "POINT_XAUUSD+": "0.01"
+    }
+  },
+  "captures": [
+    "joined"
+  ],
+  "warnings": [
+    "알림 재생: 같은 조건으로 끝난 실행의 결과를 썼습니다."
+  ],
+  "strategies": [
+    "SPECIAL8"
+  ],
+  "period_adjustment": null,
+  "excluded_periods": [],
+  "available_periods": [],
+  "ea_builds": [
+    "test-ea"
+  ],
+  "current_ea_build_hash": "test-ea",
+  "capture_ea_build_hashes": {
+    "joined": "test-ea"
+  },
+  "ea_build_compatibility_applied": false,
+  "schema_ids": [
+    933044592
+  ],
+  "wonbi_sigma": 3.0,
+  "requested_cores": 2,
+  "requested_sequential": false,
+  "partition": "JOINED_BLOCKS",
+  "execution_policy": "JOINED_BLOCKS",
+  "execution_reason": "",
+  "planned_chunks": 2,
+  "chains": [
+    [
+      0,
+      1
+    ]
+  ],
+  "seam_cap_days": 5,
+  "replay_key": "2ac079051217eae0ab6a99b5ef8dc134a5be09578954ece5c54339ecfcfdd540",
+  "replay_partition": "316a9af06349ce3eb64d91b1149eaa24514522cbd01c8b13f73c5efb7e10f613",
+  "worker_scheduling": {
+    "policy": "REUSED",
+    "reused_from": "56c952196715454bbc03e5d6e529fd90"
+  },
+  "replay_reused_from": "56c952196715454bbc03e5d6e529fd90",
+  "joins": [
+    {
+      "status": "CONVERGED",
+      "at_ms": 1788224400000,
+      "from_block": 0,
+      "to_block": 1,
+      "at": "2026-09-01T01:00+00:00"
+    },
+    {
+      "status": "CONVERGED",
+      "at_ms": 1788483600000,
+      "from_block": 1,
+      "to_block": 2,
+      "at": "2026-09-04T01:00+00:00"
+    }
+  ],
+  "joins_exact": true,
+  "alert_rows": 108,
+  "run_id": "78ee09bfc6a749ac84e039bcdec9c00e",
+  "elapsed_seconds": 0.3580059999949299,
+  "replay_seconds": 0.028187900024931878,
+  "first_progress_seconds": null,
+  "logical_cpu_sampling_seconds": 0.5,
+  "logical_cpu_bundle_samples": {
+    "2": 1,
+    "4": 1,
+    "0": 1
+  },
+  "worker_distribution": {
+    "2792": [
+      {
+        "start": "2026-09-04",
+        "end": "2026-09-09",
+        "bundles": 432,
+        "warmup_bundles": 216,
+        "elapsed_seconds": 0.2741186000057496
+      }
+    ],
+    "5164": [
+      {
+        "start": "2026-08-27",
+        "end": "2026-09-01",
+        "bundles": 433,
+        "warmup_bundles": 216,
+        "elapsed_seconds": 0.18641179997939616
+      }
+    ],
+    "35844": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-09-04",
+        "bundles": 433,
+        "warmup_bundles": 216,
+        "elapsed_seconds": 0.2620982000371441
+      }
+    ]
+  },
+  "verification_and_setup_seconds": 0.3298182999715209,
+  "approximate": false,
+  "chunks": [
+    {
+      "watch_dependencies": {
+        "specialized": false
+      },
+      "timeframes": [
+        "1m"
+      ],
+      "cancelled": false,
+      "processed_start_ms": 1787792400000,
+      "processed_end_ms": 1788180600000,
+      "bundles": 433,
+      "mean_ms": 0.2614205542725173,
+      "p99_ms_upper_bound": 0.5,
+      "pid": 5164,
+      "task_start": "2026-08-27",
+      "task_end": "2026-09-01",
+      "warm_start": "2026-08-24",
+      "task_started": 379664.7255974,
+      "task_finished": 379665.5989557,
+      "first_bundle_seconds": 0.7079313999856822,
+      "warmup_bundles": 216,
+      "keyframe_seek": null,
+      "logical_cpu_bundle_samples": {
+        "2": 1
+      },
+      "logical_cpu_sampling_seconds": 0.5,
+      "stop_check_seconds": 0.5,
+      "wonbi_sigma": 3.0,
+      "strategies": [
+        "SPECIAL8"
+      ],
+      "elapsed_seconds": 0.18641179997939616,
+      "cpu_seconds": 0.171875,
+      "max_memory_bytes": 111190016,
+      "approximate": false,
+      "approximate_consumers": [],
+      "calendar_month_measurements": {
+        "2026-08": {
+          "elapsed_seconds": 0.17194160004146397,
+          "cpu_seconds": 0.171875,
+          "bundles": 432
+        },
+        "2026-09": {
+          "elapsed_seconds": 0.010900599998421967,
+          "cpu_seconds": 0.0,
+          "bundles": 1
+        }
+      },
+      "processor_timings": {
+        "COMPOSER": {
+          "ns": 92882100,
+          "calls": 433,
+          "ms_per_bundle": 0.21450831408775983
+        }
+      },
+      "notifications": 36,
+      "alerts": 36,
+      "alert_months": {
+        "2026-08": 36
+      },
+      "alerts_csv": "runs/56c952196715454bbc03e5d6e529fd90/chunk_000/alerts.csv",
+      "seams": [],
+      "join": {
+        "status": "CONVERGED",
+        "t": 1788224400000,
+        "rows": 36,
+        "rows_at_end": 36,
+        "g": 1,
+        "overrun_bundles": 1,
+        "probes": 1,
+        "digest_seconds": 0.002,
+        "differing_parts": null
+      },
+      "input_end": "2026-09-08"
+    },
+    {
+      "watch_dependencies": {
+        "specialized": false
+      },
+      "timeframes": [
+        "1m"
+      ],
+      "cancelled": false,
+      "processed_start_ms": 1788224400000,
+      "processed_end_ms": 1788439800000,
+      "bundles": 433,
+      "mean_ms": 0.269678752886836,
+      "p99_ms_upper_bound": 0.6,
+      "pid": 35844,
+      "task_start": "2026-09-01",
+      "task_end": "2026-09-04",
+      "warm_start": "2026-08-27",
+      "task_started": 379664.73387,
+      "task_finished": 379665.6834543,
+      "first_bundle_seconds": 0.726829599996563,
+      "warmup_bundles": 216,
+      "keyframe_seek": null,
+      "logical_cpu_bundle_samples": {
+        "4": 1
+      },
+      "logical_cpu_sampling_seconds": 0.5,
+      "stop_check_seconds": 0.5,
+      "wonbi_sigma": 3.0,
+      "strategies": [
+        "SPECIAL8"
+      ],
+      "elapsed_seconds": 0.2620982000371441,
+      "cpu_seconds": 0.25,
+      "max_memory_bytes": 110886912,
+      "approximate": false,
+      "approximate_consumers": [],
+      "calendar_month_measurements": {
+        "2026-08": {
+          "elapsed_seconds": 0.09461979998741299,
+          "cpu_seconds": 0.078125,
+          "bundles": 216
+        },
+        "2026-09": {
+          "elapsed_seconds": 0.14470490004168823,
+          "cpu_seconds": 0.140625,
+          "bundles": 217
+        }
+      },
+      "processor_timings": {
+        "COMPOSER": {
+          "ns": 95622000,
+          "calls": 433,
+          "ms_per_bundle": 0.22083602771362587
+        }
+      },
+      "notifications": 36,
+      "alerts": 36,
+      "alert_months": {
+        "2026-09": 36
+      },
+      "alerts_csv": "runs/56c952196715454bbc03e5d6e529fd90/chunk_001/alerts.csv",
+      "seams": [],
+      "join": {
+        "status": "CONVERGED",
+        "t": 1788483600000,
+        "rows": 36,
+        "rows_at_end": 36,
+        "g": 1,
+        "overrun_bundles": 1,
+        "probes": 37,
+        "digest_seconds": 0.051,
+        "differing_parts": null
+      },
+      "input_end": "2026-09-09"
+    },
+    {
+      "watch_dependencies": {
+        "specialized": false
+      },
+      "timeframes": [
+        "1m"
+      ],
+      "cancelled": false,
+      "processed_start_ms": 1788483600000,
+      "processed_end_ms": 1788871800000,
+      "bundles": 432,
+      "mean_ms": 0.2713319444444444,
+      "p99_ms_upper_bound": 0.6,
+      "pid": 2792,
+      "task_start": "2026-09-04",
+      "task_end": "2026-09-09",
+      "warm_start": "2026-09-01",
+      "task_started": 379664.7339761,
+      "task_finished": 379665.6980038,
+      "first_bundle_seconds": 0.7488877000287175,
+      "warmup_bundles": 216,
+      "keyframe_seek": null,
+      "logical_cpu_bundle_samples": {
+        "0": 1
+      },
+      "logical_cpu_sampling_seconds": 0.5,
+      "stop_check_seconds": 0.5,
+      "wonbi_sigma": 3.0,
+      "strategies": [
+        "SPECIAL8"
+      ],
+      "elapsed_seconds": 0.2741186000057496,
+      "cpu_seconds": 0.265625,
+      "max_memory_bytes": 111329280,
+      "approximate": false,
+      "approximate_consumers": [],
+      "calendar_month_measurements": {
+        "2026-09": {
+          "elapsed_seconds": 0.23088009998900816,
+          "cpu_seconds": 0.234375,
+          "bundles": 432
+        }
+      },
+      "processor_timings": {
+        "COMPOSER": {
+          "ns": 96108600,
+          "calls": 432,
+          "ms_per_bundle": 0.22247361111111114
+        }
+      },
+      "notifications": 36,
+      "alerts": 36,
+      "alert_months": {
+        "2026-09": 36
+      },
+      "alerts_csv": "runs/56c952196715454bbc03e5d6e529fd90/chunk_002/alerts.csv",
+      "seams": [],
+      "join": {
+        "status": "END",
+        "t": null,
+        "rows": null,
+        "rows_at_end": 36,
+        "g": 1,
+        "overrun_bundles": 0,
+        "probes": 36,
+        "digest_seconds": 0.05,
+        "differing_parts": null
+      },
+      "input_end": "2026-09-09"
+    }
+  ],
+  "alerts_csv": "runs/78ee09bfc6a749ac84e039bcdec9c00e/alerts.csv",
+  "max_worker_memory_bytes": 111329280,
+  "concurrent_memory_upper_bound_bytes": 222519296,
+  "sampled_peak_total_memory_bytes": 0,
+  "memory_sampling_seconds": 2,
+  "processed_periods": [
+    {
+      "start": "2026-08-27T01:00:00.000+00:00",
+      "last_observation": "2026-08-31T12:50:00.000+00:00"
+    },
+    {
+      "start": "2026-09-01T01:00:00.000+00:00",
+      "last_observation": "2026-09-03T12:50:00.000+00:00"
+    },
+    {
+      "start": "2026-09-04T01:00:00.000+00:00",
+      "last_observation": "2026-09-08T12:50:00.000+00:00"
+    }
+  ],
+  "unprocessed_periods": [
+    {
+      "start": "2026-08-27",
+      "end": "2026-09-02",
+      "start_exclusive": false,
+      "reason": "NOT_STARTED"
+    },
+    {
+      "start": "2026-09-02",
+      "end": "2026-09-09",
+      "start_exclusive": false,
+      "reason": "NOT_STARTED"
+    }
+  ],
+  "alert_statistics": {
+    "basis": "UTC selected period, end exclusive; one alert per signal_id",
+    "days": 13,
+    "total": 108,
+    "months": [
+      {
+        "month": "2026-08",
+        "alerts": 36
+      },
+      {
+        "month": "2026-09",
+        "alerts": 72
+      }
+    ],
+    "daily_average": 8.307692307692308,
+    "weekly_average": 58.15384615384615,
+    "monthly_average": null
+  },
+  "status": "COMPLETE",
+  "status_label": "완료",
+  "completed_at": "2026-10-08T16:43:09.367905+00:00"
+}

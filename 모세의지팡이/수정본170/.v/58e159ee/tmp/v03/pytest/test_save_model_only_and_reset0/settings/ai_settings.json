@@ -1,0 +1,9 @@
+{
+  "provider": "local_gguf",
+  "model": null,
+  "timeout": 90,
+  "gguf_gpu_layers": 0,
+  "gguf_model_path": "models/gguf/chosen.gguf",
+  "llama_server_path": "runtime/llama.cpp/llama-server.exe",
+  "gguf_context_size": 16384
+}

@@ -1,0 +1,9 @@
+{
+  "provider": "gemini",
+  "model": "previous:4b",
+  "timeout": 90,
+  "llama_server_path": "runtime/llama-server.exe",
+  "gemini_model": "chosen-external",
+  "gemini_api_key": "synthetic-secret-74",
+  "gguf_model_path": "models/gguf/selected.gguf"
+}

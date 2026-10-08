@@ -1,0 +1,2 @@
+# Optional acceleration only; original requirements-backtest.txt is unchanged.
+duckdb>=1.4,<2

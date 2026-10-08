@@ -1,0 +1,5 @@
+{
+  "provider": "ollama",
+  "model": "common:4b",
+  "timeout": 90
+}

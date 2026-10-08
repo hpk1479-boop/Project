@@ -1,0 +1,228 @@
+{
+  "progress_log": "runs/db4a27d83f8441ffbc900d2e8255dd0f/progress.jsonl",
+  "result_path": "runs/db4a27d83f8441ffbc900d2e8255dd0f/result.json",
+  "result_mode": "ALERT_ONLY",
+  "scenario": {
+    "symbol": "XAUUSD+",
+    "start": "2026-09-01",
+    "end": "2026-09-09",
+    "mode": "TICK",
+    "strategies": [
+      "WATCH"
+    ],
+    "enabled_specials": [],
+    "triggers": {},
+    "commands": [
+      {
+        "strategy": "WATCH",
+        "chat_id": "BACKTEST",
+        "text": "골드 1분 상단 원비 터치 계속 알려줘"
+      }
+    ],
+    "result_mode": "ALERT_ONLY",
+    "spread_points": {},
+    "build_only": false,
+    "available_only": false,
+    "overlap_trading_days": 3,
+    "cores": 1,
+    "timer_ms": 1000,
+    "capture_start": "keyframe",
+    "oz_evaluation": "selected",
+    "virtual_bases": [],
+    "virtual_entry": null,
+    "base_frames": {},
+    "virtual_strategy": null,
+    "warnings": [
+      "명령으로 등록한 감시 상태를 보존하기 위해 한 엔진에서 연속 재생합니다."
+    ],
+    "wonbi_sigma": 3.0
+  },
+  "config_hash": "bf8738bd8578454809d37f56b77f2fa1f3889256c8311b68fcbd58b11ec17e17",
+  "code_hash": "release-test",
+  "cores": 1,
+  "applied_special_settings": {},
+  "tested_settings": {
+    "version": 1,
+    "strategies": {},
+    "virtual_entry": null,
+    "config": {
+      "WONBI_SIGMA": "3"
+    }
+  },
+  "captures": [
+    "probe"
+  ],
+  "warnings": [
+    "명령으로 등록한 감시 상태를 보존하기 위해 한 엔진에서 연속 재생합니다."
+  ],
+  "strategies": [
+    "WATCH"
+  ],
+  "period_adjustment": null,
+  "excluded_periods": [],
+  "available_periods": [],
+  "ea_builds": [
+    "test-ea"
+  ],
+  "current_ea_build_hash": "test-ea",
+  "capture_ea_build_hashes": {
+    "probe": "test-ea"
+  },
+  "ea_build_compatibility_applied": false,
+  "schema_ids": [
+    933044592
+  ],
+  "wonbi_sigma": 3.0,
+  "requested_cores": 1,
+  "requested_sequential": false,
+  "partition": "COMMAND_CONTINUOUS",
+  "execution_policy": "COMMAND_CONTINUOUS",
+  "execution_reason": "명령으로 등록한 감시 상태를 보존하기 위해 한 엔진에서 연속 재생합니다.",
+  "planned_chunks": 1,
+  "replay_key": "1972f1a7be0c4615267a9de9cfe0ff294778cae6234070cf42fb76c3bd06fab9",
+  "replay_partition": "34e196c0e7c6c459f914b3bb3def00006769c42ed887557a05b124f3f5771259",
+  "worker_scheduling": {
+    "policy": "FIFO",
+    "effective_workers": 1,
+    "pending_limit": 1,
+    "task_order": [
+      0
+    ],
+    "estimate_unit": "not_needed",
+    "minimum_predicted_gain": 0.05,
+    "max_pending_observed": 1,
+    "submitted_chunks": 1,
+    "cancelled_before_start": 0
+  },
+  "alert_rows": 2,
+  "run_id": "db4a27d83f8441ffbc900d2e8255dd0f",
+  "elapsed_seconds": 1.1187480999506079,
+  "replay_seconds": 1.0063207999919541,
+  "first_progress_seconds": 1.082931799988728,
+  "logical_cpu_sampling_seconds": 0.5,
+  "logical_cpu_bundle_samples": {
+    "2": 1
+  },
+  "worker_distribution": {
+    "12172": [
+      {
+        "start": "2026-09-01",
+        "end": "2026-09-09",
+        "bundles": 11,
+        "warmup_bundles": 3,
+        "elapsed_seconds": 0.015963900019414723
+      }
+    ]
+  },
+  "verification_and_setup_seconds": 0.1124275999609381,
+  "approximate": false,
+  "chunks": [
+    {
+      "watch_dependencies": {
+        "specialized": true,
+        "capabilities": [
+          "WATCH"
+        ],
+        "processors": [
+          "WATCH_CONDITIONS"
+        ],
+        "consumers": [
+          "COMPOSER",
+          "WATCH_CONDITIONS"
+        ]
+      },
+      "timeframes": [
+        "1m"
+      ],
+      "cancelled": false,
+      "processed_start_ms": 1788253200000,
+      "processed_end_ms": 1788858060000,
+      "bundles": 11,
+      "mean_ms": 0.28164545454545453,
+      "p99_ms_upper_bound": 1.3,
+      "pid": 12172,
+      "task_start": "2026-09-01",
+      "task_end": "2026-09-09",
+      "warm_start": "2026-08-27",
+      "task_started": 381750.1297324,
+      "task_finished": 381750.6863474,
+      "first_bundle_seconds": 0.5441475000116043,
+      "warmup_bundles": 3,
+      "keyframe_seek": null,
+      "logical_cpu_bundle_samples": {
+        "2": 1
+      },
+      "logical_cpu_sampling_seconds": 0.5,
+      "stop_check_seconds": 0.5,
+      "wonbi_sigma": 3.0,
+      "strategies": [
+        "WATCH"
+      ],
+      "elapsed_seconds": 0.015963900019414723,
+      "cpu_seconds": 0.015625,
+      "max_memory_bytes": 117583872,
+      "approximate": false,
+      "approximate_consumers": [],
+      "calendar_month_measurements": {
+        "2026-08": {
+          "elapsed_seconds": 0.003981399990152568,
+          "cpu_seconds": 0.0,
+          "bundles": 3
+        },
+        "2026-09": {
+          "elapsed_seconds": 0.006870900047942996,
+          "cpu_seconds": 0.0,
+          "bundles": 8
+        }
+      },
+      "processor_timings": {
+        "COMPOSER": {
+          "ns": 7932800,
+          "calls": 15,
+          "ms_per_bundle": 0.7211636363636363
+        },
+        "WATCH_CONDITIONS": {
+          "ns": 1102500,
+          "calls": 12,
+          "ms_per_bundle": 0.10022727272727272
+        }
+      },
+      "notifications": 2,
+      "alerts": 2,
+      "alert_months": {
+        "2026-09": 2
+      },
+      "alerts_csv": "runs/db4a27d83f8441ffbc900d2e8255dd0f/chunk_000/alerts.csv",
+      "seams": []
+    }
+  ],
+  "alerts_csv": "runs/db4a27d83f8441ffbc900d2e8255dd0f/alerts.csv",
+  "max_worker_memory_bytes": 117583872,
+  "concurrent_memory_upper_bound_bytes": 117583872,
+  "sampled_peak_total_memory_bytes": 128192512,
+  "memory_sampling_seconds": 2,
+  "processed_periods": [
+    {
+      "start": "2026-09-01T09:00:00.000+00:00",
+      "last_observation": "2026-09-08T09:01:00.000+00:00"
+    }
+  ],
+  "unprocessed_periods": [],
+  "alert_statistics": {
+    "basis": "UTC selected period, end exclusive; one alert per signal_id",
+    "days": 8,
+    "total": 2,
+    "months": [
+      {
+        "month": "2026-09",
+        "alerts": 2
+      }
+    ],
+    "daily_average": 0.25,
+    "weekly_average": 1.75,
+    "monthly_average": null
+  },
+  "status": "COMPLETE",
+  "status_label": "완료",
+  "completed_at": "2026-10-08T17:17:50.979490+00:00"
+}

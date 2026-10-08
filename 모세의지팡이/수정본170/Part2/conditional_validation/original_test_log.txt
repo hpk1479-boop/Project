@@ -1,0 +1,228 @@
+...........................FFFF......................................... [ 27%]
+........................................................................ [ 54%]
+........................................................................ [ 82%]
+....................F.........................                           [100%]
+=================================== FAILURES ===================================
+________ test_isolated_workers_order_positive_outputs[SIGNAL-DELTA_V1] _________
+
+transport = 'DELTA_V1', role = 'SIGNAL'
+
+    @pytest.mark.parametrize('transport',['DELTA_V1','FULL'])
+    @pytest.mark.parametrize('role',['SIGNAL','ENTRY'])
+    def test_isolated_workers_order_positive_outputs(transport,role):
+>       record=parse_literal_metadata(ROOT/'backtest_specials/GENERIC_EXAMPLE_V1.py')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+validation_suite/test_ipc.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+generic_backtest/plugins.py:21: in parse_literal_metadata
+    raw = path.read_bytes()
+          ^^^^^^^^^^^^^^^^^
+/usr/lib/python3.13/pathlib/_abc.py:625: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/mnt/data/work/모세의지팡이 합본 - 지피티/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/work/모세의지팡이 합본 - 지피티/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+
+/usr/lib/python3.13/pathlib/_local.py:539: FileNotFoundError
+__________ test_isolated_workers_order_positive_outputs[SIGNAL-FULL] ___________
+
+transport = 'FULL', role = 'SIGNAL'
+
+    @pytest.mark.parametrize('transport',['DELTA_V1','FULL'])
+    @pytest.mark.parametrize('role',['SIGNAL','ENTRY'])
+    def test_isolated_workers_order_positive_outputs(transport,role):
+>       record=parse_literal_metadata(ROOT/'backtest_specials/GENERIC_EXAMPLE_V1.py')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+validation_suite/test_ipc.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+generic_backtest/plugins.py:21: in parse_literal_metadata
+    raw = path.read_bytes()
+          ^^^^^^^^^^^^^^^^^
+/usr/lib/python3.13/pathlib/_abc.py:625: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/mnt/data/work/모세의지팡이 합본 - 지피티/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/work/모세의지팡이 합본 - 지피티/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+
+/usr/lib/python3.13/pathlib/_local.py:539: FileNotFoundError
+_________ test_isolated_workers_order_positive_outputs[ENTRY-DELTA_V1] _________
+
+transport = 'DELTA_V1', role = 'ENTRY'
+
+    @pytest.mark.parametrize('transport',['DELTA_V1','FULL'])
+    @pytest.mark.parametrize('role',['SIGNAL','ENTRY'])
+    def test_isolated_workers_order_positive_outputs(transport,role):
+>       record=parse_literal_metadata(ROOT/'backtest_specials/GENERIC_EXAMPLE_V1.py')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+validation_suite/test_ipc.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+generic_backtest/plugins.py:21: in parse_literal_metadata
+    raw = path.read_bytes()
+          ^^^^^^^^^^^^^^^^^
+/usr/lib/python3.13/pathlib/_abc.py:625: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/mnt/data/work/모세의지팡이 합본 - 지피티/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/work/모세의지팡이 합본 - 지피티/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+
+/usr/lib/python3.13/pathlib/_local.py:539: FileNotFoundError
+___________ test_isolated_workers_order_positive_outputs[ENTRY-FULL] ___________
+
+transport = 'FULL', role = 'ENTRY'
+
+    @pytest.mark.parametrize('transport',['DELTA_V1','FULL'])
+    @pytest.mark.parametrize('role',['SIGNAL','ENTRY'])
+    def test_isolated_workers_order_positive_outputs(transport,role):
+>       record=parse_literal_metadata(ROOT/'backtest_specials/GENERIC_EXAMPLE_V1.py')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+validation_suite/test_ipc.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+generic_backtest/plugins.py:21: in parse_literal_metadata
+    raw = path.read_bytes()
+          ^^^^^^^^^^^^^^^^^
+/usr/lib/python3.13/pathlib/_abc.py:625: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/mnt/data/work/모세의지팡이 합본 - 지피티/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/work/모세의지팡이 합본 - 지피티/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+
+/usr/lib/python3.13/pathlib/_local.py:539: FileNotFoundError
+____________ test_gui_config_plan_fetch_run_no_second_end_increment ____________
+
+panel = <generic_backtest.gui.GenericPanel object at 0x7f2fd2a856d0>
+tmp_path = PosixPath('/tmp/pytest-of-root/pytest-5/test_gui_config_plan_fetch_run0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f2fd2eced60>
+
+    def test_gui_config_plan_fetch_run_no_second_end_increment(panel, tmp_path, monkeypatch):
+        from generic_backtest.runner import prepare_plan
+        from generic_backtest.contracts import GenericRunConfig
+        from integration_fixtures import INSTRUMENT
+        panel.start.set('2026-09-01'); panel.end.set('2026-09-22')
+        config = panel._config_from_controls(); config['instrument'] = INSTRUMENT
+        # The unchanged real planner may extend ONLY warm-up start.
+>       plan = prepare_plan(GenericRunConfig(**config))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+validation_suite/test_ui_dates.py:230: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+generic_backtest/runner.py:56: in prepare_plan
+    setup=load_setup(config)
+          ^^^^^^^^^^^^^^^^^^
+generic_backtest/runner.py:47: in load_setup
+    with StrategyWorker(record,params,selection,'REQUIREMENTS',config.resources) as worker:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+generic_backtest/worker.py:140: in __init__
+    answer = self.exchange({'source':base64.b64encode(raw).decode(),'sha256':record.sha256,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <generic_backtest.worker.StrategyWorker object at 0x7f2fd2a84a50>
+request = {'common_feature_cache': False, 'name': 'BACKTEST_SPECIAL1.py', 'parameters': {}, 'profile_ipc': False, ...}
+
+    def exchange(self, request, *, prepared=None):
+        raw = self.metrics.timed('json_encode_s', encode, request) if prepared is None else prepared.wire
+        if (len(raw) if prepared is None else prepared.logical_size)>self.max_bytes: raise GenericError('E_RESOURCE_LIMIT','worker input')
+        self._write(raw)
+        try: line = self.metrics.timed('parent_wait_s', self.queue.get, timeout=self.timeout)
+        except queue.Empty: raise GenericError('E_RESOURCE_LIMIT','worker callback timeout')
+        if line is None: raise GenericError('E_IPC_PROTOCOL','worker exited: '+''.join(self.stderr)[-1200:])
+        if len(line)>self.max_wire_bytes: raise GenericError('E_RESOURCE_LIMIT','worker output')
+        answer = self.metrics.timed('json_decode_s', json.loads, line)
+        cache_requests=0
+        while '_numeric_cache_v1' in answer:
+            request_cache=answer['_numeric_cache_v1']
+            if not isinstance(request_cache, dict):raise GenericError('E_IPC_PROTOCOL','cache request')
+            if request_cache.get('op')=='batch':
+                items=request_cache.get('items')
+                if not isinstance(items,list) or not 1<=len(items)<=128:
+                    raise GenericError('E_RESOURCE_LIMIT','cache batch size')
+                cache_requests+=len(items)
+            else:cache_requests+=1
+            if cache_requests>10000:raise GenericError('E_RESOURCE_LIMIT','cache RPC budget')
+            self.metrics.add('cache_rpc_messages', 1)
+            value=self.metrics.timed('cache_handler_s', self.cache_handler, answer['_numeric_cache_v1']) if self.cache_handler else None
+            self._write(self.metrics.timed('json_encode_s', encode, {'_numeric_cache_v1':True,'value':value}))
+            try:line=self.metrics.timed('parent_wait_s', self.queue.get, timeout=self.timeout)
+            except queue.Empty:raise GenericError('E_RESOURCE_LIMIT','worker callback timeout')
+            if line is None or len(line)>self.max_wire_bytes:raise GenericError('E_IPC_PROTOCOL','cache reply')
+            answer=self.metrics.timed('json_decode_s', json.loads, line)
+        child_metrics=answer.pop('_ipc_metrics_v1', None)
+        if child_metrics is not None:self.worker_metrics=child_metrics
+        profile=answer.pop('_profile_v1',None)
+        if profile is not None:self.profile=profile
+        ack = answer.pop('_transport_seq', None)
+        absent = answer.pop('_absent_warmup_v1', None)
+        if absent is not None:
+            self._absent_warmup = absent is True
+        if len(self.metrics.timed('json_encode_s', encode, answer)) > self.max_bytes: raise GenericError('E_RESOURCE_LIMIT','worker output')
+>       if answer.get('ok') is not True: raise GenericError('E_PLUGIN_EXECUTION',answer.get('error'))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       generic_backtest.contracts.GenericError: E_PLUGIN_EXECUTION: E_CAPABILITY_DENIED: import __future__
+
+generic_backtest/worker.py:195: GenericError
+=========================== short test summary info ============================
+FAILED validation_suite/test_ipc.py::test_isolated_workers_order_positive_outputs[SIGNAL-DELTA_V1] - FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/work/모세의지팡이 합본 - 지피티/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+FAILED validation_suite/test_ipc.py::test_isolated_workers_order_positive_outputs[SIGNAL-FULL] - FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/work/모세의지팡이 합본 - 지피티/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+FAILED validation_suite/test_ipc.py::test_isolated_workers_order_positive_outputs[ENTRY-DELTA_V1] - FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/work/모세의지팡이 합본 - 지피티/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+FAILED validation_suite/test_ipc.py::test_isolated_workers_order_positive_outputs[ENTRY-FULL] - FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/work/모세의지팡이 합본 - 지피티/모세의지팡이 Part2/backtest_specials/GENERIC_EXAMPLE_V1.py'
+FAILED validation_suite/test_ui_dates.py::test_gui_config_plan_fetch_run_no_second_end_increment - generic_backtest.contracts.GenericError: E_PLUGIN_EXECUTION: E_CAPABILITY_DENIED: import __future__
+5 failed, 257 passed in 53.94s

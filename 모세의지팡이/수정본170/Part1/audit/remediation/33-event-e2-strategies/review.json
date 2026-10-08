@@ -1,0 +1,7 @@
+{
+  "stage": "E2",
+  "authorization": "User: opt-in canonical strategy migration, isolated event state writes, Composer fail-open error policy",
+  "polling_default_preserved": true,
+  "no_Part2_Part3_dependency": true,
+  "network_blocked_in_tests": true
+}

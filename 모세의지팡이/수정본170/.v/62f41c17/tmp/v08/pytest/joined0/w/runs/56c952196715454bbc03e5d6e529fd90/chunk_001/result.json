@@ -1,0 +1,75 @@
+{
+  "watch_dependencies": {
+    "specialized": false
+  },
+  "timeframes": [
+    "1m"
+  ],
+  "cancelled": false,
+  "processed_start_ms": 1788224400000,
+  "processed_end_ms": 1788439800000,
+  "bundles": 433,
+  "mean_ms": 0.269678752886836,
+  "p99_ms_upper_bound": 0.6,
+  "pid": 35844,
+  "task_start": "2026-09-01",
+  "task_end": "2026-09-04",
+  "warm_start": "2026-08-27",
+  "task_started": 379664.73387,
+  "task_finished": 379665.6834543,
+  "first_bundle_seconds": 0.726829599996563,
+  "warmup_bundles": 216,
+  "keyframe_seek": null,
+  "logical_cpu_bundle_samples": {
+    "4": 1
+  },
+  "logical_cpu_sampling_seconds": 0.5,
+  "stop_check_seconds": 0.5,
+  "wonbi_sigma": 3.0,
+  "strategies": [
+    "SPECIAL8"
+  ],
+  "elapsed_seconds": 0.2620982000371441,
+  "cpu_seconds": 0.25,
+  "max_memory_bytes": 110886912,
+  "approximate": false,
+  "approximate_consumers": [],
+  "calendar_month_measurements": {
+    "2026-08": {
+      "elapsed_seconds": 0.09461979998741299,
+      "cpu_seconds": 0.078125,
+      "bundles": 216
+    },
+    "2026-09": {
+      "elapsed_seconds": 0.14470490004168823,
+      "cpu_seconds": 0.140625,
+      "bundles": 217
+    }
+  },
+  "processor_timings": {
+    "COMPOSER": {
+      "ns": 95622000,
+      "calls": 433,
+      "ms_per_bundle": 0.22083602771362587
+    }
+  },
+  "notifications": 36,
+  "alerts": 36,
+  "alert_months": {
+    "2026-09": 36
+  },
+  "alerts_csv": "runs/56c952196715454bbc03e5d6e529fd90/chunk_001/alerts.csv",
+  "seams": [],
+  "join": {
+    "status": "CONVERGED",
+    "t": 1788483600000,
+    "rows": 36,
+    "rows_at_end": 36,
+    "g": 1,
+    "overrun_bundles": 1,
+    "probes": 37,
+    "digest_seconds": 0.051,
+    "differing_parts": null
+  },
+  "input_end": "2026-09-09"
+}

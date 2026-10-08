@@ -1,0 +1,78 @@
+{
+  "watch_dependencies": {
+    "specialized": true,
+    "capabilities": [
+      "WATCH"
+    ],
+    "processors": [
+      "WATCH_CONDITIONS"
+    ],
+    "consumers": [
+      "COMPOSER",
+      "WATCH_CONDITIONS"
+    ]
+  },
+  "timeframes": [
+    "1m"
+  ],
+  "cancelled": false,
+  "processed_start_ms": 1788253200000,
+  "processed_end_ms": 1788858060000,
+  "bundles": 11,
+  "mean_ms": 0.2348090909090909,
+  "p99_ms_upper_bound": 1.3,
+  "pid": 4936,
+  "task_start": "2026-09-01",
+  "task_end": "2026-09-09",
+  "warm_start": "2026-08-27",
+  "task_started": 381747.6015089,
+  "task_finished": 381748.1534368,
+  "first_bundle_seconds": 0.5405036999727599,
+  "warmup_bundles": 3,
+  "keyframe_seek": null,
+  "logical_cpu_bundle_samples": {
+    "2": 1
+  },
+  "logical_cpu_sampling_seconds": 0.5,
+  "stop_check_seconds": 0.5,
+  "wonbi_sigma": 3.0,
+  "strategies": [
+    "WATCH"
+  ],
+  "elapsed_seconds": 0.015094099973794073,
+  "cpu_seconds": 0.015625,
+  "max_memory_bytes": 118235136,
+  "approximate": false,
+  "approximate_consumers": [],
+  "calendar_month_measurements": {
+    "2026-08": {
+      "elapsed_seconds": 0.0041452000150457025,
+      "cpu_seconds": 0.015625,
+      "bundles": 3
+    },
+    "2026-09": {
+      "elapsed_seconds": 0.006042599969077855,
+      "cpu_seconds": 0.0,
+      "bundles": 8
+    }
+  },
+  "processor_timings": {
+    "COMPOSER": {
+      "ns": 8277100,
+      "calls": 14,
+      "ms_per_bundle": 0.7524636363636363
+    },
+    "WATCH_CONDITIONS": {
+      "ns": 742700,
+      "calls": 12,
+      "ms_per_bundle": 0.06751818181818182
+    }
+  },
+  "notifications": 1,
+  "alerts": 1,
+  "alert_months": {
+    "2026-09": 1
+  },
+  "alerts_csv": "runs/052b16ed08c54f21ad7a0b7e12a68edd/chunk_000/alerts.csv",
+  "seams": []
+}

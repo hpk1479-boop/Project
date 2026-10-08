@@ -1,0 +1,68 @@
+수정본88 — Groq 외부 AI 실행 방식 추가
+
+수정본87을 복사해 작업했다. 이전 검증결과 폴더는 복사하지 않았다.
+기존 AI 선택 설정은 유지하며 Groq를 선택·저장한 경우에만 Groq를 호출한다.
+
+사용 방법
+START_MOSES.pyw 실행 → 설정 → 공통 AI 실행 방식에서 Groq 선택.
+Groq 연결 키를 입력한 뒤 모델 입력칸의 오른쪽 화살표로 목록을 선택하거나 모델 ID를 직접 입력한다.
+AI 설정 저장을 누른다. 새 키는 저장 전에 인증 확인하고 다음 요청부터 적용한다.
+키 교체: 새 키 입력 후 저장. 키 삭제: 입력란을 비우고 저장값 삭제 체크 후 저장.
+모델 목록 조회에 실패하거나 키가 없으면 모델 ID 직접 입력을 유지한다.
+모델 기본값·버전·이름을 하드코딩하지 않았다. 선택한 groq_model 값을 실제 호출에 사용한다.
+추가 SDK나 Python 패키지는 설치하지 않는다. 기존 urllib/JSON 검증 계층을 사용한다.
+
+추가 API
+GET /api/ai/groq-models: 저장된 키로 모델 목록 조회.
+POST /api/ai/groq-models: groq_api_key만 받아 저장 없이 목록 조회.
+기존 UI 토큰·Origin 검사 적용. 목록은 Groq가 반환한 실제 활성 모델 ID를 사용한다.
+모델 메타데이터에 오디오 전용이라고 명시된 모델은 제외하고, 이름으로 기능을 추측하지 않는다.
+
+외부 보안
+provider_scope의 공통 local/external 분류에 따라 Groq도 external로 처리한다.
+서비스와 통신 계층의 external_payload 필터를 통과한 최소 문맥·전략 계약만 전송한다.
+프로젝트 코드/파일 조회 도구를 제공하지 않고 실제 요청도 로컬에서 차단한다.
+인증은 고정 api.groq.com endpoint의 Authorization 헤더에만 전달한다.
+리다이렉트 차단, 제한된 응답 크기·대기 시간, 정제된 HTTP 오류 표시를 적용한다.
+키를 설정 화면·모델 문맥·응답·오류에 노출하지 않는다.
+Gemini/Ollama/GGUF/LoRA의 오류가 나도 Groq로 자동 전환하지 않는다.
+
+JSON 처리
+모델별 예외 분기 없이 JSON Object 모드를 사용한다.
+기존 전체 출력 schema와 도구 envelope를 전달하고 parse_reply로 다시 검증한다.
+Agent, tool loop, schema, Recipe, validator, compiler는 변경하지 않았다.
+공식 REST 계약: https://console.groq.com/docs/api-reference
+JSON 모드 계약: https://console.groq.com/docs/structured-outputs
+
+운영 파일
+common_ai/groq.py — 새 REST provider·키 검증·모델 조회.
+common_ai/provider.py — provider factory와 저장 가능 설정 키 추가.
+common_ai/settings.py — 키 값 대신 Groq 키 등록 여부만 공개.
+Part3/lab/ai/shared_provider.py — 기존 공통 AI 서비스에 Groq 모델 선택 연결.
+Part3/lab/unified_settings.py — 키 저장 전 확인·교체·삭제.
+Part3/lab/server.py — 인증된 모델 목록 API 추가.
+Part3/web/unified.js — 실행 방식 슬롯·모델/키 필드, 기존 모델 입력/화살표 공통 사용.
+Part3/web/ai_chat.js — 현재 Groq 연결 상태 표시.
+
+검증
+새 Groq 통신/보안 검사 83 PASS.
+추가 연결·설정 및 기존 AI/설정/Recipe 관련 검사 189 PASS, 하위 검사 9 PASS.
+Groq 실제 브라우저 UI 14 PASS. 기존 Gemini 모델 UI 10 PASS, 키 UI 4 PASS.
+변경 Python 모듈 및 JS 문법 PASS.
+선택 모델 저장 → 공통 provider → 실제 HTTP 요청 body의 model 전달 경로는 합성 응답으로 검사했다.
+기존 Agent의 전체 canonical intent 수신·검증·확인 흐름과 안전한 도구 왕복도 검사했다.
+실제 Groq API 키를 등록하지 않아 실제 서버 모델 조회/추론은 실행하지 않았다.
+Part1/Part2, Gemini 통신 구현, 기존 선택 설정은 수정본87과 대조해 미변경 확인했다.
+
+증거
+검증결과/groq_transport88.xml
+검증결과/groq_integration88.xml
+검증결과/Groq설정88/ui_checks.json
+검증결과/Groq설정88/groq_desktop.png
+검증결과/Groq설정88/groq_mobile.png
+검증결과/모델선택87/ui_checks.json — 수정본88에서 새로 실행한 기존 UI 회귀 증거.
+검증결과/changed_scope88.json
+
+tests/test_groq_provider88.py, tests/test_groq_integration88.py를 verify_current 공식 목록에 추가했다.
+Part3/tests/test_groq_ui88.cjs에 실제 브라우저 검사를 추가했다.
+기존 슬롯 목록 검사는 Groq가 추가된 네 항목을 검사하도록 갱신했다.

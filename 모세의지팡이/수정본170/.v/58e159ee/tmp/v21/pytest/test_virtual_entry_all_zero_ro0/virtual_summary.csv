@@ -1,0 +1,10 @@
+﻿run_id,strategy,rr,alerts,entries,passes,pass_blocked,pass_risk,expired,pass_env,waiting,wins,losses,uncertain,unclosed,win_rate,average_r,total_r
+test_virtual_entry_all_zero_ro0,MY_ALPHA,1.0,0,0,0,0,0,0,0,0,0,0,0,0,,,0.0
+test_virtual_entry_all_zero_ro0,MY_ALPHA,1.5,0,0,0,0,0,0,0,0,0,0,0,0,,,0.0
+test_virtual_entry_all_zero_ro0,MY_ALPHA,2.0,0,0,0,0,0,0,0,0,0,0,0,0,,,0.0
+test_virtual_entry_all_zero_ro0,MY_ALPHA,2.5,0,0,0,0,0,0,0,0,0,0,0,0,,,0.0
+test_virtual_entry_all_zero_ro0,MY_ALPHA,3.0,0,0,0,0,0,0,0,0,0,0,0,0,,,0.0
+test_virtual_entry_all_zero_ro0,MY_ALPHA,3.5,0,0,0,0,0,0,0,0,0,0,0,0,,,0.0
+test_virtual_entry_all_zero_ro0,MY_ALPHA,4.0,0,0,0,0,0,0,0,0,0,0,0,0,,,0.0
+test_virtual_entry_all_zero_ro0,MY_ALPHA,4.5,0,0,0,0,0,0,0,0,0,0,0,0,,,0.0
+test_virtual_entry_all_zero_ro0,MY_ALPHA,5.0,0,0,0,0,0,0,0,0,0,0,0,0,,,0.0

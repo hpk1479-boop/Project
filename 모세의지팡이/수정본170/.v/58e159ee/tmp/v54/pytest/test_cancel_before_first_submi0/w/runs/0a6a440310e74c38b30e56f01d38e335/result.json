@@ -1,0 +1,139 @@
+{
+  "progress_log": "runs/0a6a440310e74c38b30e56f01d38e335/progress.jsonl",
+  "result_path": "runs/0a6a440310e74c38b30e56f01d38e335/result.json",
+  "result_mode": "ALERT_ONLY",
+  "scenario": {
+    "symbol": "XAUUSD+",
+    "start": "2026-09-01",
+    "end": "2026-09-09",
+    "mode": "TICK",
+    "strategies": [
+      "WATCH"
+    ],
+    "enabled_specials": [],
+    "triggers": {},
+    "commands": [
+      {
+        "strategy": "WATCH",
+        "chat_id": "BACKTEST",
+        "text": "골드 1분 상단 원비 터치 알려줘"
+      }
+    ],
+    "result_mode": "ALERT_ONLY",
+    "spread_points": {},
+    "build_only": false,
+    "available_only": false,
+    "overlap_trading_days": 3,
+    "cores": 4,
+    "timer_ms": 1000,
+    "capture_start": "keyframe",
+    "oz_evaluation": "selected",
+    "virtual_bases": [],
+    "virtual_entry": null,
+    "base_frames": {},
+    "virtual_strategy": null,
+    "warnings": [
+      "명령으로 등록한 감시 상태를 보존하기 위해 한 엔진에서 연속 재생합니다."
+    ],
+    "wonbi_sigma": 3.0
+  },
+  "config_hash": "bf8738bd8578454809d37f56b77f2fa1f3889256c8311b68fcbd58b11ec17e17",
+  "code_hash": "release-test",
+  "cores": 1,
+  "applied_special_settings": {},
+  "tested_settings": {
+    "version": 1,
+    "strategies": {},
+    "virtual_entry": null,
+    "config": {
+      "WONBI_SIGMA": "3"
+    }
+  },
+  "captures": [
+    "probe"
+  ],
+  "warnings": [
+    "명령으로 등록한 감시 상태를 보존하기 위해 한 엔진에서 연속 재생합니다."
+  ],
+  "strategies": [
+    "WATCH"
+  ],
+  "period_adjustment": null,
+  "excluded_periods": [],
+  "available_periods": [],
+  "ea_builds": [
+    "test-ea"
+  ],
+  "current_ea_build_hash": "test-ea",
+  "capture_ea_build_hashes": {
+    "probe": "test-ea"
+  },
+  "ea_build_compatibility_applied": false,
+  "schema_ids": [
+    933044592
+  ],
+  "wonbi_sigma": 3.0,
+  "requested_cores": 4,
+  "requested_sequential": false,
+  "partition": "COMMAND_CONTINUOUS",
+  "execution_policy": "COMMAND_CONTINUOUS",
+  "execution_reason": "명령으로 등록한 감시 상태를 보존하기 위해 한 엔진에서 연속 재생합니다.",
+  "planned_chunks": 1,
+  "replay_key": "16de08aa447095f75d7c2e7e4a04d47c65fa0cfc5b2c5fccceaf694dd920f068",
+  "replay_partition": "34e196c0e7c6c459f914b3bb3def00006769c42ed887557a05b124f3f5771259",
+  "worker_scheduling": {
+    "policy": "FIFO",
+    "effective_workers": 1,
+    "pending_limit": 1,
+    "task_order": [
+      0
+    ],
+    "estimate_unit": "not_needed",
+    "minimum_predicted_gain": 0.05,
+    "max_pending_observed": 0,
+    "submitted_chunks": 0,
+    "cancelled_before_start": 0
+  },
+  "alert_rows": 0,
+  "run_id": "0a6a440310e74c38b30e56f01d38e335",
+  "elapsed_seconds": 0.11812509997980669,
+  "replay_seconds": 0.01753499999176711,
+  "first_progress_seconds": null,
+  "logical_cpu_sampling_seconds": 0.5,
+  "logical_cpu_bundle_samples": {},
+  "worker_distribution": {},
+  "verification_and_setup_seconds": 0.10059039999032393,
+  "approximate": false,
+  "chunks": [],
+  "alerts_csv": "runs/0a6a440310e74c38b30e56f01d38e335/alerts.csv",
+  "max_worker_memory_bytes": 0,
+  "concurrent_memory_upper_bound_bytes": 0,
+  "sampled_peak_total_memory_bytes": 0,
+  "memory_sampling_seconds": 2,
+  "processed_periods": [],
+  "unprocessed_periods": [
+    {
+      "start": "2026-09-01",
+      "end": "2026-09-09",
+      "start_exclusive": false,
+      "reason": "NOT_STARTED"
+    }
+  ],
+  "alert_statistics": {
+    "basis": "UTC selected period, end exclusive; one alert per signal_id",
+    "days": 8,
+    "total": 0,
+    "months": [
+      {
+        "month": "2026-09",
+        "alerts": 0
+      }
+    ],
+    "daily_average": 0.0,
+    "weekly_average": 0.0,
+    "monthly_average": null
+  },
+  "status": "CANCELLED",
+  "status_label": "중단됨(부분 결과)",
+  "completed_at": "2026-10-08T17:18:00.498678+00:00"
+}

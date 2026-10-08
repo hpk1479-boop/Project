@@ -1,0 +1,45 @@
+{
+  "sequence_id": "c3f6ecffba7d46c8ba2847931df47837",
+  "phase": "interrupted",
+  "commands": [
+    {
+      "action": "START",
+      "request": {
+        "target_mode": "SPECIAL",
+        "specials": [
+          "SPECIAL1"
+        ],
+        "symbol": "XAUUSD+",
+        "start": "2026-09-01",
+        "end": "2026-10-01"
+      }
+    },
+    {
+      "action": "START",
+      "request": {
+        "target_mode": "SPECIAL",
+        "specials": [
+          "SPECIAL1"
+        ],
+        "symbol": "NAS100",
+        "start": "2026-09-01",
+        "end": "2026-10-01"
+      }
+    }
+  ],
+  "strategy_digests": {},
+  "jobs": [
+    {
+      "job_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "phase": "interrupted",
+      "symbol": "XAUUSD+",
+      "result_ready": false,
+      "active": false,
+      "message": null
+    }
+  ],
+  "next_index": 1,
+  "cancel_requested": false,
+  "message": "앞선 작업이 완료되지 않아 다음 백테스트를 실행하지 않았습니다.",
+  "created_at": 1791479882.7413006
+}

@@ -1,0 +1,11 @@
+{
+  "provider": "local_gguf",
+  "model": null,
+  "timeout": 90,
+  "gguf_model_path": "models/test-model.gguf",
+  "gguf_context_size": 4096,
+  "max_new_tokens": 256,
+  "gguf_gpu_layers": 0,
+  "gguf_threads": 2,
+  "llama_server_path": "runtime/llama-server.exe"
+}

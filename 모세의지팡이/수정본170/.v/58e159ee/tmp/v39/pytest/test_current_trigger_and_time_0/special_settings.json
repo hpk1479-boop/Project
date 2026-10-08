@@ -1,0 +1,1 @@
+{"version": 1, "specials": {"SPECIAL1": {"enabled": true, "trigger": "\ubb34\uc9c0\uc131 \ube0c\ub808\uc774\ucee4 \uc62c\uc874", "time_filters": {"MAIN_ASIA": {"enabled": true, "start": "09:00", "end": "2400"}, "MAIN_LONDON": false, "MAIN_NEWYORK": {}}}, "SPECIAL2": {"enabled": false, "trigger": null, "time_filters": null}}}

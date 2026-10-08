@@ -1,0 +1,8 @@
+{
+  "provider": "gemini",
+  "model": null,
+  "timeout": 90,
+  "watch_enabled": false,
+  "gemini_model": "selected-model",
+  "gemini_api_key": "synthetic-secret-74"
+}
