@@ -255,6 +255,24 @@ def test_a_removed_request_does_not_block_the_plan(stage):
     assert lanes.start(plan_file)['runs'] == 4 and len(started) == 2
 
 
+def test_a_plan_moved_with_its_record_keeps_its_finished_runs(stage, tmp_path):
+    import re
+    import shutil
+    plan_file, warehouse, jobs, started, _ = stage
+    first = lanes.start(plan_file)
+    finish(warehouse, first['job_id'], [('SPECIAL2', '올존', 'COMPLETE'), ('SPECIAL2', '무지성 올존', 'COMPLETE'),
+                                        ('SPECIAL5', '올존', 'COMPLETE'), ('SPECIAL5', '무지성 올존', 'WAITING')])
+    jobs[first['job_id']] = {'phase': 'cancelled', 'active': False}
+    record = lanes.record_path(plan_file).read_text('utf-8')
+    assert not re.search(r'[A-Za-z]:[\\/]|Users', record)               # job IDs only, no location
+    moved = tmp_path / '다른 PC' / 'AI작업'
+    moved.mkdir(parents=True)
+    for path in (plan_file, lanes.record_path(plan_file)):
+        shutil.move(str(path), str(moved / path.name))
+    assert lanes.status(moved / plan_file.name)['finished'] == 3
+    assert lanes.start(moved / plan_file.name)['runs'] == 1 and len(started) == 2
+
+
 def test_a_changed_plan_is_a_new_plan(stage):
     plan_file, warehouse, jobs, started, _ = stage
     first = lanes.start(plan_file)
