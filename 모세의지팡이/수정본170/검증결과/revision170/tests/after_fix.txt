@@ -1,6 +1,0 @@
-# 수정본170 전체 시험 뒤 결과 준비 조건 수정(실행 중 COMPLETE 가상진입 결과는 요청이 끝나면 준비) 후 관련 시험 다시 실행
-# 실행: python -B -m pytest -q -p no:cacheprovider --basetemp <임시>\v170_fix2 tests/test_result_ready117.py tests/test_release117.py Part3/tests/test_lane_hold163.py tests/test_wait_less170.py tests/test_verify_once170.py
-
-......................................                                   [100%]
-
-38 passed in 13.00s

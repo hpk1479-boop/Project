@@ -1,3 +1,0 @@
-﻿# user note
-SYMBOLS=GER40,NAS100
-WONBI_SIGMA=3

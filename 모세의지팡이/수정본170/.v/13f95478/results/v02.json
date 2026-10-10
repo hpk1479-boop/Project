@@ -1,9 +1,0 @@
-{
-  "passed": 15,
-  "failed": 1,
-  "skipped": [],
-  "failures": [
-    "verification\\test_web_only65.py:433: in test_actual_web_script_pause_scroll_details_and_watch_request\n    assert result.returncode == 0, result.stdout + result.stderr\nE   AssertionError: AssertionError [ERR_ASSERTION]: Pause should only pause the log display\nE     + actual - expected\nE     \nE     + 'stale status'\nE     - '라이브 감시 연결중'\nE     \nE         at [eval]:58:12 {\nE       generatedMessage: false,\nE       code: 'ERR_ASSERTION',\nE       actual: 'stale status',\nE       expected: '라이브 감시 연결중',\nE       operator: 'strictEqual',\nE       diff: 'simple'\nE     }\nE     \nE   assert 1 == 0\nE    +  where 1 = CompletedProcess(args=['<external path>', '-e', '\\nconst fs = require(\\'fs\\');\\nconst vm = require..._ASSERTION',\\n  actual: 'stale status',\\n  expected: '라이브 감시 연결중',\\n  operator: 'strictEqual',\\n  diff: 'simple'\\n}\\n\").returncode"
-  ],
-  "deselected": []
-}

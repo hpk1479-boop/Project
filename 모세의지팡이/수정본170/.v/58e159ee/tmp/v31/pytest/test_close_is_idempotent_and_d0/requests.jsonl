@@ -1,2 +1,0 @@
-{"path": "/health", "host": "127.0.0.1:62042", "auth": "Bearer 29a04006bbc9f4d91ba2dd50c1d788d5e53a99af075fe2713b1f2b947cc30f1d", "payload": null}
-{"path": "/v1/models", "host": "127.0.0.1:62042", "auth": "Bearer 29a04006bbc9f4d91ba2dd50c1d788d5e53a99af075fe2713b1f2b947cc30f1d", "payload": null}

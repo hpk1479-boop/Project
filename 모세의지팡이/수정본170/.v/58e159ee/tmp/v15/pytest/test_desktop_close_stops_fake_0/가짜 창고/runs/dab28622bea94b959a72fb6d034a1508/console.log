@@ -1,3 +1,0 @@
-{"event": "COMPLETE", "result": {"record": [], "reuse": [], "convert": [], "estimate": {}, "approval_token": "fake-plan"}}
-{"event": "FAKE_PROGRESS", "processed": 1}
-{"event": "COMPLETE", "result": {"status": "CANCELLED", "run_id": "dab28622bea94b959a72fb6d034a1508", "scenario": {"symbol": "FAKE", "start": "2025-09-01", "end": "2025-09-02", "mode": "BAR", "strategies": ["FAKE"]}, "result_path": "runs/dab28622bea94b959a72fb6d034a1508/result.json", "fake_processed": 1}}

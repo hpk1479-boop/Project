@@ -1,7 +1,0 @@
-{
-  "provider": "gemini",
-  "model": null,
-  "timeout": 90,
-  "gemini_model": "chosen-model",
-  "gemini_api_key": "new-secret"
-}

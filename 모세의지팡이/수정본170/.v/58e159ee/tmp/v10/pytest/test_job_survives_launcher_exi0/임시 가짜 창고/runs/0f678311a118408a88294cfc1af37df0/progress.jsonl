@@ -1,4 +1,0 @@
-{"event": "FAKE_PROGRESS", "processed": 1}
-{"event": "FAKE_PROGRESS", "processed": 2}
-{"event": "FAKE_PROGRESS", "processed": 3}
-{"event": "COMPLETE", "result": {"status": "CANCELLED", "run_id": "0f678311a118408a88294cfc1af37df0", "scenario": {"symbol": "FAKE", "start": "2025-09-01", "end": "2025-09-02", "mode": "BAR", "strategies": ["FAKE"]}, "result_path": "runs/0f678311a118408a88294cfc1af37df0/result.json", "fake_processed": 3}}

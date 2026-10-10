@@ -1,0 +1,17 @@
+# 모세의지팡이: 빌드 결과·시험 산출물·서명 키·PC별 설정은 올리지 않는다
+모세의지팡이/**/배포/
+모세의지팡이/**/검증결과/
+모세의지팡이/**/.v/
+모세의지팡이/**/__pycache__/
+모세의지팡이/**/.pytest_cache/
+모세의지팡이/**/*.pyc
+모세의지팡이/**/통합설치/.keys/
+모세의지팡이/**/Part3/projects/connections.json
+모세의지팡이/**/Part3/projects/last_draft.json
+# AI 설정(제미나이 키가 평문으로 들어 있음)과 운영 기록(알림 받는 사람 ID·로그)
+모세의지팡이/**/settings/ai_settings.json
+모세의지팡이/**/Part3/projects/ai_settings.json
+모세의지팡이/**/LIVE_기록/
+모세의지팡이/**/logs/
+모세의지팡이/**/*.log
+모세의지팡이/**/*.log.*

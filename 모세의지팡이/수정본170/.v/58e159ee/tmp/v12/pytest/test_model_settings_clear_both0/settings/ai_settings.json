@@ -1,5 +1,0 @@
-{
-  "provider": "ollama",
-  "model": "qwen3.5:4b",
-  "timeout": 90
-}

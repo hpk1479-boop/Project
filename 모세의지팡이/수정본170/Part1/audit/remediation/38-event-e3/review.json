@@ -1,6 +1,0 @@
-{
-  "stage": "E3",
-  "scope": "event-only entry, output manager, host IO, event state, native export and buffer initialization",
-  "deletion_record": "after_sha256=null means an authorized absence; previous bytes and delta records remain preserved",
-  "source_integrity_verifier_changed": "Allow explicit deleted source tombstones only; existing chain continuity checks remain."
-}

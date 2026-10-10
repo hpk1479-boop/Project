@@ -1,5 +1,0 @@
-{
-  "scope": "Declared opt-in strategy dependency closure; same LIVE all-selection; checkpoint-only save suppression in replay; explicit host log directory",
-  "tests": "Selection/approval/replacement/history/portable delta; exact actual-day alerts; offline LIVE=replay; network/write isolation",
-  "protected": "EA, Wire schema, SPECIAL and Composer decision bodies, user config unchanged; Part3 excluded"
-}

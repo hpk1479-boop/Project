@@ -1,9 +1,0 @@
-{
-  "provider": "ollama",
-  "model": "saved:tag",
-  "timeout": 90,
-  "gemini_api_key": "synthetic.secret94",
-  "watch_enabled": false,
-  "gemini_model": "saved-gemini",
-  "gguf_model_path": "models/gguf/saved.gguf"
-}

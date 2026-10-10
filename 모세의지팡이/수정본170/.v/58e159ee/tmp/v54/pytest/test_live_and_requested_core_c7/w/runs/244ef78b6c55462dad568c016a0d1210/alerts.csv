@@ -1,2 +1,0 @@
-run_id,time_ms,strategy,profile,grade,symbol,tf,direction,trigger,message,recipient,signal_id,b0_price,b0_time,signal_source,signal_tf,signal_price,env_tf,neckline_price,neckline_time_ms
-244ef78b6c55462dad568c016a0d1210,1788253260000,OZ,,,XAUUSD+,,,CONTROL_ACK,🔔 1분 상단 원비 터치 · XAUUSD+,BACKTEST,ef33976ef06a81e11db0633a77e4b052c026f50e268b00d716e889fcd950b41f,,,NOTICE,,,,,

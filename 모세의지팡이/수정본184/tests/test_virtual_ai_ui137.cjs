@@ -1,0 +1,72 @@
+/* Real Edge DOM for post-alert policy summaries in the AI editor. No server/model/market calls.
+   argv: playwright module, evidence folder. stdin: {contract, plan, policy} from the real contract. */
+'use strict';
+const assert=require('node:assert/strict'), fs=require('node:fs'), path=require('node:path');
+const {chromium}=require(process.argv[2]);
+const proof=process.argv[3];
+const fixture=JSON.parse(fs.readFileSync(0,'utf8'));
+const root=path.resolve(__dirname,'..');
+const checks=[], errors=[], calls=[];
+(async()=>{
+  fs.mkdirSync(proof,{recursive:true});
+  const browser=await chromium.launch({channel:'msedge',headless:true});
+  try {
+    const page=await browser.newPage({viewport:{width:1280,height:1100}});
+    page.on('pageerror',error=>errors.push(error.message));
+    await page.route('**/*',route=>{calls.push(route.request().url());return route.abort();});
+    await page.setContent('<!doctype html><html lang="ko"><meta charset="utf-8"><main id="mount"></main></html>');
+    await page.evaluate(()=>{window.fetch=()=>{throw Error('No API call is permitted');};});
+    for(const name of ['style.css','ai_editor.css']) await page.addStyleTag({content:fs.readFileSync(path.join(root,'Part3/web',name),'utf8')});
+    for(const name of ['ai_display.js','ai_editor.js']) await page.addScriptTag({content:fs.readFileSync(path.join(root,'Part3/web',name),'utf8')});
+    async function mount(plan){
+      await page.evaluate(({plan,contract})=>{
+        window.editor?.destroy();
+        window.editor=part3IntentEditor.create({response:{kind:'BACKTEST',editor_strategy:null,plan},
+          contract:{...contract,operation:'BACKTEST',strategy:null,plan},onChange:()=>{}});
+        document.querySelector('#mount').append(editor.element);
+      },{plan,contract:fixture.contract});
+    }
+    await mount(fixture.plan);
+    const text=await page.locator('.ai-intent-editor').innerText();
+    for(const pattern of [/진입: 조건 진입 · 기준 프레임 5분봉/,/15분봉 EMA50 종가 위·아래/,/5분봉 SMA20 종가 돌파/,/1분봉 WMA30 터치 이후/,
+      /인걸핑/,/넥라인 종가 돌파/,/HMA6 시가 위·아래 \(거리 15분봉 ATR21 0\.3배 이하\)/,/15분봉 ATR21/,/몸통/,/고가~저가/,/HMA17/,
+      /15분봉 직전 7봉 저점·고점/,/1:1 ~ 1:5/])
+      assert.match(text,pattern);
+    assert.doesNotMatch(text,/자동|신호 시간봉/);
+    assert.deepEqual(await page.evaluate(()=>editor.getDraft().plan),fixture.plan);
+    checks.push('AI 계획 핵심요약에 진입 조건·진입 제한·손절을 실제 시간봉으로 표시하고 원본 보존');
+    await page.locator('.ai-intent-editor').screenshot({path:path.join(proof,'ai_policy_core.png')});
+    await page.getByRole('button',{name:'상세보기',exact:true}).click();
+    const result=page.locator('[data-field-path="plan.steps.0.command.request.result_mode"] select').first();
+    await result.selectOption({label:'알림만'});
+    assert.deepEqual(await page.evaluate(()=>editor.getDraft().plan.steps[0].command.request.virtual_entry),fixture.policy);
+    await page.getByRole('button',{name:'핵심 요약',exact:true}).click();
+    assert.doesNotMatch(await page.locator('.ai-core-plan-options').innerText(),/진입:/);
+    checks.push('알림만으로 바꾸면 가상진입 요약을 숨기고 정책 객체는 유지');
+    await page.getByRole('button',{name:'상세보기',exact:true}).click();
+    await result.selectOption({label:'가상 진입'});
+    await page.getByRole('button',{name:'핵심 요약',exact:true}).click();
+    assert.match(await page.locator('.ai-core-plan-options').innerText(),/EMA50/);
+    assert.deepEqual(await page.evaluate(()=>editor.getDraft().plan),fixture.plan);
+    checks.push('가상진입으로 돌아오면 모든 정책과 상세보기 왕복 유지');
+    const immediate=structuredClone(fixture.plan);
+    Object.assign(immediate.steps[0].command.request.virtual_entry,{mode:'IMMEDIATE',conditions:[]});
+    Object.assign(immediate.steps[0].command.request.virtual_entry.stop,{kind:'ATR',multiplier:1.5});
+    await mount(immediate);
+    const immediateText=await page.locator('.ai-core-plan-options').innerText();
+    assert.match(immediateText,/진입: 즉시 진입/);assert.match(immediateText,/15분봉 ATR14 × 1\.5배/);
+    assert.doesNotMatch(immediateText,/진입 조건:/);
+    assert.deepEqual(await page.evaluate(()=>editor.getDraft().plan),immediate);
+    checks.push('즉시 진입은 진입 조건 없이 진입 제한·손절만 표시');
+    const unset=structuredClone(fixture.plan);
+    unset.steps[0].command.request.virtual_entry=null;
+    await mount(unset);
+    assert.match(await page.locator('.ai-core-plan-options').innerText(),/가상진입: 전략 레시피 값/);
+    checks.push('정책을 지정하지 않으면 전략 기본값으로 표시');
+    assert.deepEqual(errors,[]);assert.deepEqual(calls,[]);
+    checks.push('실제 Edge에서 JavaScript 오류와 외부 네트워크 호출 없음');
+    const report={passed:checks.length,checks,errors,network_calls:calls};
+    fs.writeFileSync(path.join(proof,'ui_report.json'),JSON.stringify(report,null,2));
+    console.log(JSON.stringify(report));
+  } finally {await browser.close();}
+})().catch(error=>{console.error(error.stack);process.exitCode=1;});

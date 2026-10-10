@@ -1,2 +1,0 @@
-project=<project> warehouse=<warehouse>
-{"event": "COMPLETE", "result": {"project_file": "<project>\\Part2\\metadata.json", "warehouse_file": "<warehouse>\\runs\\results.json"}}

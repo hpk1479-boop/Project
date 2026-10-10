@@ -1,5 +1,0 @@
-{
-  "provider": "ollama",
-  "model": "already-selected:4b",
-  "timeout": 120
-}

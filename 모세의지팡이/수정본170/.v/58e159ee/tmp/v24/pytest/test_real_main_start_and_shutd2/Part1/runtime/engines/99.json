@@ -1,1 +1,0 @@
-{"version":1,"pid":99,"created":"100001","run_id":"current_run","state":"failed","pipe_bound":false,"pipe_connected":false,"state_saved":true,"error":"엔진 시작·실행 실패: assert 'failed' == 'ready'\n  \n  - ready\n  + failed"}

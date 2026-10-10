@@ -1,1 +1,0 @@
-{"schema_version": 1, "source": "virtual_trades.csv", "rr_results": {"1.0": {"summary": {"total_trades": 12, "total_r": null}, "monthly": null, "by_direction": {"LONG": {}}, "equity_r_curve": [{"exit_time_ms": null, "equity_r": null}]}}}

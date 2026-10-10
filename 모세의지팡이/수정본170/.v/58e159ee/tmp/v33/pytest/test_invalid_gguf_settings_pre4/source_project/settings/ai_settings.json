@@ -1,9 +1,0 @@
-{
-  "provider": "local_gguf",
-  "model": null,
-  "timeout": 90,
-  "llama_server_path": "runtimes/llama/llama-server.exe",
-  "gguf_context_size": 16384,
-  "gguf_model_path": "models/strategy.gguf",
-  "gguf_gpu_layers": 0
-}

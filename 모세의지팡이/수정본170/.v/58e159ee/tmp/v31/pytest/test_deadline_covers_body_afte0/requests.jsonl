@@ -1,3 +1,0 @@
-{"path": "/health", "host": "127.0.0.1:62038", "auth": "Bearer e427613489fe80a230d76f50fa964f764390d160db3a07b372039bb63e633af2", "payload": null}
-{"path": "/v1/models", "host": "127.0.0.1:62038", "auth": "Bearer e427613489fe80a230d76f50fa964f764390d160db3a07b372039bb63e633af2", "payload": null}
-{"path": "/v1/chat/completions", "host": "127.0.0.1:62038", "auth": "Bearer e427613489fe80a230d76f50fa964f764390d160db3a07b372039bb63e633af2", "payload": {"messages": [{"role": "system", "content": "계약을 유지하세요."}, {"role": "user", "content": "전략 시험"}]}}

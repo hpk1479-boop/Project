@@ -1,5 +1,0 @@
-{
-  "scope": "EA logical symbol (Wire identity) vs broker symbol (MT5 data): ResolveBrokerSymbol exact/alias/affix; ambiguous or missing rejects only that symbol; two logical symbols on one broker symbol rejects the later one; tester logical input (empty=_Symbol); OnInit..EOF byte-identical; EA build hash regenerated",
-  "tests": "MetaEditor compile 0 errors/0 warnings (EA and STAFF_Symbol_Map_Test.mq5); tests/test_symbol_registry.py",
-  "limitations": "STAFF_Symbol_Map_Test.mq5 must be run in the MT5 terminal by the user; no terminal run here"
-}

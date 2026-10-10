@@ -1,1 +1,0 @@
-{"version": 1, "id": "ffffffffffffffffffffffffffffffff", "kind": "generated", "phase": "complete", "scenario": {}, "adapter": {"filename": "Test_SPECIAL123.py"}, "scenario_file": "web_scenario.json", "result_path": "runs/ffffffffffffffffffffffffffffffff/result.json", "cancel_requested": false, "process": null, "supervisor": null}

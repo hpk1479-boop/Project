@@ -1,6 +1,0 @@
-{
-  "purpose": "S1 pure Fact extraction from the reviewed S0 anchor; function ASTs and golden responses are unchanged.",
-  "authorization": "User explicitly requested hash-chain registration during S1",
-  "s0_manifest_sha256": "bd6759b1374df0e53ed7ba7a23e084f50d7cc86c0ff7797a9f56207e73b5a3d5",
-  "original_manifest_modified": false
-}

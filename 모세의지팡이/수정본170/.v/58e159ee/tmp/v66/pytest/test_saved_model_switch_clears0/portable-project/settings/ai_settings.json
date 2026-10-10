@@ -1,1 +1,0 @@
-{"provider": "local_gguf", "gguf_model_path": "models/gguf/renamed-9b.gguf", "llama_server_path": "runtime/llama.cpp/llama-server.exe", "timeout": 90}
